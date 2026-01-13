@@ -13,26 +13,31 @@
 @media only screen and (min-width: 0px) {
 	/* All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
 	:root {
-		--primary: #209c5b;          /* Main brand green (buttons, links) */
-		--primaryLight: #a9d1bc;     /* Hover states, soft backgrounds */
+		--primary: #19804a;          /* Deepened brand green for accessible text/links */
+        --primaryLight: #a9d1bc;     /* Original: Perfect for hover states & soft fills */
 
-		--secondary: #1b5539;        /* Strong contrast green (headers, CTAs) */
-		--secondaryLight: #dbece2;   /* Subtle sections, cards, dividers */
+        --secondary: #123324;        /* Deep Forest: High authority for headers & navigation */
+        --secondaryLight: #eef5f1;   /* Ultra-light tint for clean section backgrounds */
 
-		/* Text */
-		--headerColor: #1a1a1a;      /* High-contrast headings */
-		--bodyTextColor: #3a3a3a;    /* Softer than pure black, still WCAG AA */
-		--bodyTextColorWhite: #ffffff;
+        /* Trust & Purchasing Power Accents */
+        --cta-action: #b48900;       /* Rich Gold: Boosts "Purchase" visibility and trust */
+        --cta-dark: #8c6a00;         /* Hover state for gold buttons */
+        --navy-trust: #1b2631;       /* Professional navy for footer/deep contrast items */
 
-		/* UI Neutrals */
-		--background: #ffffff;
-		--surface: #f6f8f7;
-		--border: #cfded6;
+        /* Text - Maximum Readability */
+        --headerColor: #0d1a14;      /* Near-black green for bold, sharp headers */
+        --bodyTextColor: #2d3b33;    /* Professional dark slate (better for long reading) */
+        --bodyTextColorWhite: #ffffff;
 
-		/* Dark Mode Styles */
-		--dark: #0f2f23;             /* Deep green-black (brand aligned) */
-		--medium: #1b5539;           /* Cards, nav, elevated surfaces */
-		--accent: #22573b;           /* Borders, separators, subtle emphasis */
+        /* UI Neutrals */
+        --background: #ffffff;
+        --surface: #f4f8f6;          /* Soft mint-grey for cards and surface elevation */
+        --border: #ccd9d1;           /* Defined contrast for inputs and dividers */
+
+        /* Dark Mode Styles */
+        --dark: #0b1a13;             /* Deepest midnight green background */
+        --medium: #152b21;           /* Elevated surfaces (cards, nav) */
+        --accent: #209c5b;           /* Your original vibrant green for dark mode highlights */
 
 		/* 13px - 16px */
 		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -491,6 +496,7 @@
 			img {
 				width: 100%;
 				height: 100%;
+				max-height: (40/16rem);
 				/* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
 				object-fit: contain;
 				/* places the image to the left edge of the parent */
