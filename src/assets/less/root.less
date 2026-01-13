@@ -13,18 +13,26 @@
 @media only screen and (min-width: 0px) {
 	/* All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
 	:root {
-		--primary: #ff6a3e;
-		--primaryLight: #ffba43;
-		--secondary: #ffba43;
-		--secondaryLight: #ffba43;
-		--headerColor: #1a1a1a;
-		--bodyTextColor: #4e4b66;
-		--bodyTextColorWhite: #fafbfc;
+		--primary: #209c5b;          /* Main brand green (buttons, links) */
+		--primaryLight: #a9d1bc;     /* Hover states, soft backgrounds */
+
+		--secondary: #1b5539;        /* Strong contrast green (headers, CTAs) */
+		--secondaryLight: #dbece2;   /* Subtle sections, cards, dividers */
+
+		/* Text */
+		--headerColor: #1a1a1a;      /* High-contrast headings */
+		--bodyTextColor: #3a3a3a;    /* Softer than pure black, still WCAG AA */
+		--bodyTextColorWhite: #ffffff;
+
+		/* UI Neutrals */
+		--background: #ffffff;
+		--surface: #f6f8f7;
+		--border: #cfded6;
 
 		/* Dark Mode Styles */
-		--dark: #082032;
-		--medium: #2c394b;
-		--accent: #334756;
+		--dark: #0f2f23;             /* Deep green-black (brand aligned) */
+		--medium: #1b5539;           /* Cards, nav, elevated surfaces */
+		--accent: #22573b;           /* Borders, separators, subtle emphasis */
 
 		/* 13px - 16px */
 		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -677,10 +685,10 @@
 		#cs-navigation {
 			background-color: var(--dark);
 
-			.cs-logo {
-				/* makes it white */
-				filter: grayscale(1) brightness(1000%);
-			}
+			// .cs-logo {
+			// 	/* makes it white */
+			// 	filter: grayscale(1) brightness(1000%);
+			// }
 
 			.cs-line {
 				background-color: #fff;
@@ -952,10 +960,10 @@
 				}
 			}
 
-			.cs-drop-icon {
-				/* turns it white */
-				filter: grayscale(1) brightness(1000%);
-			}
+			// .cs-drop-icon {
+			// 	/* turns it white */
+			// 	filter: grayscale(1) brightness(1000%);
+			// }
 		}
 	}
 }
@@ -1072,10 +1080,10 @@
 		#cs-navigation {
 			background-color: var(--dark);
 
-			.cs-logo {
-				/* makes it turn white */
-				filter: grayscale(1) brightness(1000%);
-			}
+			// .cs-logo {
+			// 	/* makes it turn white */
+			// 	filter: grayscale(1) brightness(1000%);
+			// }
 
 			.cs-li-link {
 				color: var(--bodyTextColorWhite);

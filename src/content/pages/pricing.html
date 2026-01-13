@@ -1,0 +1,428 @@
+---
+title: "Website Pricing Raleigh NC | Simple Monthly Plans"
+description: "Clear website pricing for Raleigh small businesses. Monthly plans, no contracts, and fully managed custom websites."
+permalink: "/pricing/"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="preload" as="image" href="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 640, height: 600 }) | avif %}"/>
+    <link rel="preload" as="image" href="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 482, height: 536 }) | avif %}"/>
+    <link rel="stylesheet" href="/assets/css/pricing.css">
+{% endblock %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                   Banner                     -->
+    <!-- ============================================ -->
+
+    <div id="banner-310">
+        <div class="cs-container">
+            <span class="cs-int-title">Pricing</span>
+            <div class="cs-breadcrumbs">
+                <a href="/" class="cs-link">Home</a>
+                <a href="/pricing/" class="cs-link cs-active">Pricing</a>
+            </div>
+        </div>
+        <!--Background Image-->
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 640, height: 600 }) | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 640, height: 600 }) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 640, height: 600 }) | jpeg %}" type="image/jpeg">
+            <!--Tablet Image-->
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2048, height: 942 }) | avif %}" type="image/avif">
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2048, height: 942 }) | webp %}" type="image/webp">
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2048, height: 942 }) | jpeg %}" type="image/jpeg">
+            <!--Desktop Image-->
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | jpeg %}" type="image/jpeg">
+            <img src="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="East Raleigh Skyline" width="1920" height="482" loading="eager" decoding="async">
+        </picture>
+    </div>
+
+    <!-- ============================================ -->
+    <!--                  Pricing                     -->
+    <!-- ============================================ -->
+
+    <section id="pricing-357">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Pricing</span>
+                <h2 class="cs-title">A package for every need</h2>
+                <p class="cs-text">
+                    At Triangle Web Design, we manage your website so you can focus on your business. 
+                </p>
+            </div>
+            <ul class="cs-card-group">
+                <!-- Option 1 -->
+                <li class="cs-item">
+                    <h3 class="cs-h3">Lump Sum</h3>
+                    <p class="cs-item-text">
+                        We create it, you manage it.
+                    </p>
+                    <div class="cs-option-group">
+                        <span class="cs-price">$3,600<span class="cs-small">+$25/month Hosting</span></span>
+                    </div>
+                    <span class="cs-included">Package Includes</span>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Custom Design and Development
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            $25/mo Hosting
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            $100 fee Per Page after 5 pages
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            +$50/mo Unlimited Edits Add-on
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            +$250 To Add a Blog
+                        </li>
+                        <li class="cs-li cs-disabled">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            No 24/7 Support and no Lifetime Updates
+                        </li>
+                    </ul>
+                    <a href="/contact/" class="cs-button-solid">Get Started</a>
+                </li>
+                <!-- Option 2 -->
+                <li class="cs-item cs-popular">
+                    <h3 class="cs-h3">Monthly</h3>
+                    <p class="cs-item-text">
+                        We create it and manage it for you.
+                    </p>
+                    <div class="cs-option-group">
+                        <span class="cs-price">$150<span class="cs-small">/month, $0 Down</span></span>
+                    </div>
+                    <span class="cs-included">Package Includes</span>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Custom Design and Development
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Includes Hosting
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            $100 fee Per Page After 5
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Unlimited Edits
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            +$250 To Add A Blog
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            24/7 Support and Lifetime Updates
+                        </li>
+                    </ul>
+                    <a href="/contact/" class="cs-button-solid">Get Started</a>
+                </li>
+                <!-- Option 3 -->
+                <li class="cs-item">
+                    <h3 class="cs-h3">SEO Growth</h3>
+                    <p class="cs-item-text">
+                        Local area SEO boosted for higher rankings
+                    </p>
+                    <div class="cs-option-group">
+                        <span class="cs-price">$500<span class="cs-small">/month, $0 Down</span></span>
+                    </div>
+                    <span class="cs-included">Package Includes</span>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Everything in the Monthly Package
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            1 Post Per Week on FB, IG, and Google
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Strategic Posting Schedule
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Updated NAP information
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            1 Blog post per month
+                        </li>
+                        <li class="cs-li">
+                            <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="code stitch icon" width="20" height="20">
+                            Keyword and Competitor Research
+                        </li>
+                    </ul>
+                    <a href="/contact/" class="cs-button-solid">Get Started</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                    Table                     -->
+    <!-- ============================================ -->
+
+    <section id="table-1669">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">An In Depth Look</span>
+                <h2 class="cs-title">Website and SEO services</h2>
+                <p class="cs-text">
+                    This is a table explaining what the services include.
+                </p>
+            </div>
+            <table class="cs-table">
+                <thead>
+                    <tr class="cs-color">
+                        <th class="cs-th">Website Design, Development, and SEO</th>
+                        <th class="cs-th">Lump Sum $3,600</th>
+                        <th class="cs-th">Monthly $150/mo</th>
+                        <th class="cs-th">SEO Growth $500/mo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Website and SEO Audit</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Custom Design and Development</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Hosting</td>
+                        <td class="cs-td">+ $25/Month</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">5 Pages Included</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Every page after the 5th page</td>
+                        <td class="cs-td">+ $100</td>
+                        <td class="cs-td">+ $100</td>
+                        <td class="cs-td">+ $100</td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Unlimited Edits</td>
+                        <td class="cs-td">+ $50/Month</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">1 time SEO optimization for all pages</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Blog</td>
+                        <td class="cs-td">+ $250</td>
+                        <td class="cs-td">+ $250</td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">24/7 Support</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Lifetime Updates</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Full site Redesign Every 3 years</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">1 Post Per Month on FB, IG, and Google Business Profile</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">300 Local Backlinks</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">Updated NAP Information</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">1 Blog Post Per Month</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    <tr class="cs-tr">
+                        <td class="cs-td">1 Page SEO Update Per Month</td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+    <section id="faq-1261">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Asked questions</span>
+                <h2 class="cs-title">Frequently Asked Questions</h2>
+            </div>
+            <!--We made two lists so when you open an FAQ item, they behave properly and separate from each other, wrapped in a wrapper div for better flexboxxing -->
+            <div class="cs-wrapper">
+                <ul class="cs-faq-group">
+                    <!-- Active class added as default -->
+                    <li class="cs-faq-item active">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                Do I really own my website with the Lump Sum package?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            Absolutely. You get full ownership and control. We deliver a fully custom, hand-coded website—you manage it, host it, and run it your way. Optional support and updates are there if you want them.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                What makes the Monthly plan different?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            The Monthly plan isn’t just building your site—it’s managing it for you. Hosting, edits, 24/7 support, lifetime updates—all included. Think of it as a hands-off, stress-free website solution that keeps your business running smoothly.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                How will the SEO Growth package help me get more leads?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            This package goes beyond a website. We optimize your site for local search, research your competitors and keywords, update your business info, post blogs, and post strategically on Facebook, Instagram, and Google every week. The goal? More traffic, more calls, more customers.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                How many pages are included in each plan?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            All plans include 5 pages. Need more? Add extra pages for just $100 each.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                Can I add a blog or e-commerce features?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            Yes! Blogs are a $250 add-on, and custom e-commerce or functionality is quoted per project. We design to match your business goals—no cookie-cutter solutions.
+                        </p>
+                    </li>
+                </ul>
+                <ul class="cs-faq-group">
+                    <!-- Active class added as default -->
+                    <li class="cs-faq-item active">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                What if I need ongoing updates and support?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            Monthly and SEO Growth plans include unlimited edits, 24/7 support, and lifetime updates. Lump Sum owners can add support and unlimited edits anytime—your site, your rules.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                How fast can I launch my website?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            Most sites go live in 4–6 weeks after content, feedback, and approvals. Bigger projects may take longer, but we keep timelines realistic and transparent.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                Are there any hidden fees?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            No surprises. All pricing is clear. Optional add-ons like extra pages, blogs, or unlimited edits are fully disclosed so you know exactly what you’re investing in.
+                        </p>
+                    </li>
+                    <li class="cs-faq-item">
+                        <button class="cs-button">
+                            <span class="cs-button-text">
+                                Can I upgrade my plan later?
+                            </span>
+                        </button>
+                        <p class="cs-item-p">
+                            Yes. Start with a Lump Sum, then add Monthly management or SEO Growth features anytime. Your site grows with your business, and we make upgrades seamless.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--SVG Waves-->
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-waves-m.svg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-waves.svg">
+            <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-waves.svg" loading="lazy" decoding="async" alt="moon" width="1920" height="647">
+        </picture>
+    </section>
+                                    
+                                    
+
+    {% include 'sections/cta.html' %}
+
+{% endblock %}
