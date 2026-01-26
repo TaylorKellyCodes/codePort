@@ -5,7 +5,7 @@
 <header id="cs-navigation">
     <div class="cs-container">
         <!--Nav Logo-->
-        <a href="/" class="cs-logo" aria-label="Company Name Home page">
+        <a href="/" class="cs-logo" aria-label="Triangle Web Design Home">
             <img src="/assets/images/portfolio/logoSide2.svg" alt="Logo" width="210" height="29" aria-hidden="true" decoding="sync" fetchpriority="high">
         </a>
         <!--Navigation List-->
@@ -47,6 +47,11 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="cs-li">
+                        <a href="/contact/" class="cs-li-link {% if page.url == "/contact/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
+                            Contact
+                        </a>
+                    </li>
                     <!-- <li class="cs-li">
                         <a href="/reviews/" class="cs-li-link {% if page.url == "/reviews/" %} cs-active {% endif %}" {% if page.url == "/reviews/" %} aria-current="page" {% endif %}>
                             Reviews
@@ -65,7 +70,7 @@
                 </ul>
             </div>
         </nav>
-        <a href="tel:+19195616223" class="cs-button-solid cs-nav-button">Call Us</a>
+        <a href="tel:+19195616223" class="cs-button-solid cs-nav-button">Contact Us</a>
         <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
         <button id="dark-mode-toggle" aria-label="dark mode toggle" aria-pressed="false">
             <img class="cs-moon" aria-hidden="true" src="/assets/svgs/moon.svg" decoding="async" alt="" width="15" height="15">

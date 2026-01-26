@@ -1,6 +1,6 @@
 ---
-title: "Contact Triangle Web Design | Raleigh NC"
-description: "Contact Triangle Web Design for web design or SEO services in Raleigh, NC. Get questions answered or request a free audit."
+title: "Free Website & SEO Audit | Triangle Web Design"
+description: "Get your free trade-specific website and SEO audit. Serving Raleigh, Durham, and Chapel Hill contractors. No pressure, just a plan to grow your leads."
 permalink: "/contact/"
 ---
 
@@ -20,11 +20,7 @@ permalink: "/contact/"
 
     <div id="banner-310">
         <div class="cs-container">
-            <span class="cs-int-title">Contact Us</span>
-            <div class="cs-breadcrumbs">
-                <a href="/" class="cs-link">Home</a>
-                <a href="/contact/" class="cs-link cs-active">Contact Us</a>
-            </div>
+            <span class="cs-int-title">Get My Free Audit</span>
         </div>
         <!--Background Image-->
         <picture class="cs-background">
@@ -40,7 +36,7 @@ permalink: "/contact/"
             <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | avif %}" type="image/avif">
             <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | webp %}" type="image/webp">
             <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | jpeg %}" type="image/jpeg">
-            <img src="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="East Raleigh Skyline" width="1920" height="482" loading="eager" decoding="async">
+            <img src="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="Raleigh Durham Chapel Hill Skyline - Triangle Web Design" width="1920" height="482" loading="eager" decoding="async">
         </picture>
     </div>
 
@@ -52,10 +48,10 @@ permalink: "/contact/"
         <div class="cs-container">
             <div class="cs-left-section">
                 <div class="cs-content">
-                    <span class="cs-topper">Contact</span>
-                    <h2 class="cs-title">Book an Appointment</h2>
+                    <span class="cs-topper">The First Step to More Leads</span>
+                    <h2 class="cs-title">Claim Your Free Website & SEO Audit</h2>
                     <p class="cs-text">
-                        Fill out the form below or call or text us. We respond within 24 hours.
+                        See how your business stacks up against local competitors in Raleigh, Durham, and Chapel Hill. We'll show you exactly where you're losing leads and how to fix it.
                     </p>
                 </div>
                 <form id="cs-form-265" name="Contact Form" method="post" data-netlify="true" netlify-honeypot="bot-field">
@@ -69,36 +65,36 @@ permalink: "/contact/"
                         </p>
                     <label>
                         Name
-                        <input required type="text" id="name-265" name="name" placeholder="Name">
+                        <input required type="text" id="name-265" name="name" placeholder="Full Name">
                     </label>
                     <label>
                         Email
-                        <input required type="text" id="email-265" name="email" placeholder="Email">
+                        <input required type="text" id="email-265" name="email" placeholder="Email Address">
                     </label>
                     <label>
                         Phone
-                        <input required type="text" id="phone-265" name="phone" placeholder="Phone">
+                        <input required type="text" id="phone-265" name="phone" placeholder="Phone Number">
                     </label>
                     <label>
                         How Did You Find Us
-                        <input type="text" id="find-265" name="find-us" placeholder="How did you find us?">
+                        <input type="text" id="find-265" name="find-us" placeholder="How did you hear about us?">
                     </label>
                     <label class="cs-label-message">
                         Message
-                        <textarea required name="Message" id="message-265" placeholder="Write message..."></textarea>
+                        <textarea required name="Tell us about your business goals" id="message-265" placeholder="Example: I'm an HVAC pro in Cary looking for more emergency calls..."></textarea>
                     </label>
-                    <button class="cs-button-solid cs-submit" type="submit">Submit Message</button>
+                    <button class="cs-button-solid cs-submit" type="submit">Get My Free Audit Now</button>
                 </form>
             </div>
             <div class="cs-right-section">
                 <!--Email-->
-                <span class="cs-header">Email</span>
+                <span class="cs-header">Email Us</span>
                 <a class="cs-link" href="mailto:{{ client.email }}">{{ client.email }}</a>
                 <!--Phone-->
-                <span class="cs-header">Phone</span>
+                <span class="cs-header">Call or Text</span>
                 <a class="cs-link" href="tel:{{ client.phoneForTel }}">{{ client.phoneFormatted }}</a>
                 <!--Address-->
-                <span class="cs-header">Address</span>
+                <span class="cs-header">Serving the Triangle</span>
                 <a class="cs-link" href="{{ client.address.mapLink }}">
                     {{ client.address.city }}, {{ client.address.state }}
                     {{ client.address.zip }}
