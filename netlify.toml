@@ -10,3 +10,8 @@ package = "netlify-plugin-cache"
     "public/assets/images", # Processed images - adjust to match your outputDir
     ".cache" # Remote Assets
   ]
+[[redirects]]
+  from = "https://www.trianglewebdesign.com/*"
+  to = "https://trianglewebdesign.com/:splat"
+  status = 301
+  force = true
