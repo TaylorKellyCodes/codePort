@@ -1,5 +1,5 @@
 module.exports = {
-    name: "Triangle Web Designs",
+    name: "Triangle Web Design",
     email: "taylor@trianglewebdesign.com",
     phoneForTel: "919-561-6223",
     phoneFormatted: "(919) 561-6223",
