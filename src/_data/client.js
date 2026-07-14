@@ -1,7 +1,7 @@
 module.exports = {
     name: "Triangle Web Design",
     email: "taylor@trianglewebdesign.com",
-    phoneForTel: "919-561-6223",
+    phoneForTel: "+19195616223",
     phoneFormatted: "(919) 561-6223",
     address: {
         lineOne: "First Address Line",
