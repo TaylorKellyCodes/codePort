@@ -1,0 +1,136 @@
+---
+title: "Service Areas | Local SEO & Web Design Across the Triangle"
+description: "Explore Local SEO and web design services by city across the Triangle, including Raleigh, Durham, and Chapel Hill. Find your area and see how we help local trades rank higher."
+permalink: "/service-areas/"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/service-areas.css">
+{% endblock %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-1619">
+        <div class="cs-container">
+            <div class="cs-content">
+                
+                <h1 class="cs-title">Explore Local SEO & Web Design by City in the Triangle</h1>
+                <p class="cs-text">
+                    We don't just build sites; we make sure they get found. Our Local SEO strategies are engineered to help Raleigh, Durham, and Chapel Hill trades dominate the Google Map Pack and outrank the competition.
+                </p>
+                <div class="cs-breadcrumbs">
+                    <a href="/" class="cs-link">Home </a>
+                    <a href="/service-areas/" class="cs-link cs-active">Service Areas</a>
+                </div>
+                <a href="/pricing/" class="cs-button-solid">Learn more about SEO</a>
+            </div>
+        </div>
+
+        <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-dark.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-dark.webp">
+            <img decoding="async" src="/assets/images/portfolio/skyline-dark.webp" alt="Raleigh Durham Chapel Hill Skyline - Triangle Web Design" width="2250" height="1500" aria-hidden="true">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                    Map                       -->
+    <!-- ============================================ -->
+
+    <section id="map-720">
+        <!--Download the pin icon, in Figma create a 1920x600 rectangle and make its background a screenshot of the Google Maps location of your clients business location, make sure their actual location is at the center. Doesn't have to be EXACT. Then add the pin in Figma and absolutely position it where its location is in the map.  Highlight everything and hit CTRL G to group it, then export that section as a png.  Now you have your map graphic made for your client. Make an 800X1000 center crop of the image to load on mobile. Then remove this img tag for the icon. -->
+        
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/portfolio/triangle-web-design-service-areas-mobile.png">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/portfolio/triangle-web-design-service-areas-desktop.png">
+            <img loading="lazy" decoding="async" src="/assets/images/portfolio/triangle-web-design-service-areas-desktop.png" alt="map" width="1280" height="600">
+        </picture>
+    </section>
+                                    
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs-2218">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Top left image-->
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-640.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-1024.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/portfolio/skyline-1024.webp" alt="Raleigh skyline representing Triangle Web Design's primary service area" width="297" height="366">
+                </picture>
+                <!--Bottom right image-->
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/portfolio/triangle-web-design-coffee-shop-durham.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/portfolio/triangle-web-design-coffee-shop-durham.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/portfolio/triangle-web-design-coffee-shop-durham.jpg" alt="Durham coffee shop representing local businesses we serve in the Triangle" width="405" height="376">
+                </picture>
+                <!--Middle image-->
+                <picture class="cs-picture cs-picture3">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/portfolio/raleighSkyline.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/portfolio/raleighSkyline.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/portfolio/raleighSkyline.webp" alt="Raleigh NC skyline — home base of Triangle Web Design" width="218" height="155">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Our Coverage Area</span>
+                <h2 class="cs-title">One Triangle Agency, Three Cities Worth of Local Reach</h2>
+                <p class="cs-text">
+                    We build and rank sites for small businesses across the Triangle, not just one zip code. Whether you're closer to downtown Raleigh, the Duke and RTP corridor, or the Franklin Street strip in Chapel Hill, we tailor your SEO to the city and towns your customers actually search from.
+                </p>
+                <ul class="cs-list">
+                    <li class="cs-li">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Raleigh & Surrounding Towns</h3>
+                            <p class="cs-li-text">
+                                Our flagship market. We help Raleigh small businesses compete in one of the Triangle's busiest local search markets, along with nearby Cary, Apex, and Garner.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Durham & Surrounding Towns</h3>
+                            <p class="cs-li-text">
+                                From the Bull City to the Research Triangle Park corridor, we rank Durham businesses alongside nearby Morrisville, Research Triangle Park, and Mebane.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Chapel Hill & Surrounding Towns</h3>
+                            <p class="cs-li-text">
+                                A college-town market with its own search patterns. We cover Chapel Hill and its closest neighbors, Carrboro, Hillsborough, and Pittsboro.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+                                    
+                                                
+                                    
+
+    
+                                    
+
+    {% include 'sections/cta.html' %}
+
+{% endblock %}

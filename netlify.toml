@@ -10,6 +10,15 @@ package = "netlify-plugin-cache"
     "public/assets/images", # Processed images - adjust to match your outputDir
     ".cache" # Remote Assets
   ]
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
 [[redirects]]
   from = "https://www.trianglewebdesign.com/*"
   to = "https://trianglewebdesign.com/:splat"

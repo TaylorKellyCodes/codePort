@@ -8,6 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ description }}">
+        <meta name="color-scheme" content="dark">
         <link rel="canonical" href="{{ client.domain }}{{ page.url | replace('//', '/')}}">
         <meta name="generator" content="{{ eleventy.generator }}">
 
@@ -25,7 +26,7 @@
         <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg"/>
         <link rel="shortcut icon" href="/assets/favicons/favicon.ico"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"/>
-        <meta name="apple-mobile-web-app-title" content="Starter Kit"/>
+        <meta name="apple-mobile-web-app-title" content="Triangle Web Design"/>
         <link rel="manifest" href="/assets/favicons/site.webmanifest"/>
 
         <!-- Preloads -->
@@ -40,9 +41,10 @@
 
         {% block head %}{% endblock %}
 
+        {% include "components/breadcrumb-schema.html" %}
         <title>{{ title }}</title>
     </head>
-    <body>
+    <body class="cs-dark-mode">
         <!--Screen reader skip main nav-->
         <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
 

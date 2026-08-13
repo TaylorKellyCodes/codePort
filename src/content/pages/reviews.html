@@ -1,6 +1,6 @@
 ---
-title: "Reviews | Code Stitch Web Designs"
-description: "Meta description for the page"
+title: "Reviews | Triangle Web Design"
+description: "See what small business owners across Raleigh, Durham, and Chapel Hill are saying about Triangle Web Design. Real results, real clients."
 permalink: "/reviews/"
 ---
 
@@ -8,6 +8,46 @@ permalink: "/reviews/"
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/reviews.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://trianglewebdesign.com/#localbusiness",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "6"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Charles O."},
+          "reviewBody": "Taylor did an amazing job creating our website and handling our SEO. He was professional, easy to work with, and really took the time to understand what we needed."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Kim O."},
+          "reviewBody": "He was great and the website he made for my family business looks great and is helping us make more money. The SEO Taylor did is way more than we expected and we are very happy with the results."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Robert P."},
+          "reviewBody": "Taylor helped build my entertainment business website and manages and maintains it for me. Since hiring him I have seen a pretty noticeable increase in bookings."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Miguel M."},
+          "reviewBody": "Great web designer and SEO specialist by far. Taylor holds a lot of knowledge and is an incredible resource for you and your business."
+        }
+      ]
+    }
+    </script>
 {% endblock %}
 
 {% block body %}
@@ -38,7 +78,7 @@ permalink: "/reviews/"
             <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | avif %}" type="image/avif">
             <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | webp %}" type="image/webp">
             <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" type="image/jpeg">
-            <img src="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="library" width="1920" height="482" loading="eager" decoding="async">
+            <img src="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="Triangle Web Design office" width="1920" height="482" loading="eager" decoding="async">
         </picture>
     </div>
 
@@ -52,134 +92,92 @@ permalink: "/reviews/"
                 <span class="cs-topper">Our Reviews</span>
                 <h2 class="cs-title">Words From Our Customers</h2>
                 <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                    Small business owners across Raleigh, Durham, and Chapel Hill trust Triangle Web Design for hand-coded websites and local SEO that actually drives results. Here's what our clients have to say.
                 </p>
             </div>
             <ul class="cs-card-group">
-                <!-- Review 1 -->
+                <!-- Review 1 - Charles O. -->
                 <li class="cs-item">
                     <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
                     <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, debitis!
+                        Taylor did an amazing job creating our website and handling our SEO. He was professional, easy to work with, and really took the time to understand what we needed.
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
+                            <span class="cs-name">Charles O.</span>
+                            <span class="cs-desc">Business Owner</span>
                         </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
-                <!-- Review 2 -->
+                <!-- Review 2 - Kim O. -->
                 <li class="cs-item">
                     <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
                     <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                        He was great and the website he made for my family business looks great and is helping us make more money. The SEO Taylor did is way more than we expected and we are very happy with the results.
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
+                            <span class="cs-name">Kim O.</span>
+                            <span class="cs-desc">Business Owner</span>
                         </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
-                <!-- Review 3 -->
+                <!-- Review 3 - Rog O. -->
                 <li class="cs-item">
                     <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
                     <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                        Taylor was great with the web design and the SEO helped the business rank higher. Highly recommend.
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
+                            <span class="cs-name">Rog O.</span>
+                            <span class="cs-desc">Business Owner</span>
                         </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
-                <!-- Review 1 -->
+                <!-- Review 4 - Logann P. -->
                 <li class="cs-item">
                     <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
                     <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, debitis!
+                        Taylor is extremely knowledgeable and patient. I am looking forward to our continued collaboration!
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
+                            <span class="cs-name">Logann P.</span>
+                            <span class="cs-desc">Business Owner</span>
                         </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
-                <!-- Review 2 -->
+                <!-- Review 5 - Robert P. -->
                 <li class="cs-item">
                     <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
                     <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                        Taylor helped build my entertainment business website and manages and maintains it for me. Since hiring him I've seen a pretty noticeable increase in bookings!
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
+                            <span class="cs-name">Robert P.</span>
+                            <span class="cs-desc">Business Owner</span>
                         </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
-                <!-- Review 3 -->
+                <!-- Review 6 - Miguel M. -->
                 <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/portfolio/mmcrawlLogo.webp" alt="Miguel M. business logo" width="459" height="306">
                     <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                        Great guy you NEED in Raleigh! Great web designer and SEO specialist by far. Taylor holds a lot of knowledge and is an incredible resource for you and your business.
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
+                            <span class="cs-name">Miguel M.</span>
+                            <span class="cs-desc">Business Owner, Raleigh NC</span>
                         </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
-                    </div>
-                </li>
-                <!-- Review 1 -->
-                <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
-                    <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, debitis!
-                    </p>
-                    <div class="cs-info">
-                        <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
-                        </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
-                    </div>
-                </li>
-                <!-- Review 2 -->
-                <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
-                    <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <div class="cs-info">
-                        <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
-                        </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
-                    </div>
-                </li>
-                <!-- Review 3 -->
-                <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
-                    <p class="cs-item-text">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <div class="cs-info">
-                        <div class="cs-flex-group">
-                            <span class="cs-name">Jon Doe</span>
-                            <span class="cs-desc">Homeowner</span>
-                        </div>
-                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="96" height="16">
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
             </ul>

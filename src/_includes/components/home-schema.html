@@ -1,35 +1,86 @@
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-        "@context": "http://schema.org",
-        "@type": "LocalBusiness",
-        "name": "{{ client.name }}",
-        {% if preloadImg %}"image": "{{ client.domain }}{{ preloadImg }}",{% endif %}
-        {% if client.phoneFormatted %}"telephone": "{{ client.phoneFormatted }}",{% endif %}
-        {% if client.email %}"email": "{{ client.email }}",{% endif %}
-        {% if client.address %}
-            "address": {
-                "@type": "PostalAddress" {%- if client.address.lineOne -%},
-                    "streetAddress": "{{ client.address.lineOne }}{% if client.address.lineTwo %}, {{ client.address.lineTwo }}{% endif %}"
-                {%- endif -%}
-                {%- if client.address.city -%},
-                    "addressLocality": "{{ client.address.city }}"
-                {%- endif -%}
-                {%- if client.address.state -%},
-                    "addressRegion": "{{ client.address.state }}"
-                {%- endif -%}
-                {%- if client.address.zip -%},
-                    "postalCode": "{{ client.address.zip }}"
-                {%- endif -%}
-                {%- if client.address.country -%},
-                    "addressCountry": "{{ client.address.country }}"
-                {%- endif -%}
+      "@type": "Organization",
+      "@id": "{{ client.domain }}/#organization",
+      "name": "{{ client.name }}",
+      "url": "{{ client.domain }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ client.domain }}/assets/images/portfolio/logoSide2.svg"
+      },
+      "telephone": "{{ client.phoneForTel }}",
+      "email": "{{ client.email }}"
+      {% if client.socials %},
+      "sameAs": [{%- for platform, url in client.socials -%}
+        {% if not loop.first %},{% endif %}"{{ url }}"
+      {%- endfor -%}]
+      {% endif %}
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ client.domain }}/#localbusiness",
+      "name": "{{ client.name }}",
+      "url": "{{ client.domain }}",
+      "telephone": "{{ client.phoneForTel }}",
+      "email": "{{ client.email }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ client.address.lineOne }}",
+        "addressLocality": "{{ client.address.city }}",
+        "addressRegion": "{{ client.address.state }}",
+        "postalCode": "{{ client.address.zip }}",
+        "addressCountry": "{{ client.address.country }}"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Raleigh"},
+        {"@type": "City", "name": "Durham"},
+        {"@type": "City", "name": "Chapel Hill"},
+        {"@type": "City", "name": "Cary"},
+        {"@type": "City", "name": "Apex"},
+        {"@type": "City", "name": "Wake Forest"}
+      ],
+      "serviceType": ["Web Design", "Local SEO", "Website Maintenance"],
+      "priceRange": "$$",
+      "description": "Hand-coded websites and local SEO for small businesses in Raleigh, Durham, and Chapel Hill. Custom sites from $0 down, $150/month.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Design & SEO Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Website Plan",
+              "description": "Custom hand-coded website with hosting, unlimited edits, and ongoing support"
             },
-        {% endif %}
-        {% if client.domain and page.url %}"url": "{{ client.domain }}{{ page.url }}",{% endif %}
-        {% if client.socials %}
-            "sameAs": [{%- for platform, url in client.socials -%}
-                    {% if not loop.first %},{% endif %}"{{ url }}"
-                {%- endfor -%}]
-        {% endif %}
+            "price": "150",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO Growth Plan",
+              "description": "Local SEO with city-specific service pages and Google Business Profile management"
+            },
+            "price": "500",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ client.domain }}/#website",
+      "url": "{{ client.domain }}",
+      "name": "{{ client.name }}",
+      "publisher": {"@id": "{{ client.domain }}/#organization"}
     }
+  ]
+}
 </script>
