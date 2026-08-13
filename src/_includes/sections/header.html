@@ -27,7 +27,12 @@
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/pricing/" class="cs-li-link {% if page.url == "/pricing/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
+                        <a href="/about/" class="cs-li-link {% if page.url == "/about/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="/pricing/" class="cs-li-link {% if page.url == "/pricing/" %} cs-active {% endif %}" {% if page.url == "/pricing/" %} aria-current="page" {% endif %}>
                             Pricing
                         </a>
                     </li>
@@ -48,7 +53,7 @@
                         </ul>
                     </li>
                     <li class="cs-li cs-dropdown">
-                        <button class="cs-li-link cs-dropdown-toggle {% if page.url in "/service-areas/" %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="service-areas-dropdown-toggle">
+                        <button class="cs-li-link cs-dropdown-toggle {% if "/service-areas/" in page.url %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="service-areas-dropdown-toggle">
                             Service Areas
                             <img class="cs-drop-icon" src="/assets/svgs/dropdown.svg" alt="drop down menu button" width="15" height="15" decoding="async" aria-hidden="true">
                         </button>
@@ -67,11 +72,6 @@
                             </li>
                         </ul>
                     </li>
-                    <!-- <li class="cs-li">
-                        <a href="/contact/" class="cs-li-link {% if page.url == "/contact/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
-                            Contact
-                        </a>
-                    </li> -->
                     <li class="cs-li">
                         <a href="/reviews/" class="cs-li-link {% if page.url == "/reviews/" %} cs-active {% endif %}" {% if page.url == "/reviews/" %} aria-current="page" {% endif %}>
                             Reviews
@@ -90,7 +90,7 @@
                 </ul>
             </div>
         </nav>
-        <a href="tel:+19195616223" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <a href="/contact/" class="cs-button-solid cs-nav-button">Contact Us</a>
         <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
         <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle" aria-pressed="false">
             <img class="cs-moon" aria-hidden="true" src="/assets/svgs/moon.svg" decoding="async" alt="represents dark mode option" width="15" height="15">

@@ -9,10 +9,11 @@ module.exports = {
         state: "NC",
         zip: "27604",
         country: "US",
-        mapLink: "https://share.google/0l32PH81aqyNcIYwd",
+        mapLink: "https://www.google.com/maps/search/?api=1&query=3204+Livia+Cir,+Raleigh,+NC+27604",
     },
     socials: {
         facebook: "https://www.facebook.com/TriangleWebDesignRaleigh/",
+        linkedin: "https://www.linkedin.com/in/taylor-kelly-codes/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
     domain: "https://trianglewebdesign.com",

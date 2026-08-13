@@ -9,7 +9,7 @@
       "url": "{{ client.domain }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ client.domain }}/assets/images/portfolio/logoSide2.svg"
+        "url": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png"
       },
       "telephone": "{{ client.phoneForTel }}",
       "email": "{{ client.email }}"
@@ -24,6 +24,8 @@
       "@id": "{{ client.domain }}/#localbusiness",
       "name": "{{ client.name }}",
       "url": "{{ client.domain }}",
+      "parentOrganization": {"@id": "{{ client.domain }}/#organization"},
+      "image": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
       "telephone": "{{ client.phoneForTel }}",
       "email": "{{ client.email }}",
       "address": {
@@ -34,13 +36,43 @@
         "postalCode": "{{ client.address.zip }}",
         "addressCountry": "{{ client.address.country }}"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.83948,
+        "longitude": -78.57382
+      },
       "areaServed": [
         {"@type": "City", "name": "Raleigh"},
         {"@type": "City", "name": "Durham"},
         {"@type": "City", "name": "Chapel Hill"},
         {"@type": "City", "name": "Cary"},
         {"@type": "City", "name": "Apex"},
-        {"@type": "City", "name": "Wake Forest"}
+        {"@type": "City", "name": "Wake Forest"},
+        {"@type": "City", "name": "Garner"},
+        {"@type": "City", "name": "Morrisville"},
+        {"@type": "City", "name": "Mebane"},
+        {"@type": "City", "name": "Carrboro"},
+        {"@type": "City", "name": "Hillsborough"},
+        {"@type": "City", "name": "Pittsboro"}
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "6"
+      },
+      "sameAs": [
+        "https://www.facebook.com/TriangleWebDesignRaleigh/",
+        "https://share.google/tzpRW8fE9C0wvoCJM",
+        "https://www.linkedin.com/in/taylor-kelly-codes/",
+        "https://www.linkedin.com/company/triangle-web-design-raleigh/"
       ],
       "serviceType": ["Web Design", "Local SEO", "Website Maintenance"],
       "priceRange": "$$",

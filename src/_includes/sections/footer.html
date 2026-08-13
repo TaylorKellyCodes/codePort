@@ -36,6 +36,9 @@
                 <a class="cs-nav-link" href="/pricing/">Pricing</a>
             </li>
             <li class="cs-nav-li">
+                <a class="cs-nav-link" href="/about/">About</a>
+            </li>
+            <li class="cs-nav-li">
                 <a class="cs-nav-link" href="/reviews/">Reviews</a>
             </li>
             <li class="cs-nav-li">
@@ -80,12 +83,15 @@
             </li>
             <li class="cs-contact-li">
                 <a class="cs-contact-link cs-address" href="{{ client.address.mapLink }}" target="_blank" rel="noopener">
-                    {{ client.address.city }}, {{ client.address.state }}
-                    {{ client.address.zip }}
+                    {{ client.address.lineOne }}<br>
+                    {{ client.address.city }}, {{ client.address.state }} {{ client.address.zip }}
                 </a>
             </li>
             <li class="cs-contact-li">
                 <a class="cs-contact-link" href="tel:{{ client.phoneForTel }}">{{ client.phoneFormatted }}</a>
+            </li>
+            <li class="cs-contact-li">
+                <span class="cs-contact-link">Mon–Fri 9:00am–5:00pm</span>
             </li>
             <li class="cs-contact-li">
                 <a class="cs-contact-link" href="mailto:{{ client.email }}">{{ client.email }}</a>

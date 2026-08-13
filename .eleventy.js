@@ -78,6 +78,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/admin"); // CMS admin files
     eleventyConfig.addPassthroughCopy("./src/_redirects"); // Redirect rules
 
+    // robots.txt is generated from src/robots.html (permalink: /robots.txt).
+    // Ignore a static src/robots.txt so a leftover/deleted file cannot be
+    // passthrough-copied and collide with that template.
+    eleventyConfig.ignores.add("src/robots.txt");
+
     // ═════════════════════════════════════════════════════════════════════════
     // FILTERS
     // Transform data in templates at build time

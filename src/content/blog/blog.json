@@ -1,6 +1,7 @@
 {
     "layout": "layouts/post.html",
-    "tags": "post",
+    "tags": ["post", "sitemap"],
+    "ogType": "article",
     "eleventyComputed": {
         "preloadImg": "{{ image }}",
         "permalink": "/blog/{{ url | slugify }}/index.html"

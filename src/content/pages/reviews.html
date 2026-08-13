@@ -11,8 +11,10 @@ permalink: "/reviews/"
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "ProfessionalService",
       "@id": "https://trianglewebdesign.com/#localbusiness",
+      "name": "Triangle Web Design",
+      "url": "https://trianglewebdesign.com",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
@@ -37,13 +39,25 @@ permalink: "/reviews/"
           "@type": "Review",
           "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
           "author": {"@type": "Person", "name": "Robert P."},
-          "reviewBody": "Taylor helped build my entertainment business website and manages and maintains it for me. Since hiring him I have seen a pretty noticeable increase in bookings."
+          "reviewBody": "Taylor helped build my entertainment business website and manages and maintains it for me. Since hiring him I've seen a pretty noticeable increase in bookings!"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Grayson O."},
+          "reviewBody": "Taylor was great with the web design and the SEO helped the business rank higher. Highly recommend."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Logann P."},
+          "reviewBody": "Taylor is extremely knowledgeable and patient. I am looking forward to our continued collaboration!"
         },
         {
           "@type": "Review",
           "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
           "author": {"@type": "Person", "name": "Miguel M."},
-          "reviewBody": "Great web designer and SEO specialist by far. Taylor holds a lot of knowledge and is an incredible resource for you and your business."
+          "reviewBody": "Great guy you NEED in Raleigh! Great web designer and SEO specialist by far. Taylor holds a lot of knowledge and is an incredible resource for you and your business."
         }
       ]
     }
@@ -58,7 +72,7 @@ permalink: "/reviews/"
 
     <div id="banner-310">
         <div class="cs-container">
-            <span class="cs-int-title">Reviews</span>
+            <h1 class="cs-int-title">Reviews</h1>
             <div class="cs-breadcrumbs">
                 <a href="/" class="cs-link">Home</a>
                 <a href="/reviews/" class="cs-link cs-active">Reviews</a>
@@ -67,18 +81,10 @@ permalink: "/reviews/"
         <!--Background Image-->
         <picture class="cs-background">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | avif %}" type="image/avif">
-            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | webp %}" type="image/webp">
-            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | jpeg %}" type="image/jpeg">
-            <!--Tablet Image-->
-            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | avif %}" type="image/avif">
-            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | webp %}" type="image/webp">
-            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2048, height: 942 }) | jpeg %}" type="image/jpeg">
-            <!--Desktop Image-->
-            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | avif %}" type="image/avif">
-            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | webp %}" type="image/webp">
-            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" type="image/jpeg">
-            <img src="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 2500, height: 628 }) | jpeg %}" alt="Triangle Web Design office" width="1920" height="482" loading="eager" decoding="async">
+            <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-640.webp" type="image/webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-dark.webp" type="image/webp">
+            <img src="/assets/images/portfolio/skyline-dark.webp" alt="Raleigh NC skyline — Triangle Web Design customer reviews" width="1920" height="482" loading="eager" decoding="async" fetchpriority="high">
         </picture>
     </div>
 
@@ -98,7 +104,7 @@ permalink: "/reviews/"
             <ul class="cs-card-group">
                 <!-- Review 1 - Charles O. -->
                 <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-charles.webp" alt="" width="80" height="80">
                     <p class="cs-item-text">
                         Taylor did an amazing job creating our website and handling our SEO. He was professional, easy to work with, and really took the time to understand what we needed.
                     </p>
@@ -112,7 +118,7 @@ permalink: "/reviews/"
                 </li>
                 <!-- Review 2 - Kim O. -->
                 <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-kim.webp" alt="" width="80" height="80">
                     <p class="cs-item-text">
                         He was great and the website he made for my family business looks great and is helping us make more money. The SEO Taylor did is way more than we expected and we are very happy with the results.
                     </p>
@@ -124,15 +130,15 @@ permalink: "/reviews/"
                         <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
                     </div>
                 </li>
-                <!-- Review 3 - Rog O. -->
+                <!-- Review 3 - Grayson O. -->
                 <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-rog.webp" alt="" width="80" height="80">
                     <p class="cs-item-text">
                         Taylor was great with the web design and the SEO helped the business rank higher. Highly recommend.
                     </p>
                     <div class="cs-info">
                         <div class="cs-flex-group">
-                            <span class="cs-name">Rog O.</span>
+                            <span class="cs-name">Grayson O.</span>
                             <span class="cs-desc">Business Owner</span>
                         </div>
                         <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
@@ -140,7 +146,7 @@ permalink: "/reviews/"
                 </li>
                 <!-- Review 4 - Logann P. -->
                 <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-logann.webp" alt="" width="80" height="80">
                     <p class="cs-item-text">
                         Taylor is extremely knowledgeable and patient. I am looking forward to our continued collaboration!
                     </p>
@@ -154,7 +160,7 @@ permalink: "/reviews/"
                 </li>
                 <!-- Review 5 - Robert P. -->
                 <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="profile picture" width="80" height="80">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-robert.webp" alt="" width="80" height="80">
                     <p class="cs-item-text">
                         Taylor helped build my entertainment business website and manages and maintains it for me. Since hiring him I've seen a pretty noticeable increase in bookings!
                     </p>

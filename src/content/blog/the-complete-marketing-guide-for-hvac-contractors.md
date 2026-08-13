@@ -2,10 +2,11 @@
 title: The Complete Marketing Guide for HVAC Contractors
 url: /ultimate-hvac-marketing-guide
 description: Why Your Competitors Get the Emergency Calls (And You Don't)
-author: Taylor
+author: Taylor Kelly
 date: 2026-02-05T08:32:00.000-05:00
 tags:
   - post
+  - sitemap
 image: /assets/images/blog/pexels-bingqian-li-230971044-32032996.jpg
 imageAlt: Duct Work
 ---

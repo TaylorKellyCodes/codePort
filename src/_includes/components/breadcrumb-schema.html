@@ -5,9 +5,19 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ client.domain }}/"},
+           {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ client.domain }}/blog/"},
+           {"@type": "ListItem", "position": 3, "name": "{{ title | replace('"', '\\"') }}", "item": "{{ client.domain }}{{ page.url }}"}
+  ]
+}
+{% elif "/service-areas/" in page.url and page.url != "/service-areas/" %}
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ client.domain }}/"},
-    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ client.domain }}/blog/"},
-    {"@type": "ListItem", "position": 3, "name": "{{ title | escape }}", "item": "{{ client.domain }}{{ page.url }}"}
+    {"@type": "ListItem", "position": 2, "name": "Service Areas", "item": "{{ client.domain }}/service-areas/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ title | replace('"', '\\"') }}", "item": "{{ client.domain }}{{ page.url }}"}
   ]
 }
 {% else %}
@@ -16,7 +26,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ client.domain }}/"},
-    {"@type": "ListItem", "position": 2, "name": "{{ title | escape }}", "item": "{{ client.domain }}{{ page.url }}"}
+    {"@type": "ListItem", "position": 2, "name": "{{ title | replace('"', '\\"') }}", "item": "{{ client.domain }}{{ page.url }}"}
   ]
 }
 {% endif %}

@@ -2,7 +2,7 @@
 title: Raleigh Web Design & SEO | $0 Down Hand-Coded Websites
 url: raleigh-web-design-zero-down
 description: Stop overpaying for slow Raleigh web design. Get a hand-coded, high-performance site for $0 down and $150/mo. Local support for NC tradesmen.
-author: Taylor
+author: Taylor Kelly
 date: 2026-01-01T13:49:45.274Z
 tags:
   - sitemap
@@ -10,8 +10,6 @@ tags:
 image: /assets/images/blog/mobile-first-web-design-durham-hvac.jpg
 imageAlt: Hand-coded website speed test for Raleigh landscaper
 ---
-# Raleigh Web Design That Actually Makes the Phone Ring
-
 Most Raleigh web design agencies want to trap you in a $5,000 contract before they even write a line of code. For a local service business, that’s a massive risk. You need a site that works as hard as you do, not a bloated WordPress template that takes five seconds to load.
 
 We do things differently. At Triangle Web Design, we build high-performance, hand-coded websites for **$0 down and $150 a month**. No hidden fees. No tech-speak. Just a fast site that gets you found in the Triangle.
@@ -28,13 +26,13 @@ We know the local market. Whether you’re a plumber in Cary, a landscaper in Wa
 
 Our **Monthly Package** is designed for growth:
 
-* ** **$0 Upfront Cost:** Get a professional, custom-built site without the sticker shock.
+* **$0 Upfront Cost:** Get a professional, custom-built site without the sticker shock.
 
-* ** **$150/Month:** This covers your hosting, security, and unlimited edits.
+* **$150/Month:** This covers your hosting, security, and unlimited edits.
 
-* ** **Unlimited Edits:** Need to change a service or update a photo? Just text us.
+* **Unlimited Edits:** Need to change a service or update a photo? Just text us.
 
-* ** **Green Page Speed Guarantee:** We don't launch until your site hits the "Green" in Google's performance tests.
+* **Green Page Speed Guarantee:** We don't launch until your site hits the "Green" in Google's performance tests.
 
 **Is your website slow or just invisible?**
 
