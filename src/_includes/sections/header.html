@@ -27,7 +27,12 @@
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/pricing/" class="cs-li-link {% if page.url == "/pricing/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
+                        <a href="/about/" class="cs-li-link {% if page.url == "/about/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="/pricing/" class="cs-li-link {% if page.url == "/pricing/" %} cs-active {% endif %}" {% if page.url == "/pricing/" %} aria-current="page" {% endif %}>
                             Pricing
                         </a>
                     </li>
@@ -47,16 +52,31 @@
                             </li>
                         </ul>
                     </li>
-                    <!-- <li class="cs-li">
-                        <a href="/contact/" class="cs-li-link {% if page.url == "/contact/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
-                            Contact
-                        </a>
-                    </li> -->
-                    <!-- <li class="cs-li">
+                    <li class="cs-li cs-dropdown">
+                        <button class="cs-li-link cs-dropdown-toggle {% if "/service-areas/" in page.url %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="service-areas-dropdown-toggle">
+                            Service Areas
+                            <img class="cs-drop-icon" src="/assets/svgs/dropdown.svg" alt="drop down menu button" width="15" height="15" decoding="async" aria-hidden="true">
+                        </button>
+                        <ul class="cs-drop-ul" aria-labelledby="service-areas-dropdown-toggle">
+                            <li class="cs-drop-li">
+                                <a href="/service-areas/" class="cs-li-link cs-drop-link">All Service Areas</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="/service-areas/raleigh/" class="cs-li-link cs-drop-link">Raleigh</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="/service-areas/durham/" class="cs-li-link cs-drop-link">Durham</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="/service-areas/chapel-hill/" class="cs-li-link cs-drop-link">Chapel Hill</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li">
                         <a href="/reviews/" class="cs-li-link {% if page.url == "/reviews/" %} cs-active {% endif %}" {% if page.url == "/reviews/" %} aria-current="page" {% endif %}>
                             Reviews
                         </a>
-                    </li>-->
+                    </li>
                     <li class="cs-li">
                         <a href="/blog/" class="cs-li-link {% if page.url == "/blog/" %} cs-active {% endif %}" {% if page.url == "/blog/" %} aria-current="page" {% endif %}>
                             Blog
@@ -70,11 +90,11 @@
                 </ul>
             </div>
         </nav>
-        <a href="tel:+19195616223" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <a href="/contact/" class="cs-button-solid cs-nav-button">Contact Us</a>
         <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
-        <button id="dark-mode-toggle" aria-label="dark mode toggle" aria-pressed="false">
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle" aria-pressed="false">
             <img class="cs-moon" aria-hidden="true" src="/assets/svgs/moon.svg" decoding="async" alt="represents dark mode option" width="15" height="15">
             <img class="cs-sun" aria-hidden="true" src="/assets/svgs/sun.svg" decoding="async" alt="represents light mode option" width="15" height="15">
-        </button>
+        </button> -->
     </div>
 </header>

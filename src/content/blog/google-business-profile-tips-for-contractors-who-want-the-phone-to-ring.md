@@ -4,10 +4,11 @@ url: seo/google-business-profile-tips-contractors
 description: Google Business Profile tips built for contractors. Learn what
   actually drives local rankings in 2026, from category selection to reviews to
   photos, and what to skip.
-author: Taylor
+author: Taylor Kelly
 date: 2026-07-14T15:17:00.000-04:00
 tags:
   - post
+  - sitemap
 image: /assets/images/blog/pexels-caio-67112.jpg
 imageAlt: laptop-with-google-open
 ---

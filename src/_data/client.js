@@ -4,17 +4,16 @@ module.exports = {
     phoneForTel: "+19195616223",
     phoneFormatted: "(919) 561-6223",
     address: {
-        lineOne: "First Address Line",
-        lineTwo: "Second Address Line",
+        lineOne: "3204 Livia Cir",
         city: "Raleigh",
         state: "NC",
         zip: "27604",
         country: "US",
-        mapLink: "https://maps.app.goo.gl/keBafLeB1AefRRf56",
+        mapLink: "https://www.google.com/maps/search/?api=1&query=3204+Livia+Cir,+Raleigh,+NC+27604",
     },
     socials: {
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/TriangleWebDesignRaleigh/",
+        linkedin: "https://www.linkedin.com/in/taylor-kelly-codes/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
     domain: "https://trianglewebdesign.com",

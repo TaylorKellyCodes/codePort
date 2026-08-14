@@ -1,13 +1,13 @@
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "BlogPosting",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ client.domain }}{{ page.url }}"
         },
-        {% if title %}"headline": "{{ title | escape }}",{% endif %}
-        {% if description %}"description": "{{ description | escape }}",{% endif %}
+        {% if title %}"headline": "{{ title | replace('"', '\\"') }}",{% endif %}
+        {% if description %}"description": "{{ description | replace('"', '\\"') }}",{% endif %}
         {% if image %}
             "image": {
                 "@type": "ImageObject",
@@ -17,20 +17,23 @@
             },
         {% endif %}
         {% if date %}"datePublished": "{{ date | isoDate }}",{% endif %}
-        {% if date %}"dateModified": "{{ date | isoDate }}",{% endif %}
+        {% if lastModified %}"dateModified": "{{ lastModified | isoDate }}",{% elif date %}"dateModified": "{{ date | isoDate }}",{% endif %}
         {% if author %}
             "author": {
                 "@type": "Person",
-                "name": "{{ author | escape }}"
+                "@id": "{{ client.domain }}/#person",
+                "name": "Taylor Kelly",
+                "url": "{{ client.domain }}/about/"
             },
         {% endif %}
         {% if client.name %}
             "publisher": {
                 "@type": "Organization",
-                "name": "{{ client.name | escape }}",
+                "@id": "{{ client.domain }}/#organization",
+                "name": "{{ client.name | replace('"', '\\"') }}",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "{{ client.domain }}/assets/images/portfolio/logo1.svg",
+                    "url": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
                     "width": 210,
                     "height": 28
                 }

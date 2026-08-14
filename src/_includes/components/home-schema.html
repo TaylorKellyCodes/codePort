@@ -1,35 +1,118 @@
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-        "@context": "http://schema.org",
-        "@type": "LocalBusiness",
-        "name": "{{ client.name }}",
-        {% if preloadImg %}"image": "{{ client.domain }}{{ preloadImg }}",{% endif %}
-        {% if client.phoneFormatted %}"telephone": "{{ client.phoneFormatted }}",{% endif %}
-        {% if client.email %}"email": "{{ client.email }}",{% endif %}
-        {% if client.address %}
-            "address": {
-                "@type": "PostalAddress" {%- if client.address.lineOne -%},
-                    "streetAddress": "{{ client.address.lineOne }}{% if client.address.lineTwo %}, {{ client.address.lineTwo }}{% endif %}"
-                {%- endif -%}
-                {%- if client.address.city -%},
-                    "addressLocality": "{{ client.address.city }}"
-                {%- endif -%}
-                {%- if client.address.state -%},
-                    "addressRegion": "{{ client.address.state }}"
-                {%- endif -%}
-                {%- if client.address.zip -%},
-                    "postalCode": "{{ client.address.zip }}"
-                {%- endif -%}
-                {%- if client.address.country -%},
-                    "addressCountry": "{{ client.address.country }}"
-                {%- endif -%}
+      "@type": "Organization",
+      "@id": "{{ client.domain }}/#organization",
+      "name": "{{ client.name }}",
+      "url": "{{ client.domain }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png"
+      },
+      "telephone": "{{ client.phoneForTel }}",
+      "email": "{{ client.email }}"
+      {% if client.socials %},
+      "sameAs": [{%- for platform, url in client.socials -%}
+        {% if not loop.first %},{% endif %}"{{ url }}"
+      {%- endfor -%}]
+      {% endif %}
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ client.domain }}/#localbusiness",
+      "name": "{{ client.name }}",
+      "url": "{{ client.domain }}",
+      "parentOrganization": {"@id": "{{ client.domain }}/#organization"},
+      "image": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
+      "telephone": "{{ client.phoneForTel }}",
+      "email": "{{ client.email }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ client.address.lineOne }}",
+        "addressLocality": "{{ client.address.city }}",
+        "addressRegion": "{{ client.address.state }}",
+        "postalCode": "{{ client.address.zip }}",
+        "addressCountry": "{{ client.address.country }}"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.83948,
+        "longitude": -78.57382
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Raleigh"},
+        {"@type": "City", "name": "Durham"},
+        {"@type": "City", "name": "Chapel Hill"},
+        {"@type": "City", "name": "Cary"},
+        {"@type": "City", "name": "Apex"},
+        {"@type": "City", "name": "Wake Forest"},
+        {"@type": "City", "name": "Garner"},
+        {"@type": "City", "name": "Morrisville"},
+        {"@type": "City", "name": "Mebane"},
+        {"@type": "City", "name": "Carrboro"},
+        {"@type": "City", "name": "Hillsborough"},
+        {"@type": "City", "name": "Pittsboro"}
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "6"
+      },
+      "sameAs": [
+        "https://www.facebook.com/TriangleWebDesignRaleigh/",
+        "https://share.google/tzpRW8fE9C0wvoCJM",
+        "https://www.linkedin.com/in/taylor-kelly-codes/",
+        "https://www.linkedin.com/company/triangle-web-design-raleigh/"
+      ],
+      "serviceType": ["Web Design", "Local SEO", "Website Maintenance"],
+      "priceRange": "$$",
+      "description": "Hand-coded websites and local SEO for small businesses in Raleigh, Durham, and Chapel Hill. Custom sites from $0 down, $150/month.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Design & SEO Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Website Plan",
+              "description": "Custom hand-coded website with hosting, unlimited edits, and ongoing support"
             },
-        {% endif %}
-        {% if client.domain and page.url %}"url": "{{ client.domain }}{{ page.url }}",{% endif %}
-        {% if client.socials %}
-            "sameAs": [{%- for platform, url in client.socials -%}
-                    {% if not loop.first %},{% endif %}"{{ url }}"
-                {%- endfor -%}]
-        {% endif %}
+            "price": "150",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO Growth Plan",
+              "description": "Local SEO with city-specific service pages and Google Business Profile management"
+            },
+            "price": "500",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ client.domain }}/#website",
+      "url": "{{ client.domain }}",
+      "name": "{{ client.name }}",
+      "publisher": {"@id": "{{ client.domain }}/#organization"}
     }
+  ]
+}
 </script>

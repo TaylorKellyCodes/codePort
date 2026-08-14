@@ -1,13 +1,13 @@
 ---
-title: "Blog | Code Stitch Web Designs"
-description: "Meta description for the page"
+title: "Blog | Triangle Web Design — Web Design & SEO for the Triangle"
+description: "Web design and local SEO tips for small businesses in Raleigh, Durham, and Chapel Hill. Practical guides to help Triangle businesses rank higher and get more customers."
 permalink: "/blog/"
 ---
 
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <link rel="preload" as="image" href="{% getUrl "/assets/images/cabinets.jpg" | resize({ width: 640, height: 600 }) | avif %}" />
+    <link rel="preload" as="image" href="{% getUrl "/assets/images/portfolio/triangle-web-design-coffee-shop-durham.jpg" | resize({ width: 640, height: 600 }) | avif %}" />
     <link rel="stylesheet" href="/assets/css/blog.css">
 {% endblock %}
 
@@ -18,7 +18,7 @@ permalink: "/blog/"
 
     <div id="banner-310">
         <div class="cs-container">
-            <span class="cs-int-title">Blog</span>
+            <h1 class="cs-int-title">Blog</h1>
             <div class="cs-breadcrumbs">
                 <a href="/" class="cs-link">Home</a>
                 <a href="/blog/" class="cs-link cs-active">Blog</a>
@@ -73,7 +73,7 @@ permalink: "/blog/"
                         <div class="cs-article-group">
                             <div class="cs-author-group">
                                 <picture class="cs-author-img">
-                                    <img src="/assets/svgs/profile.svg" alt="Profile icon" width="32" height="32" decoding="async" loading="lazy" aria-hidden="true" />
+                                    <img src="/assets/images/portfolio/headshot-160.webp" alt="Taylor Kelly, founder of Triangle Web Design" width="32" height="32" decoding="async" loading="lazy" aria-hidden="true" />
                                 </picture>
                                 <span class="cs-author-name">{{ post.data.author }}</span>
                                 <span aria-hidden="true" class="cs-dot"></span>

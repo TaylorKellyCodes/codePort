@@ -10,6 +10,50 @@ package = "netlify-plugin-cache"
     "public/assets/images", # Processed images - adjust to match your outputDir
     ".cache" # Remote Assets
   ]
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[redirects]]
+  from = "/blog/cary-crawlspace-sweating/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/firstword-secondword-third/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/raleigh-contractor-web-design/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/seo-google-map-pack-ranking-factors/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/seo-local-seo-for-contractors/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/seo-get-more-calls-from-google/"
+  to = "/blog/"
+  status = 301
+
 [[redirects]]
   from = "https://www.trianglewebdesign.com/*"
   to = "https://trianglewebdesign.com/:splat"
