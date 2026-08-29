@@ -117,12 +117,11 @@ permalink: "/contact/"
                 <!--Phone-->
                 <span class="cs-header">Call or Text</span>
                 <a class="cs-link" href="tel:{{ client.phoneForTel }}">{{ client.phoneFormatted }}</a>
-                <!--Address-->
-                <span class="cs-header">Serving the Triangle</span>
-                <a class="cs-link" href="{{ client.address.mapLink }}">
-                    {{ client.address.lineOne }}<br>
-                    {{ client.address.city }}, {{ client.address.state }}
-                    {{ client.address.zip }}
+                <!--Service area-->
+                <span class="cs-header">Service Area</span>
+                <a class="cs-link" href="{{ client.socials.google }}" target="_blank" rel="noopener">
+                    Based in {{ client.address.city }}, {{ client.address.state }} &mdash; serving
+                    small businesses across the NC Triangle
                 </a>
             </div>
         </div>

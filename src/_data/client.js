@@ -3,13 +3,12 @@ module.exports = {
     email: "taylor@trianglewebdesign.com",
     phoneForTel: "+19195616223",
     phoneFormatted: "(919) 561-6223",
+    // Service-area business — no public street address. Templates render city/region
+    // only; the GBP link (socials.google) is the canonical "find us" reference.
     address: {
-        lineOne: "3204 Livia Cir",
         city: "Raleigh",
         state: "NC",
-        zip: "27604",
         country: "US",
-        mapLink: "https://www.google.com/maps/search/?api=1&query=3204+Livia+Cir,+Raleigh,+NC+27604",
     },
     socials: {
         facebook: "https://www.facebook.com/TriangleWebDesignRaleigh/",

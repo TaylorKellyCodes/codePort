@@ -17,12 +17,11 @@
       "email": "{{ client.email }}",
       "founder": {"@id": "{{ client.domain }}/#person"},
       "foundingLocation": {"@type": "Place", "name": "Raleigh, NC"},
+      "areaServed": {"@type": "AdministrativeArea", "name": "Research Triangle, North Carolina"},
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "{{ client.address.lineOne }}",
         "addressLocality": "{{ client.address.city }}",
         "addressRegion": "{{ client.address.state }}",
-        "postalCode": "{{ client.address.zip }}",
         "addressCountry": "{{ client.address.country }}"
       },
       "contactPoint": {
@@ -35,7 +34,7 @@
       },
       "sameAs": [
         "https://www.facebook.com/TriangleWebDesignRaleigh/",
-        "https://maps.app.goo.gl/oy3sDSv89Kwxt28T7",
+        "{{ client.socials.google }}",
         "https://www.linkedin.com/in/taylor-kelly-codes/",
         "https://www.linkedin.com/company/triangle-web-design-raleigh/"
       ]
@@ -45,8 +44,9 @@
       "@id": "{{ client.domain }}/#person",
       "name": "Taylor Kelly",
       "url": "{{ client.domain }}/about/",
-      "jobTitle": "Founder & Web Developer",
-      "worksFor": {"@id": "{{ client.domain }}/#organization"}
+      "jobTitle": "Founder, Web Designer & Local SEO Specialist",
+      "worksFor": {"@id": "{{ client.domain }}/#organization"},
+      "sameAs": ["https://www.linkedin.com/in/taylor-kelly-codes/"]
     },
     {
       "@type": "ProfessionalService",
@@ -54,21 +54,18 @@
       "name": "{{ client.name }}",
       "url": "{{ client.domain }}",
       "parentOrganization": {"@id": "{{ client.domain }}/#organization"},
+      "founder": {"@id": "{{ client.domain }}/#person"},
       "image": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
+      "logo": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
       "telephone": "{{ client.phoneForTel }}",
       "email": "{{ client.email }}",
+      "priceRange": "$$",
+      "description": "Service-area web design and local SEO for small businesses across Raleigh, Durham, Chapel Hill, Cary and the wider NC Triangle. Hand-coded websites from $0 down, $150/month. Available 24/7.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "{{ client.address.lineOne }}",
         "addressLocality": "{{ client.address.city }}",
         "addressRegion": "{{ client.address.state }}",
-        "postalCode": "{{ client.address.zip }}",
         "addressCountry": "{{ client.address.country }}"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 35.83948,
-        "longitude": -78.57382
       },
       "areaServed": [
         {"@type": "City", "name": "Raleigh"},
@@ -90,47 +87,38 @@
         "opens": "00:00",
         "closes": "23:59"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1",
-        "reviewCount": "6"
-      },
       "sameAs": [
         "https://www.facebook.com/TriangleWebDesignRaleigh/",
-        "https://maps.app.goo.gl/oy3sDSv89Kwxt28T7",
+        "{{ client.socials.google }}",
         "https://www.linkedin.com/in/taylor-kelly-codes/",
         "https://www.linkedin.com/company/triangle-web-design-raleigh/"
       ],
       "serviceType": ["Web Design", "Local SEO", "Website Maintenance"],
-      "priceRange": "$$",
-      "description": "Hand-coded websites and local SEO for small businesses in Raleigh, Durham, and Chapel Hill. Custom sites from $0 down, $150/month.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Web Design & SEO Services",
+        "@id": "{{ client.domain }}/pricing/#offercatalog",
+        "name": "Web Design & SEO plans",
         "itemListElement": [
           {
             "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Website Plan",
-              "description": "Custom hand-coded website with hosting, unlimited edits, and ongoing support"
-            },
-            "price": "150",
-            "priceCurrency": "USD",
-            "unitText": "MONTH"
+            "name": "Lump Sum",
+            "description": "One-time hand-coded website build. You own the code.",
+            "priceSpecification": {"@type": "PriceSpecification", "price": "3600", "priceCurrency": "USD"},
+            "itemOffered": {"@type": "Service", "name": "Custom hand-coded website (one-time build)"}
           },
           {
             "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "SEO Growth Plan",
-              "description": "Local SEO with city-specific service pages and Google Business Profile management"
-            },
-            "price": "500",
-            "priceCurrency": "USD",
-            "unitText": "MONTH"
+            "name": "Monthly",
+            "description": "Managed hand-coded website: hosting, unlimited edits, 24/7 support and lifetime updates. $0 down.",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "150", "priceCurrency": "USD", "unitCode": "MON"},
+            "itemOffered": {"@type": "Service", "name": "Managed website subscription"}
+          },
+          {
+            "@type": "Offer",
+            "name": "SEO Growth",
+            "description": "Everything in Monthly plus local SEO: city service pages, Google Business Profile management, reviews, backlinks. $0 down.",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "500", "priceCurrency": "USD", "unitCode": "MON"},
+            "itemOffered": {"@type": "Service", "name": "Managed website + local SEO"}
           }
         ]
       }
@@ -140,6 +128,7 @@
       "@id": "{{ client.domain }}/#website",
       "url": "{{ client.domain }}",
       "name": "{{ client.name }}",
+      "inLanguage": "en-US",
       "publisher": {"@id": "{{ client.domain }}/#organization"}
     }
   ]
