@@ -77,6 +77,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets"); // Static assets
     eleventyConfig.addPassthroughCopy("./src/admin"); // CMS admin files
     eleventyConfig.addPassthroughCopy("./src/_redirects"); // Redirect rules
+    eleventyConfig.addPassthroughCopy({ "./src/.well-known": ".well-known" }); // security.txt
 
     // robots.txt is generated from src/robots.html (permalink: /robots.txt).
     // Ignore a static src/robots.txt so a leftover/deleted file cannot be
