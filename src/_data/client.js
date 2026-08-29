@@ -14,10 +14,7 @@ module.exports = {
     socials: {
         facebook: "https://www.facebook.com/TriangleWebDesignRaleigh/",
         linkedin: "https://www.linkedin.com/in/taylor-kelly-codes/",
-        // TODO(seo): confirm this resolves to the Google Business Profile. It is the
-        // share link already used in the homepage schema `sameAs`. Prefer the full
-        // https://www.google.com/maps/place/... profile URL if you have it.
-        google: "https://share.google/tzpRW8fE9C0wvoCJM",
+        google: "https://maps.app.goo.gl/oy3sDSv89Kwxt28T7",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
     domain: "https://trianglewebdesign.com",
