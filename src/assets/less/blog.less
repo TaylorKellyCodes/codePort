@@ -605,3 +605,35 @@ body.dark-mode {
         .cs-author-bio-text { color: var(--bodyTextColorWhite); }
     }
 }
+
+/* ============================================ */
+/*      Related articles (blog post foot)        */
+/* ============================================ */
+
+.cs-related {
+    max-width: (700/16rem);
+    margin: (48/16rem) auto 0;
+
+    .cs-related-title {
+        font-size: (20/16rem);
+        font-weight: 700;
+        margin: 0 0 (12/16rem);
+        color: var(--headerColor);
+    }
+
+    .cs-related-list {
+        margin: 0;
+        padding-left: (20/16rem);
+        display: flex;
+        flex-direction: column;
+        gap: (8/16rem);
+
+        a {
+            color: var(--primary);
+            text-decoration: underline;
+            font-size: (16/16rem);
+        }
+    }
+}
+
+body.dark-mode .cs-related .cs-related-title { color: var(--bodyTextColorWhite); }

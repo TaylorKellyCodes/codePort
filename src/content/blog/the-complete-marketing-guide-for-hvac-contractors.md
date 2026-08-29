@@ -9,6 +9,13 @@ tags:
   - sitemap
 image: /assets/images/blog/pexels-bingqian-li-230971044-32032996.jpg
 imageAlt: Duct Work
+relatedPosts:
+  - text: "Local SEO for contractors: what actually moves the needle"
+    href: "/blog/seo-local-seo-for-contractors/"
+  - text: "How to get more calls from Google without ads"
+    href: "/blog/seo-get-more-calls-from-google/"
+  - text: "Talk to us about local SEO"
+    href: "/contact/"
 ---
 It is 9 PM on a sweltering July night in North Carolina. Someone’s AC just died. They are sweating, frustrated, and they need help immediately.
 

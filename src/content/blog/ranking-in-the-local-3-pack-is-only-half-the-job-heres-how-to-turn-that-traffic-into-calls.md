@@ -4,12 +4,17 @@ url: seo/landing-page-local-3-pack-conversions/
 description: Showing up in the local 3-pack gets you seen. Here's how to make
   sure that traffic actually turns into phone calls and booked jobs, from CTA
   placement to page speed to trust signals that close the deal.
-author: Taylor
+author: Taylor Kelly
 date: 2026-05-25T08:35:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-czapp-arpad-3647289-10774600.jpg
 imageAlt: phone-screen-on-desk-open-to-google-folder
+relatedPosts:
+  - text: "How to get more calls from Google without ads"
+    href: "/blog/seo-get-more-calls-from-google/"
+  - text: "Hand-coded web design built to convert"
+    href: "/web-design/"
 ---
 Getting into the local 3-pack feels like the finish line. It isn't. It's the starting gun for the part almost nobody talks about, which is what happens in the ten seconds after someone taps your listing. A lot of local businesses put months into ranking and then send that hard-earned traffic to a homepage built in 2019 with a phone number buried in the footer and a menu with fourteen links. The ranking work paid off. The conversion is where it quietly falls apart, and it's rarely obvious from the inside since the business owner already knows how to find the phone number without thinking about it.
 

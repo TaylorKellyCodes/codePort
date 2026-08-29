@@ -4,12 +4,19 @@ url: website-signals-local-3-pack-trust-score
 description: Your Google Business Profile isn't the only thing Google checks
   before ranking you in the local 3-pack. Here's how site speed, mobile design,
   and schema markup on your website shape local trust in 2026.
-author: Taylor
+author: Taylor Kelly
 date: 2026-06-02T08:23:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-czapp-arpad-3647289-10774598.jpg
 imageAlt: Phone-in-hand-on-desk-unlocked
+relatedPosts:
+  - text: "Google Map Pack rankings: what actually moves you into the top 3"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Why you're not showing in the Google Map Pack"
+    href: "/blog/blog-seo-not-showing-in-google-map-pack/"
+  - text: "Hand-coded web design built for local SEO"
+    href: "/web-design/"
 ---
 Most business owners treat their website and their Google Business Profile as two separate projects. Fill out the profile, forget the site, or the other way around. Google doesn't see them that way. It reads them as two descriptions of the same business, and when those two descriptions don't line up, or when one of them is slow and clunky, that gap quietly drags down your local 3-pack ranking even if your profile itself looks flawless.
 

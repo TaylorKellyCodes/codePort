@@ -1311,6 +1311,30 @@
 		padding: var(--sectionPadding);
 		background-color:var(--medium);
 
+		.cs-bottom {
+			width: 100%;
+			max-width: (550/16rem);
+			margin: (32/16rem) auto 0;
+			padding-top: (16/16rem);
+			border-top: 1px solid rgba(255, 255, 255, 0.15);
+			display: flex;
+			flex-wrap: wrap;
+			gap: (20/16rem);
+			font-size: (14/16rem);
+
+			span,
+			a {
+				color: var(--bodyTextColorWhite);
+				opacity: 0.75;
+			}
+
+			a {
+				text-decoration: none;
+
+				&:hover { opacity: 1; }
+			}
+		}
+
 		.cs-container {
 			width: 100%;
 			/* reset on tablet */

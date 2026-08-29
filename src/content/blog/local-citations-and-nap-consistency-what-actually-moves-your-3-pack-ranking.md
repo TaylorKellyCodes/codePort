@@ -4,12 +4,19 @@ url: seo-local-citations-nap-consistency/
 description: A practical 2026 guide to local citations and NAP consistency. What
   citations actually are, which directories matter, how AI search changed the
   stakes, and how to audit and fix mismatches.
-author: Taylor
+author: Taylor Kelly
 date: 2026-06-09T08:05:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-brettjordan-5444625.jpg
 imageAlt: phone-screen-maps-icon
+relatedPosts:
+  - text: "Google Map Pack rankings: what actually moves you into the top 3"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Why you're not showing in the Google Map Pack"
+    href: "/blog/blog-seo-not-showing-in-google-map-pack/"
+  - text: "Our local SEO service"
+    href: "/seo/"
 ---
 Citations are the least exciting part of local SEO, and that's exactly why most local businesses have a mess of them sitting around unnoticed. Nobody gets excited about checking whether their address says "Suite 4" on Yelp and "Ste. 4" on Bing Places. But that tiny mismatch is doing more damage to your 3-pack ranking than people realize, and fixing it is one of the few local SEO tasks with a genuinely predictable payoff.
 

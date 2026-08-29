@@ -4,12 +4,19 @@ url: seo-get-more-calls-from-google
 description: Want your phone to actually ring from Google search? Here's what's
   driving local search calls in 2026, from Google Business Profile signals to
   click-to-call setup, and how to fix the gaps costing you leads.
-author: Taylor
+author: Taylor Kelly
 date: 2026-07-07T13:50:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-sarah-blocksidge-69426152-13628541.jpg
 imageAlt: Google on a screen
+relatedPosts:
+  - text: "Google Business Profile tips for contractors"
+    href: "/blog/seo-google-business-profile-tips-contractors/"
+  - text: "Turn local 3-pack traffic into phone calls"
+    href: "/blog/seo-landing-page-local-3-pack-conversions/"
+  - text: "Our local SEO service"
+    href: "/seo/"
 ---
 If you own a local service business, the phone ringing is the whole point. Not impressions. Not "visibility." Calls. And if you've noticed your competitor's number seems to be everywhere while yours barely shows up, there's a reason for that, and it's fixable.
 

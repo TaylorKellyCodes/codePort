@@ -9,6 +9,11 @@ tags:
   - post
 image: /assets/images/blog/mobile-first-web-design-durham-hvac.jpg
 imageAlt: Hand-coded website speed test for Raleigh landscaper
+relatedPosts:
+  - text: "See transparent pricing"
+    href: "/pricing/"
+  - text: "Hand-coded web design for Raleigh small businesses"
+    href: "/web-design/"
 ---
 Most Raleigh web design agencies want to trap you in a $5,000 contract before they even write a line of code. For a local service business, that’s a massive risk. You need a site that works as hard as you do, not a bloated WordPress template that takes five seconds to load.
 

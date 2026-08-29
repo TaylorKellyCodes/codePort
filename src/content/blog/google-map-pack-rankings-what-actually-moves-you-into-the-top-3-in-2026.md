@@ -4,12 +4,21 @@ url: seo-google-map-pack-ranking-factors
 description: What actually determines Google Map Pack rankings in 2026, from
   profile relevance to review recency to the new Gemini AI layer, and where to
   focus first.
-author: Taylor
+author: Taylor Kelly
 date: 2026-06-22T10:07:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-rdne-7362955.jpg
 imageAlt: bike-with-google-maps-open
+relatedPosts:
+  - text: "Why you're not showing in the Google Map Pack"
+    href: "/blog/blog-seo-not-showing-in-google-map-pack/"
+  - text: "Website signals that affect your local 3-pack trust score"
+    href: "/blog/website-signals-local-3-pack-trust-score/"
+  - text: "Local citations & NAP consistency: a build guide"
+    href: "/blog/seo-local-citations-nap-consistency/"
+  - text: "Our local SEO service"
+    href: "/seo/"
 ---
 If you run a local service business, the Map Pack is the whole game. Three listings show up above everything else when someone searches "plumber near me" or "roofer in Cary," and most people never scroll past them. Get into those three spots and your phone rings. Miss it and you're fighting for scraps further down the page.
 

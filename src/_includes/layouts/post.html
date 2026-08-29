@@ -45,6 +45,17 @@
                     {{ content | safe }}
                 </section>
 
+                {% if relatedPosts %}
+                <nav class="cs-related" aria-label="Related articles">
+                    <h2 class="cs-related-title">Keep reading</h2>
+                    <ul class="cs-related-list">
+                        {% for link in relatedPosts %}
+                        <li><a href="{{ link.href }}">{{ link.text }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+
                 <aside class="cs-author-bio">
                     <picture class="cs-author-bio-img">
                         <img src="/assets/images/portfolio/headshot-160.webp" alt="Taylor Kelly, founder of Triangle Web Design" width="72" height="72" loading="lazy" decoding="async">

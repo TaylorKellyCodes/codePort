@@ -4,12 +4,19 @@ url: seo-local-seo-for-contractors
 description: Local SEO for contractors in 2026, from Google Business Profile
   weight to review recency, service area pages, schema, and AI search
   visibility.
-author: Taylor
+author: Taylor Kelly
 date: 2026-06-29T08:23:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-alnahian2003-7325498.jpg
 imageAlt: screen with code
+relatedPosts:
+  - text: "The complete marketing guide for HVAC contractors"
+    href: "/blog/ultimate-hvac-marketing-guide/"
+  - text: "Google Map Pack rankings: what actually moves you into the top 3"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Our local SEO service"
+    href: "/seo/"
 ---
 If you run a contracting business, you already know the phone doesn't ring itself. Someone's water heater dies, their AC quits on the hottest day of the year, or a storm takes half their roof off, and they grab their phone and search. Local SEO is just the practice of making sure your business is the one they find in that moment, not the competitor three exits down the highway.
 
