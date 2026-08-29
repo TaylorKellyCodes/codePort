@@ -1,5 +1,5 @@
 ---
-title: "Local Citations and NAP Consistency: What Actually Moves Your 3-Pack Ranking"
+title: "Local Citations & NAP Consistency: A Build Guide for Contractors"
 url: seo-local-citations-nap-consistency/
 description: A practical 2026 guide to local citations and NAP consistency. What
   citations actually are, which directories matter, how AI search changed the

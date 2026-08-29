@@ -1,6 +1,5 @@
 ---
-title: Ranking in the Local 3-Pack Is Only Half the Job. Here's How to Turn That
-  Traffic Into Calls
+title: Turn Local 3-Pack Traffic Into Phone Calls
 url: seo/landing-page-local-3-pack-conversions/
 description: Showing up in the local 3-pack gets you seen. Here's how to make
   sure that traffic actually turns into phone calls and booked jobs, from CTA

@@ -1,5 +1,5 @@
 ---
-title: Why You're Not Showing in the Map Pack (Even Though Everything Looks Right)
+title: Why You're Not Showing in the Google Map Pack
 url: /blog/seo-not-showing-in-google-map-pack/
 description: Google Business Profile looks solid but you're still invisible in
   the Map Pack? Here are the real, fixable reasons in 2026, from duplicate

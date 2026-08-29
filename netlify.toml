@@ -29,6 +29,13 @@ package = "netlify-plugin-cache"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
+# Slug shortened (was a ~200-char keyword-stuffed sentence). SEO audit 2026-08.
+[[redirects]]
+  from = "/blog/your-google-business-profile-isnt-the-only-thing-google-checks-before-ranking-you-in-the-local-3-pack-heres-how-site-speed-mobile-design-and-schema-markup-on-your-website-shape-local-trust-in-2026/"
+  to = "/blog/website-signals-local-3-pack-trust-score/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/blog/cary-crawlspace-sweating/"
   to = "/blog/"

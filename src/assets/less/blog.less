@@ -560,3 +560,48 @@
         }
     }
 }
+/* ============================================ */
+/*          Author bio (blog post foot)         */
+/* ============================================ */
+
+.cs-author-bio {
+    display: flex;
+    gap: (16/16rem);
+    align-items: flex-start;
+    max-width: (700/16rem);
+    margin: (48/16rem) auto 0;
+    padding: (24/16rem);
+    border: 1px solid var(--primary);
+    border-radius: (8/16rem);
+    background-color: rgba(25, 128, 74, 0.06);
+
+    .cs-author-bio-img img {
+        width: (72/16rem);
+        height: (72/16rem);
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .cs-author-bio-name {
+        margin: 0 0 (6/16rem);
+        font-weight: 700;
+        font-size: (16/16rem);
+
+        a { color: var(--primary); }
+    }
+
+    .cs-author-bio-text {
+        margin: 0;
+        font-size: (15/16rem);
+        line-height: 1.6;
+
+        a { color: var(--primary); text-decoration: underline; }
+    }
+}
+
+body.dark-mode {
+    .cs-author-bio {
+        .cs-author-bio-name,
+        .cs-author-bio-text { color: var(--bodyTextColorWhite); }
+    }
+}

@@ -10,6 +10,61 @@ permalink: "/pricing/"
     <link rel="preload" as="image" href="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 640, height: 600 }) | avif %}"/>
     <link rel="preload" as="image" href="{% getUrl "/assets/images/portfolio/skyline-med.webp" | resize({ width: 482, height: 536 }) | avif %}"/>
     <link rel="stylesheet" href="/assets/css/pricing.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "OfferCatalog",
+      "@id": "{{ client.domain }}/pricing/#offercatalog",
+      "name": "Triangle Web Design plans",
+      "url": "{{ client.domain }}/pricing/",
+      "provider": {"@id": "{{ client.domain }}/#localbusiness"},
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Lump Sum",
+          "description": "One-time hand-coded website build. You own the code. Optional support and unlimited-edits add-ons.",
+          "priceSpecification": {"@type": "PriceSpecification", "price": "3600", "priceCurrency": "USD", "valueAddedTaxIncluded": false},
+          "url": "{{ client.domain }}/pricing/",
+          "availability": "https://schema.org/InStock",
+          "itemOffered": {"@type": "Service", "name": "Custom hand-coded website (one-time build)", "provider": {"@id": "{{ client.domain }}/#localbusiness"}}
+        },
+        {
+          "@type": "Offer",
+          "name": "Monthly",
+          "description": "Managed hand-coded website: hosting, unlimited edits, 24/7 support and lifetime updates included. $0 down.",
+          "priceSpecification": {"@type": "UnitPriceSpecification", "price": "150", "priceCurrency": "USD", "unitCode": "MON", "billingIncrement": 1},
+          "url": "{{ client.domain }}/pricing/",
+          "availability": "https://schema.org/InStock",
+          "itemOffered": {"@type": "Service", "name": "Managed website subscription", "provider": {"@id": "{{ client.domain }}/#localbusiness"}}
+        },
+        {
+          "@type": "Offer",
+          "name": "SEO Growth",
+          "description": "Everything in Monthly plus local SEO: city service pages, Google Business Profile management, review generation, backlink building. $0 down.",
+          "priceSpecification": {"@type": "UnitPriceSpecification", "price": "500", "priceCurrency": "USD", "unitCode": "MON", "billingIncrement": 1},
+          "url": "{{ client.domain }}/pricing/",
+          "availability": "https://schema.org/InStock",
+          "itemOffered": {"@type": "Service", "name": "Managed website + local SEO", "provider": {"@id": "{{ client.domain }}/#localbusiness"}}
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "{{ client.domain }}/pricing/#faq",
+      "mainEntity": [
+        {"@type": "Question", "name": "Do I really own my website with the Lump Sum package?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. If you choose the Lump Sum option, the code is yours. We deliver a hand-coded site that you can take anywhere. No proprietary-platform traps."}},
+        {"@type": "Question", "name": "How does the $0 down plan help my cash flow?", "acceptedAnswer": {"@type": "Answer", "text": "Most agencies charge around $5,000 upfront. Our $150/month plan lets you get a professional website today without the hit to your overhead."}},
+        {"@type": "Question", "name": "How do you help me rank in both Raleigh and Durham?", "acceptedAnswer": {"@type": "Answer", "text": "The SEO Growth package includes city-specific landing pages. We create keyword-specific content for the cities you serve so you show up in the local Map Pack across the Triangle."}},
+        {"@type": "Question", "name": "How many pages are included in each plan?", "acceptedAnswer": {"@type": "Answer", "text": "Monthly $150 and Lump Sum include 5 pages. SEO Growth includes 10 pages. Additional pages are $100 each for all plans."}},
+        {"@type": "Question", "name": "Can I add a blog or e-commerce features?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A blog is a $250 add-on. Custom e-commerce or functionality is quoted per project."}},
+        {"@type": "Question", "name": "What if I need ongoing updates and support?", "acceptedAnswer": {"@type": "Answer", "text": "Monthly and SEO Growth plans include unlimited edits, 24/7 support, and lifetime updates. Lump Sum owners can add support and unlimited edits anytime."}},
+        {"@type": "Question", "name": "How fast can I launch my website?", "acceptedAnswer": {"@type": "Answer", "text": "Most sites go live in 4 to 6 weeks after content, feedback, and approvals. Larger projects can take longer."}}
+      ]
+    }
+    </script>
 {% endblock %}
 
 {% block body %}
@@ -206,21 +261,21 @@ permalink: "/pricing/"
                 <tbody>
                     <tr class="cs-tr">
                         <td class="cs-td">Website and SEO Audit</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Custom Design and Development</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Hosting</td>
                         <td class="cs-td">+ $25/Month</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Pages Included</td>
@@ -237,68 +292,68 @@ permalink: "/pricing/"
                     <tr class="cs-tr">
                         <td class="cs-td">Unlimited Edits</td>
                         <td class="cs-td">+ $50/Month</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Green Page Speed Guarantee</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Blog</td>
                         <td class="cs-td">+ $250</td>
                         <td class="cs-td">+ $250</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">24/7 Support</td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Lifetime Updates</td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Local SEO Service Pages</td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Blog with 10 keyword optimized posts </td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">4 Google Business Profile Posts a month</td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Review Generation and Management </td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Backlink Building</td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                     <tr class="cs-tr">
                         <td class="cs-td">Full site Redesign Every 3 years</td>
-                        <td class="cs-td"><img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="code stitch icon" width="16" height="16"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
+                        <td class="cs-td"><img class="cs-li-img" loading="lazy" decoding="async" src="/assets/svgs/ban.svg" alt="Not included" width="16" height="16"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
+                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="Included" width="16" height="16" loading="lazy" decoding="async"></td>
                     </tr>
                 </tbody>
             </table>

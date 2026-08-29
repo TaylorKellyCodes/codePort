@@ -8,6 +8,26 @@ permalink: "/service-areas/"
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/service-areas.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "{{ client.domain }}/service-areas/#collectionpage",
+      "url": "{{ client.domain }}/service-areas/",
+      "name": "{{ title | replace('"', '\\"') | safe }}",
+      "description": "{{ description | replace('"', '\\"') | safe }}",
+      "isPartOf": {"@id": "{{ client.domain }}/#website"},
+      "about": {"@id": "{{ client.domain }}/#localbusiness"},
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Raleigh", "url": "{{ client.domain }}/service-areas/raleigh/"},
+          {"@type": "ListItem", "position": 2, "name": "Durham", "url": "{{ client.domain }}/service-areas/durham/"},
+          {"@type": "ListItem", "position": 3, "name": "Chapel Hill", "url": "{{ client.domain }}/service-areas/chapel-hill/"}
+        ]
+      }
+    }
+    </script>
 {% endblock %}
 
 {% block body %}

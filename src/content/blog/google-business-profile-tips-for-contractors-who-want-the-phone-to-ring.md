@@ -1,5 +1,5 @@
 ---
-title: Google Business Profile Tips (For Contractors Who Want the Phone to Ring)
+title: Google Business Profile Tips for Contractors
 url: seo/google-business-profile-tips-contractors
 description: Google Business Profile tips built for contractors. Learn what
   actually drives local rankings in 2026, from category selection to reviews to

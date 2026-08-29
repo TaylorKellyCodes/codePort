@@ -121,6 +121,23 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
     // ═════════════════════════════════════════════════════════════════════════
+    // COLLECTIONS
+    // ═════════════════════════════════════════════════════════════════════════
+
+    /*
+     * ⭐ Featured posts for the blog sidebar.
+     * Opt in per post with `featured: true` in front matter. Falls back to the
+     * 3 most recent posts so the sidebar is never empty (and never renders an
+     * empty shell — see components/featured-posts.html).
+     */
+    eleventyConfig.addCollection("featured", (collectionApi) => {
+        const posts = collectionApi.getFilteredByTag("post");
+        const flagged = posts.filter((p) => p.data.featured);
+        const chosen = flagged.length ? flagged : posts.slice(-3);
+        return chosen.sort((a, b) => a.date - b.date);
+    });
+
+    // ═════════════════════════════════════════════════════════════════════════
     // BUILD CONFIGURATION
     // Define input/output directories and template engine
     // ═════════════════════════════════════════════════════════════════════════

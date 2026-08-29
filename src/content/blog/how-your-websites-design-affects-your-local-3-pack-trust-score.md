@@ -1,12 +1,10 @@
 ---
 title: How Your Website's Design Affects Your Local 3-Pack Trust Score
-url: Your Google Business Profile isn't the only thing Google checks before
-  ranking you in the local 3-pack. Here's how site speed, mobile design, and
-  schema markup on your website shape local trust in 2026.
+url: website-signals-local-3-pack-trust-score
 description: Your Google Business Profile isn't the only thing Google checks
   before ranking you in the local 3-pack. Here's how site speed, mobile design,
   and schema markup on your website shape local trust in 2026.
-author: seo-local-3-pack-trust/
+author: Taylor
 date: 2026-06-02T08:23:00.000-04:00
 tags:
   - post
