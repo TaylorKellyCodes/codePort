@@ -2,14 +2,16 @@
 <!--                Featured Posts                -->
 <!-- ============================================ -->
 
+{%- set featuredPosts = collections.featured or [] -%}
+{%- if featuredPosts.length -%}
 <div id="blog-sidebar">
     <!--Featured-->
     <div class="cs-featured-group">
         <span class="cs-sidebar-header">Featured Posts</span>
-        {%- for post in collections.featured | reverse -%}
+        {%- for post in featuredPosts | reverse -%}
             <a class="cs-sidebar-link" href="{{ post.url }}">
                 <picture class="cs-sidebar-img">
-                    <img src="{% getUrl post.data.image | resize({ width: 120, height: 120 }) | jpeg %}" alt="{{ post.data.alt }}" width="60" height="60" loading="lazy" decoding="async">
+                    <img src="{% getUrl post.data.image | resize({ width: 120, height: 120 }) | jpeg %}" alt="{{ post.data.imageAlt or post.data.alt or post.data.title }}" width="60" height="60" loading="lazy" decoding="async">
                 </picture>
                 <div class="cs-content-group">
                     <h3 class="cs-sidebar-title">{{ post.data.title }}</h3>
@@ -19,3 +21,4 @@
         {%- endfor -%}
     </div>
 </div>
+{%- endif -%}

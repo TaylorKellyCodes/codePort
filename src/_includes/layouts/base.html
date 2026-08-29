@@ -5,10 +5,10 @@
     <head>
         <!-- Standard meta tags -->
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ description }}">
         <meta name="color-scheme" content="dark">
+        <meta name="theme-color" content="#0b1a13">
         <link rel="canonical" href="{{ client.domain }}{{ page.url | replace('//', '/')}}">
         <meta name="generator" content="{{ eleventy.generator }}">
 
@@ -17,12 +17,12 @@
         <meta property="og:description" content="{{ description }}"/>
         <meta property="og:type" content="{{ ogType or 'website' }}"/>
         <meta property="og:url" content="{{ client.domain }}{{ page.url }}"/>
-        <meta property="og:image" content="{{ client.domain }}{{ image or '/assets/images/portfolio/logoSideLarge.png' }}"/>
-        <meta property="og:image:secure_url" content="{{ client.domain }}{{ image or '/assets/images/portfolio/logoSideLarge.png' }}"/>
+        <meta property="og:image" content="{{ client.domain }}{{ image or '/assets/images/portfolio/logoSidelarge.png' }}"/>
+        <meta property="og:image:secure_url" content="{{ client.domain }}{{ image or '/assets/images/portfolio/logoSidelarge.png' }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="{{ title }}"/>
         <meta name="twitter:description" content="{{ description }}"/>
-        <meta name="twitter:image" content="{{ client.domain }}{{ image or '/assets/images/portfolio/logoSideLarge.png' }}"/>
+        <meta name="twitter:image" content="{{ client.domain }}{{ image or '/assets/images/portfolio/logoSidelarge.png' }}"/>
 
         <!--Favicons-->
         <!-- https://realfavicongenerator.net/ -->
@@ -34,10 +34,13 @@
         <link rel="manifest" href="/assets/favicons/site.webmanifest"/>
 
         <!-- Preloads -->
-        <link rel="preload" as="image" href="/assets/images/portfolio/logoSide2.svg">
+        <!-- Fonts actually used above the fold. The 900 weight loads on demand (not preloaded). -->
         <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
         <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
-        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-900.woff2" crossorigin>
+
+        <!-- Per-page LCP image preload. Each page template that renders a hero image
+             should fill this block so the fetch starts during head parse. -->
+        {% block preload %}{% endblock %}
 
         <!-- Sitewide Stylesheets and Scripts -->
         <link rel="stylesheet" href="/assets/css/root.css">

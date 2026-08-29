@@ -1,5 +1,5 @@
 ---
-title: Google Business Profile Tips (For Contractors Who Want the Phone to Ring)
+title: Google Business Profile Tips for Contractors
 url: seo/google-business-profile-tips-contractors
 description: Google Business Profile tips built for contractors. Learn what
   actually drives local rankings in 2026, from category selection to reviews to
@@ -11,6 +11,13 @@ tags:
   - sitemap
 image: /assets/images/blog/pexels-caio-67112.jpg
 imageAlt: laptop-with-google-open
+relatedPosts:
+  - text: "How to get more calls from Google without ads"
+    href: "/blog/seo-get-more-calls-from-google/"
+  - text: "Google Map Pack rankings: what actually moves you into the top 3"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Talk to us about local SEO"
+    href: "/contact/"
 ---
 If you run a contracting business in North Carolina, your Google Business Profile is doing more heavy lifting than your website most days. It's the first thing a homeowner sees when they search "roofer near me" or "HVAC repair Concord NC." It shows up before your site loads, before they read a single review on your homepage, before they even know your company name. For a lot of contractors, the GBP listing is the actual first impression.
 

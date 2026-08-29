@@ -1,5 +1,5 @@
 ---
-title: "Raleigh Web Design & Local SEO for Small Businesses | Triangle Web Design"
+title: "Triangle Web Design — Raleigh Web Design & Local SEO for Small Businesses"
 description: "Hand-coded websites and local SEO for small businesses in Raleigh, NC. $0 upfront, $150/mo. We help Raleigh businesses get found on Google and win more customers."
 image: "/assets/images/triangleLogoExtraPadding.png"
 permalink: "/"
@@ -7,6 +7,21 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
 ---
 
 {% extends "layouts/base.html" %}
+
+{% block preload %}
+    <!-- LCP hero image: start the fetch during head parse instead of waiting for the
+         preload scanner to reach the <picture> below. Mirrors the hero's source sets.
+         NOTE: skyline-1024.webp is still ~99 KB — see NEEDS-YOUR-INPUT.md about
+         re-exporting the skyline set from the master source at q75 + adding AVIF. -->
+    <link
+        rel="preload"
+        as="image"
+        fetchpriority="high"
+        href="/assets/images/portfolio/skyline-1300.webp"
+        imagesrcset="/assets/images/portfolio/skyline-640.webp 640w, /assets/images/portfolio/skyline-1024.webp 1024w, /assets/images/portfolio/skyline-1300.webp 1300w, /assets/images/portfolio/skyline-2000.webp 2000w"
+        imagesizes="(max-width: 600px) 100vw, 1300px"
+    >
+{% endblock %}
 
 {% block head %}
     <!-- Critical styles are loaded first -->
@@ -62,7 +77,10 @@ tags: "sitemap" # content/content.json will make sure that all pages in content/
                 <p class="cs-text">
                     Lightning-fast, hand-coded websites built to help Raleigh small businesses get more customers. Managed for just $150/month. No slow templates. No upfront cost.
                 </p>
-                <a href="tel:+19195616223" class="cs-button-solid">Call Us at (919) 561-6223</a>
+                <div class="cs-button-group">
+                    <a href="/contact/" class="cs-button-solid">Get a Free Website Audit</a>
+                    <a href="tel:+19195616223" class="cs-button-transparent">Call (919) 561-6223</a>
+                </div>
             </div>
         </div>
 

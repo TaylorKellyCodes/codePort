@@ -1,15 +1,22 @@
 ---
-title: Why You're Not Showing in the Map Pack (Even Though Everything Looks Right)
+title: Why You're Not Showing in the Google Map Pack
 url: /blog/seo-not-showing-in-google-map-pack/
 description: Google Business Profile looks solid but you're still invisible in
   the Map Pack? Here are the real, fixable reasons in 2026, from duplicate
   listings to proximity filtering to profile probation.
-author: Taylor
+author: Taylor Kelly
 date: 2026-06-15T09:45:00.000-04:00
 tags:
   - post
 image: /assets/images/blog/pexels-ai25studioai-5794250.jpg
 imageAlt: google-maps-on-cell-phone-on-motorcycle
+relatedPosts:
+  - text: "Google Map Pack rankings: what actually moves you into the top 3"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Local citations & NAP consistency: a build guide"
+    href: "/blog/seo-local-citations-nap-consistency/"
+  - text: "Talk to us about local SEO"
+    href: "/contact/"
 ---
 You filled out the profile. You've got a decent handful of reviews. Your category looks right. And you're still nowhere in the Map Pack when you search your own business from your own kitchen table.
 That's a different problem than "how do I rank better." Ranking better assumes you're actually in the running and just need to climb a few spots. A lot of local businesses aren't even in the running, and they don't know it, because nothing about their profile looks broken. It just isn't showing up.

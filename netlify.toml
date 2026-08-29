@@ -18,11 +18,23 @@ package = "netlify-plugin-cache"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    # Report-Only first: watch the browser console for violations for ~2 weeks,
+    # then promote to Content-Security-Policy (remove "-Report-Only").
+    # img-src covers the CodeStitch DigitalOcean Spaces icon CDN (see NEEDS-YOUR-INPUT.md
+    # about self-hosting those SVGs, which would let img-src drop to 'self' data:).
+    Content-Security-Policy-Report-Only = "default-src 'self'; img-src 'self' data: https://csimg.nyc3.cdn.digitaloceanspaces.com https://csimg.nyc3.digitaloceanspaces.com; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
 
 [[headers]]
   for = "/admin/*"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
+
+# Slug shortened (was a ~200-char keyword-stuffed sentence). SEO audit 2026-08.
+[[redirects]]
+  from = "/blog/your-google-business-profile-isnt-the-only-thing-google-checks-before-ranking-you-in-the-local-3-pack-heres-how-site-speed-mobile-design-and-schema-markup-on-your-website-shape-local-trust-in-2026/"
+  to = "/blog/website-signals-local-3-pack-trust-score/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/cary-crawlspace-sweating/"

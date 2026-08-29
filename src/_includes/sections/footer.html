@@ -10,10 +10,10 @@
                 <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/portfolio/Logo1.svg" alt="logo" width="240" height="32">
             </a>
             <p class="cs-text">
-                Hand-coded websites for Raleigh small businesses who want more calls and better leads. Local SEO, lightning speed, and ongoing updates, all managed for you from Raleigh to Durham and Chapel Hill.
+                Hand-coded websites for small businesses who want more calls and better leads. Local SEO, lightning speed, and ongoing updates, all managed for you across Raleigh, Durham, Chapel Hill, and Cary.
             </p>
             <div class="cs-social">
-                <a class="cs-social-link" aria-label="visit google profile" href="{{ client.address.mapLink }}" target="_blank" rel="noopener">
+                <a class="cs-social-link" aria-label="Read and leave reviews on our Google Business Profile" href="{{ client.socials.google }}" target="_blank" rel="noopener">
                     <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/google.svg" alt="google" width="11" height="11">
                 </a>
                 <a class="cs-social-link" aria-label="visit facebook profile" href="{{ client.socials.facebook }}" target="_blank" rel="noopener">
@@ -75,6 +75,9 @@
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="/service-areas/chapel-hill/">Chapel Hill</a>
             </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="/service-areas/cary/">Cary</a>
+            </li>
         </ul>
         <!-- Contact Info -->
         <ul class="cs-contact">
@@ -97,5 +100,10 @@
                 <a class="cs-contact-link" href="mailto:{{ client.email }}">{{ client.email }}</a>
             </li>
         </ul>
+    </div>
+    <div class="cs-bottom">
+        <span>© {% year %} Triangle Web Design</span>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
     </div>
 </footer>

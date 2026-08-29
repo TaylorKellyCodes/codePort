@@ -9,15 +9,44 @@
       "url": "{{ client.domain }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png"
+        "url": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
+        "width": 1200,
+        "height": 627
       },
       "telephone": "{{ client.phoneForTel }}",
-      "email": "{{ client.email }}"
-      {% if client.socials %},
-      "sameAs": [{%- for platform, url in client.socials -%}
-        {% if not loop.first %},{% endif %}"{{ url }}"
-      {%- endfor -%}]
-      {% endif %}
+      "email": "{{ client.email }}",
+      "founder": {"@id": "{{ client.domain }}/#person"},
+      "foundingLocation": {"@type": "Place", "name": "Raleigh, NC"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ client.address.lineOne }}",
+        "addressLocality": "{{ client.address.city }}",
+        "addressRegion": "{{ client.address.state }}",
+        "postalCode": "{{ client.address.zip }}",
+        "addressCountry": "{{ client.address.country }}"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "{{ client.phoneForTel }}",
+        "email": "{{ client.email }}",
+        "areaServed": "US-NC",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://www.facebook.com/TriangleWebDesignRaleigh/",
+        "https://share.google/tzpRW8fE9C0wvoCJM",
+        "https://www.linkedin.com/in/taylor-kelly-codes/",
+        "https://www.linkedin.com/company/triangle-web-design-raleigh/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ client.domain }}/#person",
+      "name": "Taylor Kelly",
+      "url": "{{ client.domain }}/about/",
+      "jobTitle": "Founder & Web Developer",
+      "worksFor": {"@id": "{{ client.domain }}/#organization"}
     },
     {
       "@type": "ProfessionalService",

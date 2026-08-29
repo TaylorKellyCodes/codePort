@@ -6,8 +6,8 @@
             "@type": "WebPage",
             "@id": "{{ client.domain }}{{ page.url }}"
         },
-        {% if title %}"headline": "{{ title | replace('"', '\\"') }}",{% endif %}
-        {% if description %}"description": "{{ description | replace('"', '\\"') }}",{% endif %}
+        {% if title %}"headline": "{{ title | replace('"', '\\"') | safe }}",{% endif %}
+        {% if description %}"description": "{{ description | replace('"', '\\"') | safe }}",{% endif %}
         {% if image %}
             "image": {
                 "@type": "ImageObject",
@@ -34,8 +34,8 @@
                 "logo": {
                     "@type": "ImageObject",
                     "url": "{{ client.domain }}/assets/images/portfolio/logoSidelarge.png",
-                    "width": 210,
-                    "height": 28
+                    "width": 1200,
+                    "height": 627
                 }
             }
         {% endif %}
