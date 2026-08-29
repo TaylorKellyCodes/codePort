@@ -1,4 +1,12 @@
 .vscode
 .cache
 node_modules
-public.DS_Store
+public/
+.DS_Store
+
+# One-off SEO/SXO audit reports generated in the repo root
+*-AUDIT-*.md
+*-ANALYSIS.md
+*-ANALYSIS-*.md
+MASTER-AUDIT*.md
+localhost-*-audit/
