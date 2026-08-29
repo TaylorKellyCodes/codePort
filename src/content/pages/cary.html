@@ -10,6 +10,13 @@ ctaLocation: "in Cary"
 {% block head %}
     {# TODO(seo): this page reuses durham.css. Add a cary.less/cary.css if the layout diverges. #}
     <link rel="stylesheet" href="/assets/css/durham.css">
+    <style>
+        /* This page's Side-by-Side has no image collage yet, so keep the text
+           column centered and full-width instead of pinned to 47% on desktop. */
+        @media (min-width: 64rem) {
+            #sbs-2218 .cs-content { width: 100%; max-width: 46rem; margin: 0 auto; }
+        }
+    </style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
