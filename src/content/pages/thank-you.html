@@ -1,0 +1,84 @@
+---
+title: "Thank you, request received | Triangle Web Design"
+permalink: "/thank-you/"
+# Google Ads conversion landing page. Deliberately standalone:
+# - does NOT extend layouts/base.html (no header, no footer, no nav)
+# - noindex + excluded from sitemap/collections (tags overridden to [])
+# - not linked from anywhere on the site
+layout: null
+tags: []
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0b1a13">
+    <title>Thank you, request received | Triangle Web Design</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/thank-you.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NL5GM2V231"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NL5GM2V231');
+
+      // ── Google Ads conversion ──────────────────────────────────────────────
+      // This page IS the conversion. Uncomment and fill in the real IDs from
+      // Google Ads → Goals → Conversions → (your "Lead submitted" action).
+      // gtag('event', 'conversion', {
+      //   'send_to': 'AW-XXXXXXXXXX/xxxxxxxxxxxxxxxxxxx'
+      // });
+      // ──────────────────────────────────────────────────────────────────────
+    </script>
+</head>
+<body>
+    <main class="ty">
+        <div class="ty-inner">
+
+            <p class="ty-check" aria-hidden="true">✓</p>
+
+            <h1 class="ty-title">You're all set. Your request is in.</h1>
+
+            <p class="ty-lead">
+                Taylor Kelly will personally review your info and get back to you
+                within one business day.
+            </p>
+
+            <ul class="ty-notes">
+                <li>
+                    The call comes from
+                    <a href="tel:{{ client.phoneForTel }}">{{ client.phoneFormatted }}</a>.
+                    Add it to your contacts so it's not screened.
+                </li>
+                <li>
+                    Watch for an email from
+                    <a href="mailto:{{ client.email }}">{{ client.email }}</a>.
+                    Check your spam and promotions folders.
+                </li>
+            </ul>
+
+            <!-- The accelerator: skip the wait entirely and call now -->
+            <a class="ty-book" href="tel:{{ client.phoneForTel }}">
+                Rather not wait? Call us now at {{ client.phoneFormatted }}
+            </a>
+
+            <!-- Hold the sale: one trust stat, no images -->
+            <p class="ty-stat">30+ Triangle businesses online and ranking.</p>
+
+            <!-- One exit only -->
+            <a class="ty-exit" href="/reviews/">See more of our work &rarr;</a>
+
+        </div>
+    </main>
+</body>
+</html>

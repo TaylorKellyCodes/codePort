@@ -1,0 +1,369 @@
+---
+title: "Custom Websites for Triangle Small Businesses, $0 Down and $150/Month | Triangle Web Design"
+description: "Hand-coded websites for Raleigh, Durham, and Chapel Hill small businesses. Sub-second load times, mobile-first, built to convert. $0 down, $150 a month, live in about two weeks."
+permalink: "/web-design-offer/"
+ctaLocation: "in Raleigh, Durham, and Chapel Hill"
+# Google Ads landing page, nav-less shell. Built only from CodeStitch sections
+# already in this project (#hero-1619, #reviews-67, #sbs-2218, #steps-1675,
+# #faq-1263, #cta-51). Standalone on purpose: it does not extend base.html, so
+# there is no header menu. The single action is the /contact/ CTA. A minimal
+# footer carries the privacy policy link that Google Ads review expects.
+# noindex plus excluded from sitemap and collections so it stays separate from
+# the organic /web-design/ page.
+layout: null
+tags: []
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content="{{ description }}">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0b1a13">
+    <title>{{ title }}</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+
+    <!-- Above the fold assets -->
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
+    <link rel="preload" as="image" href="/assets/images/portfolio/skyline-dark.webp" fetchpriority="high">
+
+    <!-- root.css carries the shared CodeStitch component styles plus #cta-51. The
+         page file adds the section specific styles. -->
+    <link rel="stylesheet" href="/assets/css/root.css">
+    <link rel="stylesheet" href="/assets/css/web-design-offer.css">
+    <!-- nav.js also wires the FAQ accordion. The nav code no-ops with no header. -->
+    <script defer src="/assets/js/nav.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NL5GM2V231"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NL5GM2V231');
+
+      // Google Ads remarketing tag goes here if you run remarketing:
+      // gtag('config', 'AW-XXXXXXXXXX');
+      // Keep ONE primary conversion. It fires on /thank-you/ after the form
+      // submit (see the stub in thank-you.html), not on this page and not on
+      // button clicks. Import qualified-lead status back as an offline conversion.
+    </script>
+</head>
+<body class="dark-mode">
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    <!-- Minimal brand mark. Deliberately not a link, so it stays off the exit paths. -->
+    <div class="lp-brand">
+        <img src="/assets/images/portfolio/logoSide2.svg" alt="Triangle Web Design" width="210" height="29" decoding="async">
+    </div>
+
+    <main id="main">
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-1619">
+        <div class="cs-container">
+            <div class="cs-content">
+                <h1 class="cs-title">A Custom-Coded Website for Your Triangle Business, $0 Down</h1>
+                <p class="cs-text">
+                    Triangle Web Design builds fast, custom websites for small businesses in Raleigh, Durham, and Chapel Hill. Every site is written by hand, loads in under a second on a phone, and is built to turn clicks into calls. Start for $0 today, then $150 a month with hosting and unlimited edits included.
+                </p>
+                <div class="lp-cta-row">
+                    <a href="/contact/" class="cs-button-solid" data-contact-cta>Get My $150/mo Website</a>
+                    <a href="tel:{{ client.phoneForTel }}" class="lp-call-link">or call {{ client.phoneFormatted }}</a>
+                </div>
+            </div>
+        </div>
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-dark.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-dark.webp">
+            <img decoding="async" src="/assets/images/portfolio/skyline-dark.webp" alt="Raleigh Durham Chapel Hill skyline, Triangle Web Design" width="2250" height="1500" aria-hidden="true" fetchpriority="high">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Reviews                    -->
+    <!-- ============================================ -->
+
+    <section id="reviews-67">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Client Feedback</span>
+                <h2 class="cs-title">Rated 5.0 by Triangle Business Owners</h2>
+                <p class="cs-text">Six five-star reviews. 30+ Triangle businesses online and ranking, every site hand-coded by Taylor Kelly in Raleigh.</p>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-charles.webp" alt="" width="80" height="80">
+                    <p class="cs-item-text">
+                        Taylor did an amazing job creating our website and handling our SEO. He was professional, easy to work with, and really took the time to understand what we needed.
+                    </p>
+                    <div class="cs-info">
+                        <div class="cs-flex-group">
+                            <span class="cs-name">Charles O.</span>
+                            <span class="cs-desc">Business Owner</span>
+                        </div>
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/portfolio/mmcrawlLogo.webp" alt="" width="80" height="80">
+                    <p class="cs-item-text">
+                        Great guy you NEED in Raleigh! Great web designer and SEO specialist by far. Taylor holds a lot of knowledge and is an incredible resource for you and your business.
+                    </p>
+                    <div class="cs-info">
+                        <div class="cs-flex-group">
+                            <span class="cs-name">Miguel M.</span>
+                            <span class="cs-desc">Business Owner</span>
+                        </div>
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/reviews/review-logann.webp" alt="" width="80" height="80">
+                    <p class="cs-item-text">
+                        Taylor is extremely knowledgeable and patient. I am looking forward to our continued collaboration!
+                    </p>
+                    <div class="cs-info">
+                        <div class="cs-flex-group">
+                            <span class="cs-name">Logann P.</span>
+                            <span class="cs-desc">Business Owner</span>
+                        </div>
+                        <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="5 stars" width="96" height="16">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs-2218">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-640.webp" type="image/webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-1024.webp" type="image/webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/portfolio/skyline-1024.webp" alt="Raleigh NC skyline, home market for Triangle Web Design" width="297" height="366">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/portfolio/durham-coffee-shop-640.webp" type="image/webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/portfolio/durham-coffee-shop-1024.webp" type="image/webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/portfolio/durham-coffee-shop-1024.webp" alt="Triangle coffee shop representing the small businesses we build websites for" width="405" height="376">
+                </picture>
+                <picture class="cs-picture cs-picture3">
+                    <source media="(max-width: 600px)" srcset="/assets/images/portfolio/raleigh-skyline-400.webp" type="image/webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/portfolio/raleigh-skyline-640.webp" type="image/webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/portfolio/raleigh-skyline-640.webp" alt="Downtown Raleigh North Carolina" width="218" height="155">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">What You Get</span>
+                <h2 class="cs-title">Everything You Need to Get Found and Get Calls</h2>
+                <p class="cs-text">
+                    One flat monthly price for a custom site built by hand for your business, hosted, maintained, and updated for you.
+                </p>
+                <ul class="cs-list">
+                    <li class="cs-li">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Written by Hand for Your Pages</h3>
+                            <p class="cs-li-text">
+                                Every layout is coded by hand for your business. That keeps the site fast, light, and simple to maintain for years.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Built to Convert</h3>
+                            <p class="cs-li-text">
+                                Up to five pages with click-to-call, clear headlines, and one primary action on every view, so a visitor can reach you in a tap.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">$0 Down, Hosting and Unlimited Edits Included</h3>
+                            <p class="cs-li-text">
+                                $150 a month covers hosting and unlimited content edits. Text or email us your changes and we handle them, usually within 24 to 48 hours.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <a href="/contact/" class="cs-button-solid">Get My $150/mo Website</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Steps                      -->
+    <!-- ============================================ -->
+
+    <section id="steps-1675">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Process</span>
+                <h2 class="cs-title">From First Call to Live Site in Two to Four Weeks</h2>
+                <p class="cs-text">
+                    Four steps you can explain to a partner over lunch. You work directly with Taylor Kelly in Raleigh, the person writing your code.
+                </p>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <span class="cs-number">01</span>
+                    <h3 class="cs-h3">Free Strategy Call</h3>
+                    <p class="cs-item-text">
+                        We talk through your business, your customers, and what the top-ranking sites in your market do well, then map a layout and conversion plan.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">02</span>
+                    <h3 class="cs-h3">Pages, Copy, and Brand Direction</h3>
+                    <p class="cs-item-text">
+                        We set your core five pages, organize your services, and collect your branding. You approve the exact layout before development starts.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">03</span>
+                    <h3 class="cs-h3">Hand-Coded Build and Launch</h3>
+                    <p class="cs-item-text">
+                        Your site is built with HTML5, CSS3, and modern JavaScript, tested on real iOS and Android devices, and tuned for instant load times.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">04</span>
+                    <h3 class="cs-h3">Launch and Managed Care</h3>
+                    <p class="cs-item-text">
+                        We launch on lightweight infrastructure. Hosting, security monitoring, and content edits are handled for you on the monthly plan.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                     FAQ                      -->
+    <!-- ============================================ -->
+
+    <section id="faq-1263">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Asked Questions</span>
+                <h2 class="cs-title">Questions Triangle Owners Ask Before Starting</h2>
+            </div>
+            <ul class="cs-faq-group">
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What is included for $150 a month?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        A custom hand-coded site of up to five pages, hosting, a mobile-first layout, a green page-speed guarantee, and unlimited content edits. Extra pages are $100 each after five. A blog can be added for $250.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you build WordPress, Wix, or Squarespace sites?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We specialize in hand-coded HTML and CSS sites. Hand-coding keeps your site fast, stable, and hands-off for you, with nothing to update every week.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Is there really no upfront cost?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Correct. The monthly plan is $0 down and $150 per month, with hosting and unlimited edits included. If you would rather pay once and own the files, the lump-sum option is $3,600 plus $25 per month hosting.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How long does a new website take to launch?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Two to four weeks for a standard five-page site, once we have your logo, photos, and copy. The pace is set by how quickly you review drafts.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can I update the site myself?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Text or email us your text, image, or photo updates and we handle them for you, usually within 24 to 48 hours.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <picture class="cs-background">
+            <!-- Self-hosted so the landing page makes no third-party request. -->
+            <source media="(max-width: 600px)" srcset="/assets/images/white-waves-m.svg">
+            <source media="(min-width: 601px)" srcset="/assets/images/white-waves.svg">
+            <img aria-hidden="true" src="/assets/images/white-waves.svg" loading="lazy" decoding="async" alt="decorative waves" width="1920" height="647">
+        </picture>
+    </section>
+
+    {% include 'sections/cta-lp.html' %}
+
+    </main>
+
+    <!-- Sticky call bar, mobile only. Always-visible second path for buyers who
+         would rather call than fill in the form. -->
+    <a class="lp-sticky-call" href="tel:{{ client.phoneForTel }}">
+        Call {{ client.phoneFormatted }}
+    </a>
+
+    <!-- Minimal footer. Privacy policy link is what Google Ads review expects on a
+         page that leads to a form. One link only, no menu. -->
+    <footer class="lp-footer">
+        <p>
+            &copy; {% year %} Triangle Web Design &middot; Raleigh, NC
+            &middot; <a href="/privacy/">Privacy Policy</a>
+        </p>
+    </footer>
+
+    <!-- Carry ad attribution into the lead. Stashes gclid / wbraid / gbraid and
+         any utm_* from the query string, then appends them to every /contact/
+         link so the values reach the Netlify form's hidden fields. -->
+    <script>
+      (function () {
+        var KEYS = ['gclid', 'wbraid', 'gbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+        var qs = new URLSearchParams(location.search);
+        var store = {};
+        try { store = JSON.parse(sessionStorage.getItem('twd_attr') || '{}'); } catch (e) {}
+        KEYS.forEach(function (k) { if (qs.get(k)) store[k] = qs.get(k); });
+        try {
+          sessionStorage.setItem('twd_attr', JSON.stringify(store));
+          if (!sessionStorage.getItem('twd_landing')) sessionStorage.setItem('twd_landing', location.pathname + location.search);
+        } catch (e) {}
+
+        var extra = Object.keys(store).filter(function (k) { return store[k]; });
+        if (!extra.length) return;
+        var suffix = extra.map(function (k) { return encodeURIComponent(k) + '=' + encodeURIComponent(store[k]); }).join('&');
+
+        document.querySelectorAll('a[href^="/contact/"], a[href*="://"][href*="/contact/"]').forEach(function (a) {
+          a.href += (a.href.indexOf('?') === -1 ? '?' : '&') + suffix;
+        });
+      })();
+    </script>
+</body>
+</html>

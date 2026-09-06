@@ -29,6 +29,20 @@ package = "netlify-plugin-cache"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
+# Google Ads conversion landing page — must never be indexed or it inflates
+# conversions and pollutes ad data. Header backs up the on-page meta noindex.
+[[headers]]
+  for = "/thank-you/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Google Ads landing page — noindex so it doesn't compete with /web-design/
+# organically or split conversion data. Backs up the on-page meta noindex.
+[[headers]]
+  for = "/web-design-offer/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, follow"
+
 # Slug shortened (was a ~200-char keyword-stuffed sentence). SEO audit 2026-08.
 [[redirects]]
   from = "/blog/your-google-business-profile-isnt-the-only-thing-google-checks-before-ranking-you-in-the-local-3-pack-heres-how-site-speed-mobile-design-and-schema-markup-on-your-website-shape-local-trust-in-2026/"

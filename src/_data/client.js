@@ -3,7 +3,7 @@ module.exports = {
     email: "taylor@trianglewebdesign.com",
     phoneForTel: "+19195616223",
     phoneFormatted: "(919) 561-6223",
-    // Service-area business — no public street address. Templates render city/region
+    // Service-area business, no public street address. Templates render city/region
     // only; the GBP link (socials.google) is the canonical "find us" reference.
     address: {
         city: "Raleigh",

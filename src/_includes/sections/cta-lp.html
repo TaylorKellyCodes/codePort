@@ -1,0 +1,34 @@
+<!-- ============================================ -->
+<!--            CTA (landing page)                -->
+<!-- Page-specific CTA for the Google Ads landing page. Reuses the #cta-51    -->
+<!-- styles from root.less, so edits here stay off every other page.          -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Ready When You Are</span>
+            <h2 class="cs-title">Launch Your New Website in as Little as 2 Weeks</h2>
+            <p class="cs-text">
+                Start with a free call {{ ctaLocation or "in the Triangle" }}. You get a clear layout and conversion plan, a fixed timeline, and $0 due today. After launch it is $150 a month with hosting and unlimited edits included.
+            </p>
+            <a href="/contact/" class="cs-button-solid">Get My $150/mo Website</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    <picture class="cs-picture">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 640, height: 812 }) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 640, height: 812 }) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 640, height: 812 }) | jpeg %}" type="image/jpeg">
+        <!--Tablet Image-->
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2048, height: 750 }) | avif %}" type="image/avif">
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2048, height: 750 }) | webp %}" type="image/webp">
+        <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2048, height: 750 }) | jpeg %}" type="image/jpeg">
+        <!--Desktop Image-->
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2500, height: 555 }) | avif %}" type="image/avif">
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2500, height: 555 }) | webp %}" type="image/webp">
+        <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2500, height: 555 }) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl "/assets/images/portfolio/skyline-light.webp" | resize({ width: 2500, height: 555 }) | jpeg %}" alt="Raleigh Durham Chapel Hill skyline, Triangle Web Design" width="1920" height="426" loading="lazy" decoding="async">
+    </picture>
+</section>

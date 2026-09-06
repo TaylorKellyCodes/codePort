@@ -20,7 +20,7 @@ Most Raleigh web design agencies want to trap you in a $5,000 contract before th
 We do things differently. At Triangle Web Design, we build high-performance, hand-coded websites for **$0 down and $150 a month**. No hidden fees. No tech-speak. Just a fast site that gets you found in the Triangle.
 
 ## Why Hand-Coded Beats "DIY" Every Time
-Most agencies use Wix or WordPress because it's easy for them, not because it’s good for you. Those platforms are packed with "bloat"—extra code that slows your site down. When your site is slow, Google hides you, and customers hang up.
+Most agencies use Wix or WordPress because it's easy for them, not because it’s good for you. Those platforms are packed with "bloat": extra code that slows your site down. When your site is slow, Google hides you, and customers hang up.
 
 Our sites are hand-coded from scratch. This means they load instantly, which Google loves. A faster site doesn't just look better; it ranks higher and converts more visitors into leads.
 

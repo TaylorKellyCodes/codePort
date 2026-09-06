@@ -1,0 +1,146 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// PAGE STYLES, /thank-you/
+// Google Ads conversion landing page. Self-contained on purpose: this page does
+// NOT load root.css, so every token and rule it needs lives here. Keep it tiny.
+// ─────────────────────────────────────────────────────────────────────────────
+
+:root {
+    --dark: #0b1a13;        /* page background, matches site dark theme */
+    --medium: #152b21;      /* card surface */
+    --accent: #209c5b;      /* brand green */
+    --cta-action: #b48900;  /* gold CTA, same as sitewide buttons */
+    --cta-dark: #8c6a00;
+    --textWhite: #ffffff;
+    --textMuted: #b9c6bf;
+    --border: #24402f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--dark);
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    color: var(--textWhite);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: var(--accent);
+}
+
+.ty {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(2rem, 8vw, 5rem) 1.25rem;
+}
+
+.ty-inner {
+    width: 100%;
+    max-width: (34rem);
+    text-align: center;
+}
+
+.ty-check {
+    width: (3rem);
+    height: (3rem);
+    margin: 0 auto (1.25rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: (1.5rem);
+    font-weight: 700;
+    color: var(--dark);
+    background-color: var(--accent);
+    border-radius: 50%;
+}
+
+.ty-title {
+    font-size: clamp(1.6rem, 5vw, 2.25rem);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: (0.9rem);
+}
+
+.ty-lead {
+    font-size: clamp(1rem, 2.6vw, 1.125rem);
+    color: var(--textMuted);
+    margin-bottom: (1.75rem);
+}
+
+.ty-notes {
+    list-style: none;
+    text-align: left;
+    background-color: var(--medium);
+    border: 1px solid var(--border);
+    border-radius: (0.75rem);
+    padding: (1.1rem) (1.25rem);
+    margin-bottom: (1.75rem);
+
+    li {
+        font-size: (0.95rem);
+        color: var(--textMuted);
+
+        & + li {
+            margin-top: (0.75rem);
+            padding-top: (0.75rem);
+            border-top: 1px solid var(--border);
+        }
+    }
+
+    a {
+        color: var(--textWhite);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        word-break: break-word;
+    }
+}
+
+// The accelerator, the one prominent action on the page
+.ty-book {
+    display: inline-block;
+    width: 100%;
+    padding: (0.9rem) (1.5rem);
+    font-size: (1rem);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--dark);
+    background-color: var(--cta-action);
+    border-radius: (0.5rem);
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: var(--cta-dark);
+    }
+}
+
+.ty-stat {
+    margin-top: (1.75rem);
+    font-size: (0.95rem);
+    font-weight: 700;
+    color: var(--textWhite);
+}
+
+// One exit only, deliberately low emphasis
+.ty-exit {
+    display: inline-block;
+    margin-top: (0.75rem);
+    font-size: (0.85rem);
+    color: var(--textMuted);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--accent);
+    }
+}

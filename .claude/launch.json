@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eleventy-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["cross-env", "ELEVENTY_ENV=DEV", "eleventy", "--serve"],
+      "port": 8080
+    }
+  ]
+}

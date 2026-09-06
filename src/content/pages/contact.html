@@ -1,6 +1,6 @@
 ---
 title: "Free Website & SEO Audit | Triangle Web Design"
-description: "Get a free website and SEO audit from Triangle Web Design. Serving small businesses in Raleigh, Durham, and Chapel Hill. No pressure — just a clear plan."
+description: "Get a free website and SEO audit from Triangle Web Design. Serving small businesses in Raleigh, Durham, and Chapel Hill. No pressure, just a clear plan."
 permalink: "/contact/"
 ---
 
@@ -74,8 +74,21 @@ permalink: "/contact/"
                         See how your business stacks up against local competitors in Raleigh, Durham, and Chapel Hill. We'll show you exactly where you're losing leads and how to fix it.
                     </p>
                 </div>
-                <form id="cs-form-265" name="Contact Form" method="post" data-netlify="true" netlify-honeypot="bot-field">
+                <form id="cs-form-265" name="Contact Form" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
                     <input type="hidden" name="form-name" value="Contact Form">
+
+                    <!-- Ad attribution. Populated from the query string or the
+                         value stashed by the landing page; passed through to the
+                         Netlify submission and notification email. -->
+                    <input type="hidden" name="gclid">
+                    <input type="hidden" name="wbraid">
+                    <input type="hidden" name="gbraid">
+                    <input type="hidden" name="utm_source">
+                    <input type="hidden" name="utm_medium">
+                    <input type="hidden" name="utm_campaign">
+                    <input type="hidden" name="utm_term">
+                    <input type="hidden" name="utm_content">
+                    <input type="hidden" name="landing_path">
 
                         <p class="hidden">
                             <label>
@@ -109,6 +122,23 @@ permalink: "/contact/"
                     </label>
                     <button class="cs-button-solid cs-submit" type="submit">Get My Free Audit Now</button>
                 </form>
+                <script>
+                  (function () {
+                    var form = document.getElementById('cs-form-265');
+                    if (!form) return;
+                    var KEYS = ['gclid', 'wbraid', 'gbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+                    var qs = new URLSearchParams(location.search);
+                    var store = {};
+                    try { store = JSON.parse(sessionStorage.getItem('twd_attr') || '{}'); } catch (e) {}
+                    KEYS.forEach(function (k) {
+                      var v = qs.get(k) || store[k] || '';
+                      var field = form.querySelector('input[name="' + k + '"]');
+                      if (field && v) field.value = v;
+                    });
+                    var lp = form.querySelector('input[name="landing_path"]');
+                    if (lp) { try { lp.value = sessionStorage.getItem('twd_landing') || document.referrer || ''; } catch (e) {} }
+                  })();
+                </script>
             </div>
             <div class="cs-right-section">
                 <!--Email-->
@@ -120,7 +150,7 @@ permalink: "/contact/"
                 <!--Service area-->
                 <span class="cs-header">Service Area</span>
                 <a class="cs-link" href="{{ client.socials.google }}" target="_blank" rel="noopener">
-                    Based in {{ client.address.city }}, {{ client.address.state }} &mdash; serving
+                    Based in {{ client.address.city }}, {{ client.address.state }}, serving
                     small businesses across the NC Triangle
                 </a>
             </div>
