@@ -1,13 +1,11 @@
 ---
-title: "Custom Websites for Triangle Small Businesses, $0 Down and $150/Month | Triangle Web Design"
-description: "Hand-coded websites for Raleigh, Durham, and Chapel Hill small businesses. Sub-second load times, mobile-first, built to convert. $0 down, $150 a month, live in about two weeks."
+title: "Websites for Triangle Home-Service Businesses, $150/mo | Triangle Web Design"
+description: "Hand-coded websites for pest control, lawn care, crawlspace, HVAC, and other home-service pros in Raleigh, Durham, and Chapel Hill. $150 to start, then $150 a month. Sub-second load, mobile-first, built to get the phone ringing."
 permalink: "/web-design-offer/"
 ctaLocation: "in Raleigh, Durham, and Chapel Hill"
-# Google Ads landing page, nav-less shell. Built only from CodeStitch sections
-# already in this project (#hero-1619, #reviews-67, #sbs-2218, #steps-1675,
-# #faq-1263, #cta-51). Standalone on purpose: it does not extend base.html, so
-# there is no header menu. The single action is the /contact/ CTA. A minimal
-# footer carries the privacy policy link that Google Ads review expects.
+# Google Ads landing page, nav-less shell. Standalone: does not extend base.html,
+# so there is no header menu. The single action is the on-page form (#contact-1184).
+# Positioning is home-service / trades because that is what the portfolio proves.
 # noindex plus excluded from sitemap and collections so it stays separate from
 # the organic /web-design/ page.
 layout: null
@@ -58,9 +56,11 @@ eleventyExcludeFromCollections: true
 <body class="dark-mode">
     <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
 
-    <!-- Minimal brand mark. Deliberately not a link, so it stays off the exit paths. -->
+    <!-- Brand mark (not a link) plus a desktop click-to-call. Mobile gets the
+         call through the sticky bar instead. -->
     <div class="lp-brand">
         <img src="/assets/images/portfolio/logoSide2.svg" alt="Triangle Web Design" width="210" height="29" decoding="async">
+        <a class="lp-brand-call" href="tel:{{ client.phoneForTel }}">Call {{ client.phoneFormatted }}</a>
     </div>
 
     <main id="main">
@@ -78,10 +78,11 @@ eleventyExcludeFromCollections: true
             </picture>
             <div class="cs-content">
                 <span class="cs-topper">Free Strategy Call</span>
-                <h2 class="cs-title">Get Your $150/mo Website</h2>
+                <h1 class="cs-title">Websites That Get Triangle Home-Service Businesses More Calls</h1>
                 <p class="cs-text">
-                    Tell us about your business. $0 down, $150 a month, and most sites go live in about two weeks.
+                    Hand-coded sites for pest control, lawn care, crawlspace, HVAC, and other home-service pros across Raleigh, Durham, and Chapel Hill. $150 to start, then $150/mo.
                 </p>
+                <p class="cs-proof">Rated 5.0 by Triangle owners. See the trade sites we built below.</p>
                 <form class="cs-form" id="cs-form-1184" name="Web Design Offer" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
                     <input type="hidden" name="form-name" value="Web Design Offer">
                     <p class="hidden">
@@ -110,10 +111,12 @@ eleventyExcludeFromCollections: true
                         <input class="cs-input" required type="tel" id="phone-1184" name="phone" placeholder="Phone">
                     </label>
                     <label class="cs-label">
-                        What kind of business is it, and what do you need the site to do?
-                        <textarea class="cs-input cs-textarea" required name="message" id="message-1184" placeholder="Example: I run a crawlspace company in Raleigh and need more inspection requests."></textarea>
+                        What do you need the site to do? <span class="cs-optional">(optional)</span>
+                        <textarea class="cs-input cs-textarea" name="message" id="message-1184" placeholder="Example: I run a crawlspace company in Raleigh and need more inspection requests."></textarea>
                     </label>
                     <button class="cs-button-solid cs-submit" type="submit">Get My Free Strategy Call</button>
+                    <p class="cs-finenote">$150 to start covers your questionnaire and project setup. Then $150 a month with hosting and unlimited edits, on a 12-month minimum and month to month after that. Green page-speed score guaranteed.</p>
+                    <p class="cs-finenote">I take a limited number of new builds each month.</p>
                 </form>
             </div>
             <picture class="cs-background">
@@ -173,6 +176,7 @@ eleventyExcludeFromCollections: true
                 </li>
             </ul>
             <p class="work-note">Every one of these is hand-coded, loads in under a second, and was built on the same $150 a month plan.</p>
+            <p class="work-note">Not a home-service business? We build for any Triangle company that runs on phone calls. <a href="#contact-1184">Start here.</a></p>
         </div>
     </section>
 
@@ -279,9 +283,9 @@ eleventyExcludeFromCollections: true
                     </li>
                     <li class="cs-li">
                         <div class="cs-flex">
-                            <h3 class="cs-h3">$0 Down, Hosting and Unlimited Edits Included</h3>
+                            <h3 class="cs-h3">$150 to Start, Then $150 a Month</h3>
                             <p class="cs-li-text">
-                                $150 a month covers hosting and unlimited content edits. Text or email us your changes and we handle them, usually within 24 to 48 hours.
+                                The $150 starting fee covers your questionnaire and setup. After that, $150 a month covers hosting and unlimited content edits, on a 12-month minimum. Text or email us your changes and we handle them, usually within 24 to 48 hours.
                             </p>
                         </div>
                     </li>
@@ -314,9 +318,9 @@ eleventyExcludeFromCollections: true
                 </li>
                 <li class="cs-item">
                     <span class="cs-number">02</span>
-                    <h3 class="cs-h3">Pages, Copy, and Brand Direction</h3>
+                    <h3 class="cs-h3">Questionnaire, Agreement, and Kickoff</h3>
                     <p class="cs-item-text">
-                        We set your core five pages, organize your services, and collect your branding. You approve the exact layout before development starts.
+                        You send back a short questionnaire, sign the agreement, and pay the $150 starting fee to reserve your spot. We set your five pages, organize your services, and collect your branding. You approve the layout before the build starts.
                     </p>
                 </li>
                 <li class="cs-item">
@@ -355,7 +359,7 @@ eleventyExcludeFromCollections: true
                         </span>
                     </button>
                     <p class="cs-item-p">
-                        A custom hand-coded site of up to five pages, hosting, a mobile-first layout, a green page-speed guarantee, and unlimited content edits. Extra pages are $100 each after five. A blog can be added for $250.
+                        A custom hand-coded site of up to five pages, hosting, a mobile-first layout, a green page-speed guarantee, and unlimited content edits, on a 12-month minimum and then month to month. Extra pages are $100 each after five. A blog can be added for $250.
                     </p>
                 </li>
                 <li class="cs-faq-item">
@@ -371,11 +375,11 @@ eleventyExcludeFromCollections: true
                 <li class="cs-faq-item">
                     <button class="cs-button">
                         <span class="cs-button-text">
-                            Is there really no upfront cost?
+                            How does billing work?
                         </span>
                     </button>
                     <p class="cs-item-p">
-                        Correct. The monthly plan is $0 down and $150 per month, with hosting and unlimited edits included. If you would rather pay once and own the files, the lump-sum option is $3,600 plus $25 per month hosting.
+                        There is a $150 starting fee that covers your questionnaire and project setup. After that it is $150 a month, which includes hosting and unlimited edits, on a 12-month minimum and then month to month. If you would rather pay once and own the files, the lump-sum option is $3,600 plus $25 a month hosting.
                     </p>
                 </li>
                 <li class="cs-faq-item">

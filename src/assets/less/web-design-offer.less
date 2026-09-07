@@ -848,19 +848,33 @@
 <---   Nav-less shell chrome     -->
 <--- -------------------------- -*/
 
-/* Small centered brand mark. It is not a link, so it stays off the exit paths.
-   The only action on the page is the /contact/ CTA. */
+/* Brand bar: centered logo on mobile, logo + click-to-call on desktop. */
 @media only screen and (min-width: 0rem) {
     .lp-brand {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: (16/16rem);
+        gap: (16/16rem);
+        padding: (16/16rem) clamp(1rem, 4vw, 2.5rem);
         background-color: var(--dark);
 
         img {
             width: auto;
             height: (28/16rem);
+        }
+    }
+
+    /* Mobile gets the call through the sticky bar; hide it here. */
+    .lp-brand-call {
+        display: none;
+        font-size: (15/16rem);
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        white-space: nowrap;
+
+        &:hover {
+            color: var(--primary);
         }
     }
 
@@ -921,6 +935,14 @@
     .lp-footer {
         padding-bottom: (24/16rem);
     }
+
+    .lp-brand {
+        justify-content: space-between;
+    }
+
+    .lp-brand-call {
+        display: inline-block;
+    }
 }
 
 /*-- -------------------------- -->
@@ -961,8 +983,17 @@
 
         .cs-text {
             color: rgba(255, 255, 255, 0.82);
-            margin: 0 0 (24/16rem) 0;
+            margin: 0 0 (12/16rem) 0;
             max-width: (44rem);
+        }
+
+        /* Above-the-fold proof line, right under the sub-headline. */
+        .cs-proof {
+            margin: 0 0 (24/16rem) 0;
+            font-size: (14/16rem);
+            font-weight: 700;
+            line-height: 1.5em;
+            color: var(--primaryLight, #a9d1bc);
         }
 
         .cs-form {
@@ -980,6 +1011,23 @@
 
         .cs-form .hidden {
             display: none;
+        }
+
+        .cs-optional {
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.55);
+        }
+
+        /* Fine print under the submit button: pricing terms + scarcity. */
+        .cs-finenote {
+            margin: (4/16rem) 0 0 0;
+            font-size: (12.5/16rem);
+            line-height: 1.5em;
+            color: rgba(255, 255, 255, 0.6);
+
+            & + .cs-finenote {
+                margin-top: (2/16rem);
+            }
         }
 
         .cs-label {
@@ -1212,6 +1260,22 @@
             font-size: (15/16rem);
             line-height: 1.6em;
             color: rgba(255, 255, 255, 0.78);
+
+            & + .work-note {
+                margin-top: (10/16rem);
+                font-size: (14/16rem);
+            }
+
+            a {
+                color: var(--accent);
+                font-weight: 700;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                    text-underline-offset: 2px;
+                }
+            }
         }
     }
 }
