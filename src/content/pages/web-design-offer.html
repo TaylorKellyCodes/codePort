@@ -31,7 +31,7 @@ eleventyExcludeFromCollections: true
     <!-- Above the fold assets -->
     <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
-    <link rel="preload" as="image" href="/assets/images/portfolio/skyline-dark.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/assets/images/work/mm-panel.webp" fetchpriority="high">
 
     <!-- root.css carries the shared CodeStitch component styles plus #cta-51. The
          page file adds the section specific styles. -->
@@ -67,6 +67,63 @@ eleventyExcludeFromCollections: true
     <main id="main">
 
     <!-- ============================================ -->
+    <!--                   Contact                    -->
+    <!--  On-page lead form, above the fold. Netlify-wired like /contact/,     -->
+    <!--  own form name so ad leads land in their own Netlify Forms bucket.    -->
+    <!-- ============================================ -->
+
+    <section id="contact-1184">
+        <div class="cs-container">
+            <picture class="cs-background">
+                <img loading="eager" fetchpriority="high" decoding="async" src="/assets/images/work/mm-panel.webp" alt="MM Crawlspace Renovations website, built by Triangle Web Design" width="760" height="930">
+            </picture>
+            <div class="cs-content">
+                <span class="cs-topper">Free Strategy Call</span>
+                <h2 class="cs-title">Get Your $150/mo Website</h2>
+                <p class="cs-text">
+                    Tell us about your business. $0 down, $150 a month, and most sites go live in about two weeks.
+                </p>
+                <form class="cs-form" id="cs-form-1184" name="Web Design Offer" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
+                    <input type="hidden" name="form-name" value="Web Design Offer">
+                    <p class="hidden">
+                        <label>Do not fill this out if you are human: <input name="bot-field"></label>
+                    </p>
+                    <!-- Ad attribution, filled by the script at the end of the page. -->
+                    <input type="hidden" name="gclid">
+                    <input type="hidden" name="wbraid">
+                    <input type="hidden" name="gbraid">
+                    <input type="hidden" name="utm_source">
+                    <input type="hidden" name="utm_medium">
+                    <input type="hidden" name="utm_campaign">
+                    <input type="hidden" name="utm_term">
+                    <input type="hidden" name="utm_content">
+                    <input type="hidden" name="landing_path">
+                    <label class="cs-label">
+                        Name
+                        <input class="cs-input" required type="text" id="name-1184" name="name" placeholder="Name">
+                    </label>
+                    <label class="cs-label cs-email">
+                        Email
+                        <input class="cs-input" required type="email" id="email-1184" name="email" placeholder="Email">
+                    </label>
+                    <label class="cs-label cs-phone">
+                        Phone
+                        <input class="cs-input" required type="tel" id="phone-1184" name="phone" placeholder="Phone">
+                    </label>
+                    <label class="cs-label">
+                        What kind of business is it, and what do you need the site to do?
+                        <textarea class="cs-input cs-textarea" required name="message" id="message-1184" placeholder="Example: I run a crawlspace company in Raleigh and need more inspection requests."></textarea>
+                    </label>
+                    <button class="cs-button-solid cs-submit" type="submit">Get My Free Strategy Call</button>
+                </form>
+            </div>
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="/assets/images/work/bugs-panel.webp" alt="The Bug Guys Pest Control website, built by Triangle Web Design" width="760" height="930">
+            </picture>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
     <!--                    Hero                      -->
     <!-- ============================================ -->
 
@@ -78,7 +135,7 @@ eleventyExcludeFromCollections: true
                     Triangle Web Design builds fast, custom websites for small businesses in Raleigh, Durham, and Chapel Hill. Every site is written by hand, loads in under a second on a phone, and is built to turn clicks into calls. Start for $0 today, then $150 a month with hosting and unlimited edits included.
                 </p>
                 <div class="lp-cta-row">
-                    <a href="/contact/" class="cs-button-solid" data-contact-cta>Get My $150/mo Website</a>
+                    <a href="#contact-1184" class="cs-button-solid">Get My $150/mo Website</a>
                     <a href="tel:{{ client.phoneForTel }}" class="lp-call-link">or call {{ client.phoneFormatted }}</a>
                 </div>
             </div>
@@ -86,8 +143,62 @@ eleventyExcludeFromCollections: true
         <picture class="cs-background">
             <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-dark.webp">
             <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-dark.webp">
-            <img decoding="async" src="/assets/images/portfolio/skyline-dark.webp" alt="Raleigh Durham Chapel Hill skyline, Triangle Web Design" width="2250" height="1500" aria-hidden="true" fetchpriority="high">
+            <img decoding="async" src="/assets/images/portfolio/skyline-dark.webp" alt="Raleigh Durham Chapel Hill skyline, Triangle Web Design" width="2250" height="1500" aria-hidden="true" loading="lazy">
         </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Our Work                    -->
+    <!--  Real client sites. Closes the portfolio gap in the LP audit.        -->
+    <!-- ============================================ -->
+
+    <section id="work-lp">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Work</span>
+                <h2 class="cs-title">Sites We Have Built for Triangle Trades</h2>
+            </div>
+            <ul class="work-grid">
+                <li class="work-card">
+                    <div class="work-frame">
+                        <span class="work-bar" aria-hidden="true"></span>
+                        <img src="/assets/images/work/mm-site.webp" width="1120" height="700" loading="lazy" decoding="async" alt="MM Crawlspace Renovations website home page">
+                    </div>
+                    <div class="work-meta">
+                        <h3 class="work-name">MM Crawlspace Renovations</h3>
+                        <p class="work-desc">Crawlspace encapsulation and mold remediation &middot; Raleigh, Cary, Apex &amp; Durham</p>
+                        <!-- RESULTS LINE: ask Miguel "what changed after the new site went live?" and paste one line here, e.g.
+                        <p class="work-result">"We get 3 to 4 crawlspace inspection requests a week from the site now." Miguel M.</p> -->
+                        <a class="work-link" href="https://mmcrawlspacerenovations.com" target="_blank" rel="noopener">Visit the site &rarr;</a>
+                    </div>
+                </li>
+                <li class="work-card">
+                    <div class="work-frame">
+                        <span class="work-bar" aria-hidden="true"></span>
+                        <img src="/assets/images/work/bugs-site.webp" width="1120" height="700" loading="lazy" decoding="async" alt="The Bug Guys Pest Control website home page">
+                    </div>
+                    <div class="work-meta">
+                        <h3 class="work-name">The Bug Guys Pest Control</h3>
+                        <p class="work-desc">Residential and commercial pest control &middot; Sanford, NC</p>
+                        <!-- RESULTS LINE: ask the owner "what changed after the new site went live?" -->
+                        <a class="work-link" href="https://wekillthebugs.net" target="_blank" rel="noopener">Visit the site &rarr;</a>
+                    </div>
+                </li>
+                <li class="work-card">
+                    <div class="work-frame">
+                        <span class="work-bar" aria-hidden="true"></span>
+                        <img src="/assets/images/work/yard-site.webp" width="1120" height="538" loading="lazy" decoding="async" alt="The Yard Guys lawn care website">
+                    </div>
+                    <div class="work-meta">
+                        <h3 class="work-name">The Yard Guys Lawn Care</h3>
+                        <p class="work-desc">Family-owned landscaping and lawn care &middot; Sanford, NC</p>
+                        <!-- RESULTS LINE: ask Brandon "what changed after the new site went live?" -->
+                        <a class="work-link" href="https://theyardguysnc.com" target="_blank" rel="noopener">Visit the site &rarr;</a>
+                    </div>
+                </li>
+            </ul>
+            <p class="work-note">Every one of these is hand-coded, loads in under a second, and was built on the same $150 a month plan.</p>
+        </div>
     </section>
 
     <!-- ============================================ -->
@@ -200,7 +311,7 @@ eleventyExcludeFromCollections: true
                         </div>
                     </li>
                 </ul>
-                <a href="/contact/" class="cs-button-solid">Get My $150/mo Website</a>
+                <a href="#contact-1184" class="cs-button-solid">Get My $150/mo Website</a>
             </div>
         </div>
     </section>
@@ -341,9 +452,9 @@ eleventyExcludeFromCollections: true
         </p>
     </footer>
 
-    <!-- Carry ad attribution into the lead. Stashes gclid / wbraid / gbraid and
-         any utm_* from the query string, then appends them to every /contact/
-         link so the values reach the Netlify form's hidden fields. -->
+    <!-- Carry ad attribution into the lead: read gclid / wbraid / gbraid and any
+         utm_* from the query string, keep them for the session, and drop them
+         into the on-page form's hidden fields so Netlify records them. -->
     <script>
       (function () {
         var KEYS = ['gclid', 'wbraid', 'gbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
@@ -356,13 +467,14 @@ eleventyExcludeFromCollections: true
           if (!sessionStorage.getItem('twd_landing')) sessionStorage.setItem('twd_landing', location.pathname + location.search);
         } catch (e) {}
 
-        var extra = Object.keys(store).filter(function (k) { return store[k]; });
-        if (!extra.length) return;
-        var suffix = extra.map(function (k) { return encodeURIComponent(k) + '=' + encodeURIComponent(store[k]); }).join('&');
-
-        document.querySelectorAll('a[href^="/contact/"], a[href*="://"][href*="/contact/"]').forEach(function (a) {
-          a.href += (a.href.indexOf('?') === -1 ? '?' : '&') + suffix;
+        var form = document.getElementById('cs-form-1184');
+        if (!form) return;
+        KEYS.forEach(function (k) {
+          var field = form.querySelector('input[name="' + k + '"]');
+          if (field && store[k]) field.value = store[k];
         });
+        var lp = form.querySelector('input[name="landing_path"]');
+        if (lp) { try { lp.value = sessionStorage.getItem('twd_landing') || document.referrer || ''; } catch (e) {} }
       })();
     </script>
 </body>

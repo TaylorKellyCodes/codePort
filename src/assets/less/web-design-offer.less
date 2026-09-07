@@ -1399,3 +1399,322 @@
         padding-bottom: (24/16rem);
     }
 }
+
+/*-- -------------------------- -->
+<---     Contact (top form)      -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #contact-1184 {
+        padding: var(--sectionPadding);
+        background-color: var(--dark);
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            max-width: (584/16rem);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-direction: column;
+            gap: clamp(1.5rem, 5vw, 3rem);
+        }
+
+        .cs-content {
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-title {
+            color: #fff;
+            margin: 0 0 (12/16rem) 0;
+        }
+
+        .cs-text {
+            color: rgba(255, 255, 255, 0.82);
+            margin: 0 0 (24/16rem) 0;
+            max-width: (44rem);
+        }
+
+        .cs-form {
+            width: 100%;
+            padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.25rem, 3vw, 2rem);
+            box-sizing: border-box;
+            background-color: var(--medium);
+            border-radius: (8/16rem);
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: (12/16rem);
+            text-align: left;
+        }
+
+        .cs-form .hidden {
+            display: none;
+        }
+
+        .cs-label {
+            font-size: clamp(0.875rem, 1.5vw, 1rem);
+            width: 100%;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: (4/16rem);
+        }
+
+        .cs-input {
+            font-size: (16/16rem);
+            width: 100%;
+            height: (56/16rem);
+            padding: 0 (16/16rem);
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.08);
+            border: (1/16rem) solid rgba(255, 255, 255, 0.14);
+            border-radius: (4/16rem);
+            box-sizing: border-box;
+
+            &::placeholder {
+                color: #fff;
+                opacity: 0.5;
+            }
+
+            &:focus {
+                outline: (2/16rem) solid var(--primary);
+                outline-offset: (1/16rem);
+            }
+        }
+
+        .cs-textarea {
+            height: auto;
+            min-height: (120/16rem);
+            padding-top: (16/16rem);
+            font-family: inherit;
+        }
+
+        .cs-submit {
+            font-size: (16/16rem);
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            font-weight: 700;
+            text-align: center;
+            margin: (4/16rem) 0 0 0;
+            color: #fff;
+            border: none;
+            width: 100%;
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        /* Screenshot panels flanking the form. On mobile just one slim band on
+           top so the form stays near the fold. */
+        .cs-background {
+            display: block;
+            width: 100%;
+            height: 34vw;
+            max-height: (180/16rem);
+            border-radius: (8/16rem);
+            overflow: hidden;
+            order: -1;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top left;
+            }
+
+            &:last-child {
+                display: none;
+            }
+        }
+    }
+}
+
+/* Tablet / desktop - 768px */
+@media only screen and (min-width: 48rem) {
+    #contact-1184 {
+        .cs-container {
+            max-width: (1180/16rem);
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: center;
+            gap: clamp(1rem, 2vw, 2.5rem);
+        }
+
+        .cs-content {
+            flex: 1 1 auto;
+            max-width: (540/16rem);
+            justify-content: center;
+        }
+
+        /* Slim recognizable strips of real client sites, not the star of the
+           section: the form is. */
+        .cs-background {
+            order: 0;
+            flex: 0 0 clamp(9.375rem, 18vw, 15rem);
+            height: auto;
+            max-height: none;
+
+            &:last-child {
+                display: block;
+            }
+        }
+    }
+}
+
+/*-- -------------------------- -->
+<---          Our Work           -->
+<--- -------------------------- -*/
+
+@media only screen and (min-width: 0rem) {
+    #work-lp {
+        padding: var(--sectionPadding);
+        background-color: var(--dark);
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+        }
+
+        .cs-content {
+            text-align: center;
+            max-width: (46rem);
+            margin: 0 auto clamp(2rem, 5vw, 3rem);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-title {
+            color: #fff;
+        }
+
+        .work-grid {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: clamp(1.25rem, 3vw, 2rem);
+        }
+
+        .work-card {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--medium);
+            border: (1/16rem) solid rgba(255, 255, 255, 0.08);
+            border-radius: (12/16rem);
+            overflow: hidden;
+        }
+
+        .work-frame {
+            position: relative;
+            background-color: #1b1b1b;
+        }
+
+        .work-bar {
+            display: block;
+            height: (30/16rem);
+            background: linear-gradient(#3a3a3a, #2c2c2c);
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: (14/16rem);
+                top: (15/16rem);
+                width: (8/16rem);
+                height: (8/16rem);
+                border-radius: 50%;
+                background: #ff5f57;
+                box-shadow: (14/16rem) 0 0 #febc2e, (28/16rem) 0 0 #28c840;
+            }
+        }
+
+        .work-frame img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .work-meta {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: (6/16rem);
+            padding: clamp(1rem, 2.5vw, 1.5rem);
+        }
+
+        .work-name {
+            margin: 0;
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .work-desc {
+            margin: 0;
+            font-size: (14/16rem);
+            line-height: 1.5em;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .work-result {
+            margin: (4/16rem) 0 0 0;
+            font-size: (14/16rem);
+            line-height: 1.5em;
+            color: #fff;
+            font-style: italic;
+        }
+
+        .work-link {
+            margin-top: auto;
+            padding-top: (10/16rem);
+            font-size: (15/16rem);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: 2px;
+            }
+        }
+
+        .work-note {
+            margin: clamp(1.5rem, 4vw, 2.5rem) auto 0;
+            max-width: (46rem);
+            text-align: center;
+            font-size: (15/16rem);
+            line-height: 1.6em;
+            color: rgba(255, 255, 255, 0.78);
+        }
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    #work-lp .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    #work-lp .work-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
