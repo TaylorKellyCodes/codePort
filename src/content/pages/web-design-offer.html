@@ -31,7 +31,6 @@ eleventyExcludeFromCollections: true
     <!-- Above the fold assets -->
     <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
-    <link rel="preload" as="image" href="/assets/images/work/mm-panel.webp" fetchpriority="high">
 
     <!-- root.css carries the shared CodeStitch component styles plus #cta-51. The
          page file adds the section specific styles. -->
@@ -75,7 +74,7 @@ eleventyExcludeFromCollections: true
     <section id="contact-1184">
         <div class="cs-container">
             <picture class="cs-background">
-                <img loading="eager" fetchpriority="high" decoding="async" src="/assets/images/work/mm-panel.webp" alt="MM Crawlspace Renovations website, built by Triangle Web Design" width="760" height="930">
+                <img loading="lazy" decoding="async" src="/assets/images/work/mm-site.webp" alt="MM Crawlspace Renovations website, built by Triangle Web Design" width="1120" height="700">
             </picture>
             <div class="cs-content">
                 <span class="cs-topper">Free Strategy Call</span>
@@ -118,33 +117,9 @@ eleventyExcludeFromCollections: true
                 </form>
             </div>
             <picture class="cs-background">
-                <img loading="lazy" decoding="async" src="/assets/images/work/bugs-panel.webp" alt="The Bug Guys Pest Control website, built by Triangle Web Design" width="760" height="930">
+                <img loading="lazy" decoding="async" src="/assets/images/work/bugs-site.webp" alt="The Bug Guys Pest Control website, built by Triangle Web Design" width="1120" height="700">
             </picture>
         </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
-
-    <section id="hero-1619">
-        <div class="cs-container">
-            <div class="cs-content">
-                <h1 class="cs-title">A Custom-Coded Website for Your Triangle Business, $0 Down</h1>
-                <p class="cs-text">
-                    Triangle Web Design builds fast, custom websites for small businesses in Raleigh, Durham, and Chapel Hill. Every site is written by hand, loads in under a second on a phone, and is built to turn clicks into calls. Start for $0 today, then $150 a month with hosting and unlimited edits included.
-                </p>
-                <div class="lp-cta-row">
-                    <a href="#contact-1184" class="cs-button-solid">Get My $150/mo Website</a>
-                    <a href="tel:{{ client.phoneForTel }}" class="lp-call-link">or call {{ client.phoneFormatted }}</a>
-                </div>
-            </div>
-        </div>
-        <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="/assets/images/portfolio/skyline-dark.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/portfolio/skyline-dark.webp">
-            <img decoding="async" src="/assets/images/portfolio/skyline-dark.webp" alt="Raleigh Durham Chapel Hill skyline, Triangle Web Design" width="2250" height="1500" aria-hidden="true" loading="lazy">
-        </picture>
     </section>
 
     <!-- ============================================ -->
