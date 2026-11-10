@@ -70,7 +70,7 @@ Each of these is fixable, and most are cheaper than owners expect. Several can b
 
 The review takes a few business days. Walking you through the results takes 20 to 30 minutes, by phone or video, at a time that suits you.
 
-We keep the walkthrough short on purpose. You get the findings in plain language, a chance to ask questions, and a list you can act on right away.
+The walkthrough covers the findings and gives you a chance to ask questions.
 
 ## What Do You Get From the Audit?
 
@@ -81,7 +81,7 @@ You leave with four things:
 3. A clear view of which items you or your current provider can handle, and which need development work
 4. Straight answers about cost and timeline
 
-Each item on the list comes with a short reason, so you can see why it matters and how much effort it takes. A fix that takes ten minutes sits next to one that needs a developer, and you can tell them apart at a glance. That makes it easier to decide what to do yourself and what to hand off.
+The list separates items you or your current provider can handle from those that need development work, so you can decide what to do yourself and what to hand off.
 
 There is no obligation. If your site is in good shape, we tell you so. If it has problems worth fixing, you have a plan whether you fix them yourself, hand the list to your current provider, or ask us to help.
 
@@ -110,7 +110,7 @@ If you suspect a listing problem, read [why businesses do not show in the Map Pa
 
 You choose what to do next. Some owners fix the small items themselves in an afternoon, such as hours, categories, and photos. Others hand the list to their current web provider. Some ask us to build the fixes.
 
-Whichever route you take, work from the top of the list. The highest-impact items come first because they usually move rankings and calls the most, and the lower items can wait until the basics are in place. Citations and listing consistency, covered in our guide to [local citations and NAP consistency](/blog/seo-local-citations-nap-consistency/), are common early fixes.
+Whichever route you take, keep the written list. It gives you something concrete to compare against any quote you receive later, and it lets you check the work once it is done. Work from the top of the list. The highest-impact items come first because they usually move rankings and calls the most, and the lower items can wait until the basics are in place. Citations and listing consistency, covered in our guide to [local citations and NAP consistency](/blog/seo-local-citations-nap-consistency/), are common early fixes.
 
 ## Frequently Asked Questions
 

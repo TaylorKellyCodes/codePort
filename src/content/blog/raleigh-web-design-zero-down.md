@@ -43,7 +43,7 @@ The $150 monthly plan covers the website and the work to keep it running. Here i
 * A custom, hand-coded site of up to 5 pages. Extra pages are $100 each.
 * Hosting and security, so you do not pay a separate hosting company.
 * Unlimited edits. Text us a change to a service or a photo and we make it.
-* 24/7 support from the person who built the site.
+* 24/7 support.
 * A page speed standard. We do not launch until the site scores in the green on Google's speed tests.
 
 Our [pricing page](/pricing/) lists every plan and add-on, including a one-time build if you would rather own the code outright. That option is $3,600 plus $25 a month for hosting.
@@ -97,13 +97,13 @@ Ask any web designer these questions, including us:
 4. Who owns the site, and what happens if I stop paying?
 5. How will you measure page speed before launch?
 
-Clear answers to these tell you as much as a portfolio does. A good provider answers them in writing and does not rush you.
+Clear answers to these tell you as much as a portfolio does, and a provider who answers them in writing is easier to hold to the terms later. A good provider answers them in writing and does not rush you.
 
 ## Where Does Triangle Web Design Work?
 
-We work from Raleigh, off Strickland Road, and serve [Raleigh](/service-areas/raleigh/), [Durham](/service-areas/durham/), [Chapel Hill](/service-areas/chapel-hill/), [Cary](/service-areas/cary/), and the wider Triangle. When you call, you reach the person who builds and edits your site.
+We work from Raleigh and serve [Raleigh](/service-areas/raleigh/), [Durham](/service-areas/durham/), [Chapel Hill](/service-areas/chapel-hill/), [Cary](/service-areas/cary/), and the wider Triangle. When you call, you reach the person who builds and edits your site.
 
-That matters when you need a change quickly. A new phone number, a seasonal offer, or a new service can go live the same day, without a ticket queue or an account manager in the middle. Unlimited edits are included in the monthly price, so small changes never turn into a separate bill.
+That matters when you need a change. A new phone number, a seasonal offer, or a new service goes through one person, without an account manager in the middle. Unlimited edits are included in the monthly price, so small changes never turn into a separate bill.
 
 ## Frequently Asked Questions
 

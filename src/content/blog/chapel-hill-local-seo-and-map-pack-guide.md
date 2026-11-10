@@ -50,7 +50,7 @@ Your Google Business Profile powers Maps, the local pack, and Google's AI overvi
 * **Categories.** Pick the most accurate primary category, then add every secondary category that truly applies. Categories are among the biggest local ranking factors.
 * **Hours.** Include changes around university breaks and home football weekends if they affect you.
 * **Description and photos.** Name Chapel Hill or Carrboro and your specific services, and upload real photos regularly.
-* **Posts and Q&A.** Use Google Posts to stay active, and answer the Q&A section yourself.
+* **Posts.** Use Google Posts to stay active and share updates.
 
 Google publishes its own [tips for improving local ranking](https://support.google.com/business/answer/7091), which are worth reading once.
 

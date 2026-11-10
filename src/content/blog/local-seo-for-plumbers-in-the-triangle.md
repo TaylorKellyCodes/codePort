@@ -46,7 +46,7 @@ That search happens hundreds of times a day across the Triangle, for burst pipes
 
 For a plumber, the profile is the highest-impact asset in local search. It feeds Google Maps, the local pack above the regular results, and the AI summaries Google shows for "plumber near me" queries. A complete profile gives Google more reasons to show you and gives the homeowner fewer reasons to hesitate.
 
-* **Categories.** Make "Plumber" the primary category and add secondary ones that match real services, such as "Drainage service" or "Water tank cleaning service."
+* **Categories.** Make "Plumber" the primary category and add secondary ones that match real services, such as "Drainage service."
 * **Services.** List each on its own with a short description: water heater replacement, sewer line repair, and sump pump installation each match specific searches.
 * **Hours.** Mark whether you offer 24-hour emergency service. If you do after-hours work, say so, because late-night searchers look for that phrase.
 * **Service area.** Build it from the towns and ZIP codes you cover, such as Raleigh, Cary, Apex, Morrisville, Durham, Wake Forest, and Garner.

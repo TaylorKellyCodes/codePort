@@ -50,7 +50,7 @@ Your profile is what appears in Maps, in the local pack, and in Google's AI over
 * If you travel to customers, build the service area from the places you actually serve: Durham, specific neighborhoods, and nearby areas such as RTP, Morrisville, Hillsborough, and the parts of Chapel Hill and Cary you cover.
 * Choose the most accurate primary category, then add every secondary category that truly applies. Categories are among the largest local ranking factors.
 
-Then finish the rest. Add hours, including seasonal or holiday changes. Write a description that names Durham and your specific services. Upload real photos of your location, team, and work, and add new ones regularly. Use Google Posts for updates and offers, and answer the Q&A section yourself so your answer is the first one people see.
+Then finish the rest. Add hours, including seasonal or holiday changes. Write a description that names Durham and your specific services. Upload real photos of your location, team, and work, and add new ones regularly. Use Google Posts for updates and offers.
 
 Google's own [advice on local ranking](https://support.google.com/business/answer/7091) explains how relevance, distance, and prominence work together.
 

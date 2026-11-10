@@ -27,7 +27,7 @@ faqs:
   - q: "What is the proximity filter?"
     a: "It is a Google feature that avoids showing several nearly identical businesses from one address. It hides some listings when you zoom in on an area."
   - q: "How long does a new Google Business Profile take to rank?"
-    a: "Two to eight weeks of normal activity is typical after verification or a batch of edits."
+    a: "Expect a few weeks of normal activity after verification or a batch of edits before rankings settle."
   - q: "Can my website stop me from showing in the Map Pack?"
     a: "A thin or slow website can weaken an otherwise good profile, because Google uses web search standing as part of local ranking."
 ---
@@ -53,7 +53,7 @@ The most common triggers for local service businesses are:
 * A virtual office or PO box used as the physical address
 * Repeated edits to the category or service list in a short time
 
-To get reinstated, file a request with proof the business is real: a utility bill for the address, a business document, or photos of your vehicle or signage. Review times vary, and one to four weeks is common. Read Google's [guidelines for representing your business](https://support.google.com/business/answer/3038177) before you file, so your request matches what they check.
+To get reinstated, file a request with proof the business is real: a utility bill for the address, a business document, or photos of your vehicle or signage. Review times vary, and owners report anything from several days to several weeks. Read Google's [guidelines for representing your business](https://support.google.com/business/answer/3038177) before you file, so your request matches what they check.
 
 ## Do Duplicate Listings or Mismatched Details Hold You Back?
 
@@ -77,13 +77,13 @@ It triggers most often when several businesses in one building share the same pr
 
 ## How Long Does a New or Edited Profile Take to Show?
 
-A freshly verified profile, or one with a batch of recent edits, typically needs two to eight weeks of normal activity before Google fully trusts it. Normal activity means photos going up, posts going out, and a few new reviews coming in.
+A freshly verified profile, or one with a batch of recent edits, often needs a few weeks of normal activity before it settles into stable rankings. Normal activity means photos going up, posts going out, and a few new reviews coming in.
 
 During this window the right move is to wait and keep up the routine work. Repeated edits can reset the clock, so resist the urge to tweak the profile every few days.
 
 ## Can a Weak Website Keep You Out of the Map Pack?
 
-Yes. Your profile does most of the work, but Google has said your standing in regular web search also feeds local results. A slow, vague, or thin website gives Google less confidence in what your profile claims.
+Yes. Your profile does most of the work, but Google says prominence also draws on information from across the web, such as how many sites link to you. A slow, vague, or thin website gives Google less to support what your profile claims.
 
 Check that your site names your services and service area, loads quickly on a phone, and shows the same name, address, and phone number as your profile. Our piece on [how website design affects your 3-pack trust score](/blog/website-signals-local-3-pack-trust-score/) explains what Google looks for, and [our local SEO service](/seo/) starts with this check.
 
@@ -116,7 +116,7 @@ It is a Google feature that avoids showing several nearly identical businesses f
 
 ### How long does a new Google Business Profile take to rank?
 
-Two to eight weeks of normal activity is typical after verification or a batch of edits.
+Expect a few weeks of normal activity after verification or a batch of edits before rankings settle.
 
 ### Can my website stop me from showing in the Map Pack?
 

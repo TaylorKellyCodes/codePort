@@ -108,7 +108,7 @@ For a typical Triangle service business with a 10 to 15 page site:
 
 * **DIY builder:** about $30 a month, plus 40 or more hours of your time. Five-year cash cost near $1,800, with performance limits.
 * **Freelancer:** about $3,500 up front, plus $50 a month. Five-year cost near $6,500, assuming no major redesign.
-* **Agency one-time:** about $9,000 up front, plus a $150 a month care plan, plus a likely redesign near year four. Five-year cost near $20,000.
+* **Agency one-time:** about $9,000 up front, plus a $150 a month care plan, before any redesign. Five-year cost near $18,000, and higher if the site is rebuilt in year four.
 * **Monthly plan:** $0 down and $150 a month. Five-year cost $9,000, with updates and hosting included and no redesign invoice.
 
 These figures are illustrative, not quotes. They show why the monthly number deserves as much attention as the headline price. For a platform comparison, read [hand-coded vs WordPress](/blog/hand-coded-vs-wordpress/).

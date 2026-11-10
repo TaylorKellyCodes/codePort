@@ -53,7 +53,7 @@ Your profile does the work a storefront window used to do. It appears in Maps, i
 2. **Services.** Add each service on its own with a short description: panel upgrades, EV charger installation, generator installation, lighting, surge protection, repair, and code corrections for real estate sales. Use plain wording. "200 amp panel upgrade" matches how people search.
 3. **Service area.** Build it from the towns you truly cover, such as Raleigh, Durham, Cary, Apex, Morrisville, Chapel Hill, Carrboro, and Wake Forest. If you offer emergency response, say so in your hours and description.
 4. **Photos and posts.** Upload real photos of clean panel work, labeled breakers, finished charger installs, and your team. Add new ones every few weeks and post recent projects.
-5. **Details.** Add your license number and years in business, and answer the Q&A yourself.
+5. **Details.** Add your license number and years in business.
 
 Google's own [guide to local ranking](https://support.google.com/business/answer/7091) explains how relevance, distance, and prominence work together.
 

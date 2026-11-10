@@ -27,7 +27,7 @@ faqs:
   - q: "How many citations do I need?"
     a: "Quality matters more than quantity. A smaller set of accurate listings on trusted sites does more good than hundreds of low-quality submissions."
   - q: "How long do citations take to affect rankings?"
-    a: "Changes can take six to twelve weeks to show fully, because directories and data aggregators update on their own schedules."
+    a: "Changes can take several weeks to a few months to show fully, because directories and data aggregators update on their own schedules."
   - q: "How do I audit my current citations?"
     a: "Search your business name and phone number, list every site that shows them, and compare each against your Google Business Profile. Correct anything that differs."
 ---
@@ -91,7 +91,7 @@ You cannot force these the way you claim a directory listing, but you can earn t
 
 ## How Long Until You See Movement?
 
-Expect six to twelve weeks for a full cleanup to show its effect. Some directories update within days of a correction. Others, especially data aggregators that refresh periodically, sit in a queue for weeks. The biggest, most authoritative citations move first, and smaller directories follow.
+Plan on roughly six to twelve weeks for a full cleanup to show its effect, though timing varies by directory. Some directories update within days of a correction. Others, especially data aggregators that refresh periodically, sit in a queue for weeks. The biggest, most authoritative citations move first, and smaller directories follow.
 
 That timeline is why cleanup often beats building new listings. You are removing drag on signals Google already trusts, not waiting for a new listing to build authority from nothing.
 
@@ -123,7 +123,7 @@ Quality matters more than quantity. A smaller set of accurate listings on truste
 
 ### How long do citations take to affect rankings?
 
-Changes can take six to twelve weeks to show fully, because directories and data aggregators update on their own schedules.
+Changes can take several weeks to a few months to show fully, because directories and data aggregators update on their own schedules.
 
 ### How do I audit my current citations?
 

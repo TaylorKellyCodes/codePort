@@ -52,7 +52,7 @@ A complete program gives each a place to land: a profile that lists every servic
 For a landscaper the profile drives Maps, the local pack above the standard results, and the AI summaries Google shows for lawn and landscape searches.
 
 * **Primary category.** Match your core work: "Landscaper," "Lawn care service," or "Landscape designer." Choose carefully if you do volume in more than one, and add the others as secondary categories.
-* **Secondary categories.** Add those that truly fit, such as "Mulch supplier," "Irrigation equipment supplier," or "Landscape lighting designer."
+* **Secondary categories.** Add those that truly fit, such as "Landscape designer," "Tree service," or "Mulch supplier."
 * **Services.** List each on its own: weekly mowing, mulch installation, seasonal cleanup, aeration and overseeding, sod, paver patios, retaining walls, drainage correction, lighting, and irrigation repair.
 * **Service area.** Build it from the towns your crews reach efficiently, such as Raleigh, Cary, Apex, Morrisville, Durham, Chapel Hill, and Wake Forest.
 * **Seasonal posts.** Post cleanups and leaf removal in fall, aeration and overseeding in early fall for fescue, and mulch and bed refreshes in spring.

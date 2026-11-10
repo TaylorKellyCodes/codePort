@@ -21,7 +21,7 @@ relatedPosts:
     href: "/web-design/"
 faqs:
   - q: "Does my website affect where I rank in the local 3-pack?"
-    a: "Yes. Google has said your standing in regular web search feeds local results, and a clear, fast website gives it more confidence in what your profile claims."
+    a: "Yes. Google says prominence draws on information from across the web, and a clear, fast website gives it more to support what your profile claims."
   - q: "What speed targets should my site meet?"
     a: "Aim for Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1."
   - q: "Why does mobile design matter for local rankings?"
@@ -37,7 +37,7 @@ Most owners treat the profile and the site as separate projects. This post cover
 
 ## Does Your Website Confirm What Your Profile Claims?
 
-Yes, and it should. Google has said your standing in regular organic search feeds into how you rank locally. Think of your profile as the claim and your website as the evidence.
+Yes, and it should. Google says prominence, one of its three local ranking factors, draws on information from across the web, including how many websites link to you. Think of your profile as the claim and your website as the evidence.
 
 A profile that says you offer emergency HVAC repair, backed by a detailed page on emergency repair, gives Google far more confidence than the same claim with a single sentence on the homepage. AI-driven local features read a wider set of signals than older algorithms did, including your website content, to decide whether to recommend you. Our guide to [Map Pack ranking factors](/blog/seo-google-map-pack-ranking-factors/) covers the profile side of the same picture.
 
@@ -108,7 +108,7 @@ Consistency across the whole domain builds long-term trust, which is why an audi
 
 ### Does my website affect where I rank in the local 3-pack?
 
-Yes. Google has said your standing in regular web search feeds local results, and a clear, fast website gives it more confidence in what your profile claims.
+Yes. Google says prominence draws on information from across the web, and a clear, fast website gives it more to support what your profile claims.
 
 ### What speed targets should my site meet?
 
