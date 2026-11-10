@@ -1,0 +1,39 @@
+<!-- ============================================ -->
+<!--                    Blog                      -->
+<!-- ============================================ -->
+
+<section id="blog-1581">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-content-flex">
+                <span class="cs-topper">{{ blogTopper or "Guides And Articles" }}</span>
+                <h2 class="cs-title">{{ blogTitle or "Local SEO and Web Design Guides" }}</h2>
+            </div>
+            <a href="/blog/" class="cs-button-solid">View All</a>
+        </div>
+        <ul class="cs-card-group">
+            {%- for slug in blogSlugs %}
+            {%- for post in collections.post %}
+            {%- if post.url == slug %}
+            <li class="cs-item">
+                <a href="{{ post.url }}" class="cs-link">
+                    <picture class="cs-picture" aria-hidden="true">
+                        <source media="(max-width: 600px)" srcset="{% getUrl post.data.image | resize({ width: 576, height: 400 }) | avif %}" type="image/avif">
+                        <source media="(max-width: 600px)" srcset="{% getUrl post.data.image | resize({ width: 576, height: 400 }) | webp %}" type="image/webp">
+                        <source media="(min-width: 601px)" srcset="{% getUrl post.data.image | resize({ width: 826, height: 568 }) | avif %}" type="image/avif">
+                        <source media="(min-width: 601px)" srcset="{% getUrl post.data.image | resize({ width: 826, height: 568 }) | webp %}" type="image/webp">
+                        <img loading="lazy" decoding="async" src="{% getUrl post.data.image | resize({ width: 826, height: 568 }) | jpeg %}" alt="{{ post.data.imageAlt or post.data.title }}" width="413" height="284">
+                    </picture>
+                    <div class="cs-flex">
+                        <span class="cs-date">{{ post.date | postDate }}</span>
+                        <h3 class="cs-h3">{{ post.data.title }}</h3>
+                        <p class="cs-item-text">{{ post.data.description | truncate(140) }}</p>
+                    </div>
+                </a>
+            </li>
+            {%- endif %}
+            {%- endfor %}
+            {%- endfor %}
+        </ul>
+    </div>
+</section>
