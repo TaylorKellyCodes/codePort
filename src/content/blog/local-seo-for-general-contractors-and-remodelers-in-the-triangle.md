@@ -1,7 +1,7 @@
 ---
 title: "Local SEO for General Contractors and Remodelers"
 url: seo-local-seo-for-general-contractors
-description: "How Triangle general contractors and remodelers rank in local search and win kitchen, bath, and addition projects in Raleigh, Durham, and Chapel Hill."
+description: "Local SEO for general contractors and remodelers in the Triangle: win kitchen, bath, and addition projects with a strong profile and portfolio."
 author: Taylor Kelly
 date: 2025-11-20T09:00:00.000-05:00
 tags:
@@ -32,101 +32,79 @@ faqs:
   - q: "How long does it take to see results?"
     a: "Expect early movement in a few weeks and steadier lead flow over a few months, since remodeling searches are competitive."
 ---
-Remodeling is a considered purchase. A homeowner in Raleigh thinking about a kitchen renovation or a primary suite addition will spend weeks researching, look at dozens of photos, read every review, and reach out to three or four companies before signing anything. Local search is where that process starts and where much of it happens. The general contractors and remodelers who win these projects show up in the Map Pack, back it with a strong portfolio, and answer the homeowner's real questions on their website.
+Local SEO for general contractors works when you show up in the Google Map Pack, back it with a strong project portfolio, and answer the homeowner's real questions on your website. Remodeling is a considered purchase, so reviews, photos, and a clear process decide who gets the call.
 
-This guide covers local SEO for full-service general contractors and remodelers across the Triangle, including kitchen and bath remodels, additions, whole-home renovations, basement and garage conversions, and design-build work.
+This guide covers kitchen and bath remodels, additions, whole-home renovations, basement and garage conversions, and design-build work across the Triangle.
 
-## The Remodeling Buyer's Journey
+## How Does Local SEO for General Contractors Fit the Buyer's Journey?
 
-* **Early research.** "Kitchen remodel cost Raleigh," "how long does a home addition take," "best remodeler in Cary." The homeowner is gathering information and building a shortlist.
-* **Comparison.** They study portfolios, read reviews closely, and look for licensing, insurance, and process details. Trust signals decide who gets a call.
-* **Selection.** They meet with a few companies, compare proposals, and choose based on confidence as much as price.
+A homeowner in Raleigh planning a kitchen renovation spends weeks researching, studies dozens of photos, reads every review, and contacts three or four companies before signing. Local search is where that starts. The journey has three stages:
 
-Your local SEO should support all three stages: content for research, proof for comparison, and clear contact paths for selection.
+* **Early research.** Searches like "kitchen remodel cost Raleigh" or "how long does a home addition take." The homeowner is gathering information and building a shortlist.
+* **Comparison.** They study portfolios, read reviews closely, and look for license, insurance, and process details. Trust signals decide who gets a call.
+* **Selection.** They meet a few companies, compare proposals, and choose on confidence as much as price.
 
-## Google Business Profile
+Your local SEO should support all three: content for research, proof for comparison, and clear contact paths for selection.
 
-Your profile appears in Maps, in the local pack above the standard results, and in Google's AI overview for remodeling searches.
+## How Should You Set Up Your Google Business Profile?
 
-### Set It Up Fully
+Your profile appears in Maps, in the local pack above the standard results, and in Google's AI overview for remodeling searches. Set it up fully:
 
-* Primary category "General contractor," with secondary categories that fit, such as "Bathroom remodeler," "Kitchen remodeler," "Home builder," or "Deck builder."
-* List services individually: kitchen remodeling, bathroom remodeling, home additions, whole-home renovation, basement finishing, aging-in-place remodeling, exterior renovation.
-* Build a service area from the towns you take projects in: Raleigh, Cary, Apex, Morrisville, Durham, Chapel Hill, Wake Forest, Holly Springs, and beyond.
-* Add your license number, years in business, and insurance details where the profile allows.
+* Make "General contractor" the primary category, with secondary categories that fit, such as "Bathroom remodeler" or "Kitchen remodeler."
+* List services individually: kitchens, bathrooms, additions, whole-home renovation, basements, and exterior work.
+* Build the service area from the towns where you take projects, such as Raleigh, Cary, Apex, Morrisville, Durham, Chapel Hill, and Wake Forest.
+* Add your license number, years in business, and insurance details where the profile allows. Google's [guidelines for representing your business](https://support.google.com/business/answer/3038177) explain what is allowed in names, addresses, and categories.
 
-### Keep It Active With Real Projects
+Then keep it active. Post finished projects with photos every couple of weeks. Upload an organized photo set with before and after shots, in-progress framing that shows your standards, and detail photos of finish carpentry, tile, and cabinetry. A profile full of current project photos does a lot of selling before the first meeting.
 
-Post finished projects with photos every couple of weeks. Upload a deep, organized photo set: before and after shots, in-progress framing and mechanical work that shows your standards, and detail photos of finish carpentry, tile, and cabinetry. A profile full of current, high-quality project photos does a lot of selling before the first meeting.
+## Why Are Reviews So Important in Remodeling?
 
-## Reviews Are Central to Remodeling
+For a purchase this size, reviews often carry more weight than anything else. Follow four habits:
 
-For a purchase this size, reviews often carry more weight than anything else.
+1. **Ask at project completion, every time.** Send a personal request with a direct link once the punch list is done.
+2. **Encourage detail.** A review that describes the project, the neighborhood, and how you handled communication and change orders reinforces the searches you want and answers the fears other homeowners have.
+3. **Respond to all of them.** Thank people specifically, and answer any criticism with the steps you took. Prospects read the replies.
+4. **Keep it steady.** A recent, consistent review history signals an active, reliable company.
 
-* **Ask at project completion, every time.** Send a personal request with a direct link once the punch list is done.
-* **Encourage detail.** Reviews that describe the project, the neighborhood, and how you handled communication and change orders ("kept our Chapel Hill kitchen remodel on schedule and explained every decision") reinforce the searches you want and address the fears other homeowners have.
-* **Respond to all of them.** Thank people specifically. Answer any criticism with the steps you took. Prospective clients read responses carefully.
-* **Keep it steady.** A recent, consistent review history signals an active, reliable company.
+For more on the profile side, read our [Google Business Profile guide for contractors](/blog/seo-google-business-profile-tips-contractors/).
 
-## Website Pages That Win Projects
+## Which Website Pages Win Remodeling Projects?
 
-Give each service its own detailed page.
+Give each service its own detailed page: kitchen remodeling, bathroom remodeling, home additions, whole-home renovation, basement finishing, garage conversions, and aging-in-place remodeling. Add a page that explains your design-build process.
 
-* Kitchen remodeling
-* Bathroom remodeling
-* Home additions
-* Whole-home renovation
-* Basement finishing
-* Garage conversions and ADUs
-* Aging-in-place and accessibility remodeling
-* Design-build process
-
-On each page, cover your process step by step, from consultation and design through permitting, construction, and final walkthrough. Include realistic price ranges, typical timelines, what is included, and how you handle change orders and communication. Add a project gallery and two or three full case studies with photos and a short narrative. Finish with a FAQ that answers the questions homeowners actually ask.
+On each page, cover the process step by step, from consultation and design through permits, construction, and the final walkthrough. Include realistic price ranges, typical timelines, what is included, and how you handle change orders. Add a project gallery and two or three full case studies with photos and a short story. Finish with questions homeowners actually ask.
 
 A clear process page and honest price ranges filter your leads toward the right fit and build trust before anyone calls.
 
-## Location Pages for Your Project Towns
+## Do You Need Location Pages for Your Project Towns?
 
-"Remodeler in Apex," "Durham home addition," "Chapel Hill kitchen renovation." A page built for one town competes for those terms better than a homepage covering the region.
+Yes. Searches like "remodeler in Apex" or "Chapel Hill kitchen renovation" are better matched by a page built for that town than by a homepage covering the region.
 
-Include the neighborhoods you have worked in, notes on local housing stock and what it usually needs (older homes near downtown Durham and Raleigh that need updates and additions, newer builds in Wake Forest and Apex that need finishing and customization), local permitting notes, and reviews and projects from that town.
+Include the neighborhoods you have worked in, notes on local housing and what it usually needs, local permit details, and reviews and projects from that town. Older homes near downtown Durham and Raleigh often need updates and additions, while newer builds in Wake Forest and Apex need finishing and customization. See our pages for [Cary](/service-areas/cary/) and [Durham](/service-areas/durham/) for examples.
 
-## Technical Foundations
+## What Technical Basics Matter for a Portfolio Site?
 
-* **Speed and mobile.** Portfolio-heavy sites can get slow. Use properly sized, modern image formats, and build on hand-coded pages without heavy plugins so the site stays fast even with a large gallery.
-* **Click-to-call and consultation requests.** A tappable phone number in the header, and a short consultation form on every service page.
-* **Consistent NAP.** Name, address, and phone identical across your site, Google profile, Houzz, Angi, the BBB, and directories. AI assistants weigh this consistency when recommending a contractor.
-* **Structured data.** LocalBusiness schema with service area and hours, FAQ schema on service pages, and Review schema where it fits. ImageObject markup on portfolio photos helps them appear in image search.
+Portfolio-heavy sites can get slow, so the technical work counts.
 
-## Local Links and Reputation
+* **Speed and mobile.** Use properly sized, modern image formats, and build on hand-coded pages without heavy plugins so a large gallery stays fast.
+* **Click-to-call and consultation requests.** Put a tappable number in the header and a short consultation form on every service page.
+* **Consistent NAP.** Your name, address, and phone must match across your site, profile, Houzz, Angi, and the BBB.
+* **Structured data.** Add LocalBusiness schema with service area and hours, FAQ schema on service pages, and Review schema where it fits.
 
-* Complete your chamber of commerce listings.
-* Build a strong Houzz profile and get listed in reputable remodeling directories with matching details.
-* Join a certification program, such as the NARI network, and get listed in its member directory.
-* Build referral relationships with architects, designers, real estate agents, and trade partners, and exchange links where it makes sense.
-* When a supplier or manufacturer features your project, ask for a link.
+## How Do Links and Content Build Reputation?
 
-## Content That Builds Authority
+Complete your chamber of commerce listings and build a strong Houzz profile. Join a trade network such as NARI and get listed in its member directory. Build referral ties with architects, designers, real estate agents, and trade partners. When a supplier or manufacturer features your project, ask for a link.
 
-* What a kitchen or bath remodel costs in the Triangle, and what drives the price
-* How the permitting process works in Raleigh, Durham, and the smaller towns
-* Addition versus move: how to decide
-* What to expect during a whole-home renovation, week by week
-* Questions to ask before hiring a remodeler
+Helpful articles support early-stage research and feed AI search tools. Good topics include what a kitchen or bath remodel costs in the Triangle, how permits work in Raleigh and Durham, addition versus move, and what to expect during a whole-home renovation. Link each to the matching service page. Our [local SEO guide for contractors](/blog/seo-local-seo-for-contractors/) covers the wider picture.
 
-Answer each fully, link to the matching service page, and keep the tone straightforward. This content supports early-stage research and feeds AI search tools that favor clear explanations.
+## What Is the Right Order of Work?
 
-## Putting It in Order
-
-1. Complete the Google Business Profile with services, service area, and a full project photo set.
+1. Complete the profile with services, service area, and a full project photo set.
 2. Turn on review requests at every project completion.
-3. Build detailed kitchen, bath, addition, and process pages with galleries and case studies.
+3. Build detailed kitchen, bath, addition, and process pages with galleries.
 4. Fix speed, image sizing, mobile layout, click-to-call, and schema.
 5. Add location pages for your top three project towns.
-6. Build a Houzz profile and two or three local links a month.
-7. Publish one helpful article a month.
-
-Local SEO for remodelers rewards proof and consistency. The companies that lead the Map Pack in Raleigh, Durham, and Chapel Hill keep their profile full of current projects, collect detailed reviews on every job, and publish pages that answer the questions homeowners bring to a renovation.
+6. Publish one helpful article a month and earn two or three local links.
 
 ## Frequently Asked Questions
 
@@ -150,4 +128,4 @@ Yes. Regular photos of real finished work show that the business is active and h
 
 Expect early movement in a few weeks and steadier lead flow over a few months, since remodeling searches are competitive.
 
-If you want a contractor website that shows your work well and still loads fast, [request a free audit](/contact/) and we will map out the quickest path to better leads.
+If you want help building project pages that win remodeling work, [contact us](/contact/).
