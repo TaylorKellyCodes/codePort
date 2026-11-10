@@ -4,6 +4,9 @@ url: seo-local-seo-for-roofers
 description: "Local SEO for roofers in the Triangle: rank in the Map Pack and capture storm-driven demand in Raleigh, Durham, and Chapel Hill with a plan that holds all year."
 author: Taylor Kelly
 date: 2025-10-23T09:00:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

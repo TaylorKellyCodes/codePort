@@ -4,6 +4,9 @@ url: seo-local-seo-for-plumbers
 description: "Local SEO for plumbers in Raleigh, Durham, and Chapel Hill: reach the Google Map Pack and turn nearby emergency searches into booked jobs."
 author: Taylor Kelly
 date: 2025-10-09T09:00:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

@@ -4,6 +4,9 @@ url: seo-local-seo-for-general-contractors
 description: "Local SEO for general contractors and remodelers in the Triangle: win kitchen, bath, and addition projects with a strong profile and portfolio."
 author: Taylor Kelly
 date: 2025-11-20T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

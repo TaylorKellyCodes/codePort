@@ -4,6 +4,9 @@ url: seo-local-seo-for-landscapers
 description: "Local SEO for landscapers in the Triangle: rank in the Map Pack, show your best work, and fill your route with recurring lawn care and design clients."
 author: Taylor Kelly
 date: 2025-10-30T09:00:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

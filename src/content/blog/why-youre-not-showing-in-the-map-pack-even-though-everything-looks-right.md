@@ -4,6 +4,9 @@ url: /blog/seo-not-showing-in-google-map-pack/
 description: "Your Google Business Profile looks fine but you still miss the Map Pack? Seven fixable causes, from suspensions and duplicates to the proximity filter."
 author: Taylor Kelly
 date: 2026-06-15T09:45:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
 image: /assets/images/blog/pexels-ai25studioai-5794250.jpg

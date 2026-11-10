@@ -4,6 +4,9 @@ url: raleigh-web-design-zero-down
 description: "Raleigh web design for $0 down and $150 a month: what the plan includes, how it compares with a big upfront build, and what to ask before you sign."
 author: Taylor Kelly
 date: 2026-01-01T13:49:45.274Z
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - sitemap
   - post

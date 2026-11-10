@@ -4,6 +4,9 @@ url: free-website-seo-audit
 description: "What a free website SEO audit covers, how long it takes, and what you receive. A plain look at the process for Raleigh, Durham, and Chapel Hill businesses."
 author: Taylor Kelly
 date: 2025-12-18T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

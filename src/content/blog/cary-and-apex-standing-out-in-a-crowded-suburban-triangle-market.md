@@ -4,6 +4,9 @@ url: cary-apex-triangle-local-seo
 description: "Cary and Apex local SEO for service businesses: how to stand out in a crowded suburban market and win the Google Map Pack with sharper profiles and pages."
 author: Taylor Kelly
 date: 2025-12-25T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

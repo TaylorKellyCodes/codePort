@@ -4,6 +4,9 @@ url: /ultimate-hvac-marketing-guide
 description: "HVAC marketing for contractors: the website, service pages, Google Business Profile, reviews, and schema that win emergency, replacement, and maintenance calls."
 author: Taylor Kelly
 date: 2026-02-05T08:32:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

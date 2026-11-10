@@ -4,6 +4,9 @@ url: seo-local-seo-for-electricians
 description: "Local SEO for electricians in the Triangle: win the Map Pack, earn trust with detailed reviews, and book more residential and light commercial work."
 author: Taylor Kelly
 date: 2025-10-16T09:00:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

@@ -4,6 +4,9 @@ url: seo-chapel-hill-local-seo-guide
 description: "Chapel Hill local SEO guide for Carrboro and Chapel Hill small businesses: reach the Google Map Pack with a strong profile, reviews, and local links."
 author: Taylor Kelly
 date: 2025-11-13T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

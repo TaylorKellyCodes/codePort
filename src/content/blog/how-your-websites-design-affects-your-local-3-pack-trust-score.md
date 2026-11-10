@@ -4,6 +4,9 @@ url: website-signals-local-3-pack-trust-score
 description: "Your website feeds your local 3-pack ranking. See how speed, mobile layout, schema, and location pages build the trust score Google gives your business."
 author: Taylor Kelly
 date: 2026-06-02T08:23:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
 image: /assets/images/blog/pexels-czapp-arpad-3647289-10774598.jpg

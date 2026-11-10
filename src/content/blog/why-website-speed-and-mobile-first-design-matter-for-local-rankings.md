@@ -4,6 +4,9 @@ url: website-speed-mobile-first-design
 description: "Website speed and mobile-first design affect local rankings and phone calls. Learn what Core Web Vitals measure and the fixes that work for service businesses."
 author: Taylor Kelly
 date: 2025-12-11T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

@@ -4,6 +4,9 @@ url: hand-coded-vs-wordpress
 description: "Hand-coded vs WordPress for Raleigh small businesses: a plain comparison of speed, security, upkeep, cost, and which fits a local service company."
 author: Taylor Kelly
 date: 2025-12-04T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

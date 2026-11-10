@@ -4,6 +4,9 @@ url: seo-local-citations-nap-consistency/
 description: "A practical local citations guide for contractors: how to build and clean up NAP-consistent listings that help your Google Map Pack ranking."
 author: Taylor Kelly
 date: 2026-06-09T08:05:00.000-04:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
 image: /assets/images/blog/pexels-brettjordan-5444625.jpg

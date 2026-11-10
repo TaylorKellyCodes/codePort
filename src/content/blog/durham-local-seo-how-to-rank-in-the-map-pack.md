@@ -4,6 +4,9 @@ url: seo-durham-local-seo-guide
 description: "A Durham local SEO guide for Bull City small businesses: how to reach the Google Map Pack with a strong profile, reviews, local pages, and links."
 author: Taylor Kelly
 date: 2025-11-06T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap

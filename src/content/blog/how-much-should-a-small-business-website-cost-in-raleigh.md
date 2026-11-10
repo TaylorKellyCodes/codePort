@@ -4,6 +4,9 @@ url: small-business-website-cost
 description: "What a small business website costs in Raleigh, from DIY builders to agencies to monthly plans, plus the ongoing costs to budget for after launch."
 author: Taylor Kelly
 date: 2025-11-27T09:00:00.000-05:00
+lastModified: 2026-11-10T09:00:00.000-05:00
+sitemap:
+  lastmod: 2026-11-10T09:00:00.000-05:00
 tags:
   - post
   - sitemap
