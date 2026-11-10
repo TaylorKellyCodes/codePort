@@ -104,7 +104,7 @@ Gather a few things to make the audit faster:
 * The two or three searches where you most want to appear
 * Any complaints you already have, such as "my site is slow" or "I never show up on the map"
 
-If you suspect a listing problem, read [why businesses do not show in the Map Pack](/blog/blog-seo-not-showing-in-google-map-pack/) first. It may answer your question before the audit does.
+Having these on hand means the review starts right away and the walkthrough can focus on your real priorities instead of basic questions. If you suspect a listing problem, read [why businesses do not show in the Map Pack](/blog/blog-seo-not-showing-in-google-map-pack/) first. It may answer your question before the audit does.
 
 ## What Happens After the Audit?
 
