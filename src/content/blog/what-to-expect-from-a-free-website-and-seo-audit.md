@@ -1,7 +1,7 @@
 ---
-title: "What to Expect From a Free Website & SEO Audit"
+title: "Free Website SEO Audit: What You Get and How It Works"
 url: free-website-seo-audit
-description: "What a free website and SEO audit covers, how long it takes, and what you walk away with. A plain look at the process for Triangle small businesses."
+description: "What a free website SEO audit covers, how long it takes, and what you receive. A plain look at the process for Triangle small businesses."
 author: Taylor Kelly
 date: 2025-12-18T09:00:00.000-05:00
 tags:
@@ -12,46 +12,98 @@ imageAlt: Reviewing website code during an audit
 relatedPosts:
   - text: "Why website speed and mobile-first design matter for local rankings"
     href: "/blog/website-speed-mobile-first-design/"
-  - text: "How much should a small business website cost?"
-    href: "/blog/small-business-website-cost/"
+  - text: "Local citations and NAP consistency"
+    href: "/blog/seo-local-citations-nap-consistency/"
+  - text: "Why you're not showing in the Google Map Pack"
+    href: "/blog/blog-seo-not-showing-in-google-map-pack/"
   - text: "Our local SEO service"
     href: "/seo/"
   - text: "Request your free audit"
     href: "/contact/"
+faqs:
+  - q: "Is the free website SEO audit really free?"
+    a: "Yes. There is no charge and no obligation to hire us afterward."
+  - q: "How long does the audit take?"
+    a: "The review takes a few business days, followed by a 20 to 30 minute walkthrough by phone or video."
+  - q: "What do I receive after the audit?"
+    a: "A written summary, a prioritized list of fixes, and straight answers about cost and timeline."
+  - q: "What do you need from me to start?"
+    a: "Your website address and, if you have one, your Google Business Profile. A few notes on what you want to fix also help."
+  - q: "Can I use the audit without hiring you?"
+    a: "Yes. You can fix the items yourself or hand the list to your current provider."
 ---
-A free website and SEO audit is a review of how your current site performs and how well it is set up to bring in local customers. It is meant to give you a clear picture and a prioritized list, whether or not you decide to work with the company that runs it. Here is what the process looks like with Triangle Web Design.
+A free website SEO audit is a review of how your site performs and how well it is set up to bring in local customers. You receive a written summary and a prioritized list of fixes, whether or not you hire the company that ran it. Here is how the audit works at Triangle Web Design.
 
-## What We Look At
+## What Does a Free Website SEO Audit Cover?
 
-**Performance.** We test your load time and Core Web Vitals on both mobile and desktop, using real field data where it is available. Slow pages cost you rankings and calls, so this is usually where the quickest wins are.
+We review seven areas:
 
-**Mobile experience.** We check how your site reads and works on a phone: tap targets, readable text, a visible and tappable phone number, and forms that are easy to complete.
+* **Performance.** Load time and Core Web Vitals on mobile and desktop, using real field data where it is available.
+* **Mobile experience.** Tap targets, readable text, a visible phone number, and forms that are easy to finish on a phone.
+* **Local SEO setup.** Your Google Business Profile categories, services, service area, hours, photos, and review activity, plus whether your name, address, and phone number match across directories.
+* **On-page SEO.** Title tags, meta descriptions, headings, image alt text, internal links, and whether you have service and location pages that match how people search.
+* **Structured data.** LocalBusiness, FAQ, and Review markup, which gives search engines and AI tools clear facts to work from.
+* **Technical health.** Your sitemap, robots file, canonical tags, HTTPS, and anything accidentally blocking pages from search.
+* **Content gaps.** Searches your competitors appear for that you do not, and the pages that would close the gap.
 
-**Local SEO setup.** We review your Google Business Profile for categories, services, service area, hours, photos, and review activity. We check that your name, address, and phone number match across your site and the major directories.
+Slow pages cost rankings and calls, so performance is usually where the quickest wins are. See [why speed and mobile-first design matter](/blog/website-speed-mobile-first-design/) for the details.
 
-**On-page SEO.** We look at title tags, meta descriptions, heading structure, image alt text, internal linking, and whether you have dedicated service and location pages that match how people search.
+## How Long Does an SEO Audit Take?
 
-**Structured data.** We check for LocalBusiness, FAQ, and Review schema, which help you qualify for rich results and give AI search tools clear facts to work from.
+The review takes a few business days. Walking you through the results takes 20 to 30 minutes, by phone or video, at a time that suits you.
 
-**Technical health.** We review your sitemap, robots file, canonical tags, HTTPS, and whether anything is accidentally blocking pages from search engines.
+## What Do You Get From the Audit?
 
-**Content gaps.** We note the searches your competitors show up for that you do not, and the pages that would close that gap.
+You leave with:
 
-## How Long It Takes
+1. A written summary of what is working and what needs attention
+2. A prioritized list, with the highest-impact fixes first
+3. A clear view of which items you or your current provider can handle, and which need development work
+4. Straight answers about cost and timeline
 
-The review itself takes us a few business days. Walking you through it takes about 20 to 30 minutes, by phone or video, whenever works for you.
+There is no obligation. If your site is in good shape, we tell you so. If it has problems worth fixing, you have a plan whether you fix them yourself, hand the list to your current provider, or ask us to help.
 
-## What You Walk Away With
+## Is the Audit Really Free?
 
-* A written summary of what is working and what needs attention
-* A prioritized list, with the highest-impact fixes first
-* A realistic sense of which items you or your current provider can handle, and which need development work
-* Straight answers to your questions about cost and timeline
+Yes. There is no charge and no obligation. You decide afterward whether to act on the results. Our [pricing page](/pricing/) lists what our work costs if you want to compare.
 
-There is no obligation attached. If the audit shows your site is in good shape, we will tell you that. If it shows problems worth fixing, you will have a clear plan whether you fix them yourself, hand it to your current provider, or ask us to help.
+## Who Is the Audit For?
 
-## Who It Is For
+It is most useful for established Triangle service businesses that have a website but are not getting the calls or local visibility they expect. Plumbers, electricians, roofers, landscapers, and contractors are common examples.
 
-The audit is most useful for established Triangle service businesses that have a website but are not getting the calls or the local visibility they expect. If you are starting from scratch, the conversation shifts toward what a new site should include, and the same principles apply.
+If you are starting from scratch, the conversation shifts toward what a new site should include, and the same principles apply.
 
-[Request your free audit](/contact/) and we will get started, or read more about [our local SEO work](/seo/) first.
+## What Should You Do Before Requesting One?
+
+Gather a few things to make the audit faster:
+
+* Your website address
+* The Google Business Profile you use, if you have one
+* The two or three searches where you most want to appear
+* Any past complaints, such as "my site is slow" or "I never show up on the map"
+
+If you suspect a listing problem, read [why businesses do not show in the Map Pack](/blog/blog-seo-not-showing-in-google-map-pack/) first. It may answer your question before the audit does.
+
+## Frequently Asked Questions
+
+### Is the free website SEO audit really free?
+
+Yes. There is no charge and no obligation to hire us afterward.
+
+### How long does the audit take?
+
+The review takes a few business days, followed by a 20 to 30 minute walkthrough by phone or video.
+
+### What do I receive after the audit?
+
+A written summary, a prioritized list of fixes, and straight answers about cost and timeline.
+
+### What do you need from me to start?
+
+Your website address and, if you have one, your Google Business Profile. A few notes on what you want to fix also help.
+
+### Can I use the audit without hiring you?
+
+Yes. You can fix the items yourself or hand the list to your current provider.
+
+[Request your free audit](/contact/), or read more about [our local SEO work](/seo/) first.

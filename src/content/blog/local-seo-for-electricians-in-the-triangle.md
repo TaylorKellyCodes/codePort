@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-indraprojectsofficial-18663994.jpg
 imageAlt: Looking up a local route on a phone map
 relatedPosts:
-  - text: "Local SEO for plumbers in the Triangle"
+  - text: "Local SEO for plumbers"
     href: "/blog/seo-local-seo-for-plumbers/"
-  - text: "Local SEO for contractors: what actually moves the needle"
+  - text: "Local SEO for general contractors"
+    href: "/blog/seo-local-seo-for-general-contractors/"
+  - text: "Local SEO for contractors"
     href: "/blog/seo-local-seo-for-contractors/"
-  - text: "Google Business Profile tips for contractors"
-    href: "/blog/seo-google-business-profile-tips-contractors/"
+  - text: "Local SEO in Durham, NC"
+    href: "/service-areas/durham/"
   - text: "Our local SEO service"
     href: "/seo/"
+faqs:
+  - q: "How do electricians get more calls from Google?"
+    a: "Complete your Google Business Profile, collect detailed reviews, build a page for each service, and make sure your phone number is easy to tap on mobile."
+  - q: "Which Google Business Profile category should an electrician use?"
+    a: "Use Electrician as the primary category, then add secondary categories only for services you actually perform."
+  - q: "Do electricians need location pages?"
+    a: "Yes, if you serve several towns. Each page should describe real work and details for that town."
+  - q: "How many reviews does an electrician need?"
+    a: "Match or beat the top three businesses in your area, and keep new reviews coming in. Reviews that name the job help the most."
+  - q: "How long does local SEO take for electricians?"
+    a: "Profile fixes can help within weeks. Competitive searches in Raleigh and Durham usually take a few months of steady work."
 ---
 Electrical work sits in a trust-heavy corner of home services. A homeowner in Chapel Hill searching "electrician near me" because half their outlets went dead is making a quick decision about who they will let into their house and near their panel. The electricians who win that decision have usually done the same set of things: they show up in the Map Pack, they have recent reviews that mention real jobs, and their website answers the homeowner's questions before they even call.
 
@@ -54,7 +67,7 @@ Upload real photos: clean panel work, labeled breakers, finished EV charger inst
 
 ### The Details That Build Confidence
 
-Add your license number, years in business, and whether you are family owned. Turn on messaging only if someone monitors it during business hours. Answer the Q&A section yourself with the questions customers actually ask, so the first answer people see is yours.
+Add your license number, years in business, and if you are family owned. Turn on messaging only if someone monitors it during business hours. Answer the Q&A section yourself with the questions customers actually ask, so the first answer people see is yours.
 
 ## Reviews: Volume, Recency, and Detail
 
@@ -166,5 +179,27 @@ A practical sequence:
 7. Build two or three local links a month.
 
 Local SEO for electricians pays off through steady effort. The companies that lead the Map Pack in Raleigh, Durham, and Chapel Hill keep their profile active, collect detailed reviews on every job, and publish pages that answer the questions homeowners bring to the search bar.
+
+## Frequently Asked Questions
+
+### How do electricians get more calls from Google?
+
+Complete your Google Business Profile, collect detailed reviews, build a page for each service, and make sure your phone number is easy to tap on mobile.
+
+### Which Google Business Profile category should an electrician use?
+
+Use Electrician as the primary category, then add secondary categories only for services you actually perform.
+
+### Do electricians need location pages?
+
+Yes, if you serve several towns. Each page should describe real work and details for that town.
+
+### How many reviews does an electrician need?
+
+Match or beat the top three businesses in your area, and keep new reviews coming in. Reviews that name the job help the most.
+
+### How long does local SEO take for electricians?
+
+Profile fixes can help within weeks. Competitive searches in Raleigh and Durham usually take a few months of steady work.
 
 If you want an electrician website engineered for local search and speed from the ground up, [request a free audit](/contact/) and we will map out the fastest path to more booked work.

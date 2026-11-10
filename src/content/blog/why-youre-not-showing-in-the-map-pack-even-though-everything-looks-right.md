@@ -1,9 +1,7 @@
 ---
 title: Why You're Not Showing in the Google Map Pack
 url: /blog/seo-not-showing-in-google-map-pack/
-description: Google Business Profile looks solid but you're still invisible in
-  the Map Pack? Here are the real, fixable reasons in 2026, from duplicate
-  listings to proximity filtering to profile probation.
+description: "Google Business Profile looks solid but you're still missing from the Map Pack? Seven fixable reasons, from duplicate listings to the proximity filter."
 author: Taylor Kelly
 date: 2026-06-15T09:45:00.000-04:00
 tags:
@@ -13,52 +11,119 @@ imageAlt: google-maps-on-cell-phone-on-motorcycle
 relatedPosts:
   - text: "Google Map Pack rankings: what actually moves you into the top 3"
     href: "/blog/seo-google-map-pack-ranking-factors/"
-  - text: "Local citations & NAP consistency: a build guide"
+  - text: "Local citations and NAP consistency: a build guide"
     href: "/blog/seo-local-citations-nap-consistency/"
-  - text: "Talk to us about local SEO"
+  - text: "How your website's design affects your local 3-pack trust score"
+    href: "/blog/website-signals-local-3-pack-trust-score/"
+  - text: "Our local SEO service"
+    href: "/seo/"
+  - text: "Talk to us about your listing"
     href: "/contact/"
+faqs:
+  - q: "Why is my business not showing in the Google Map Pack?"
+    a: "Common causes are a suspended profile, a duplicate listing, mismatched business details, an oversized service area, or the proximity filter."
+  - q: "How do I know if my Google Business Profile is suspended?"
+    a: "Log in to your profile manager and look for a notice at the top of the dashboard. A suspended profile does not appear in the Map Pack."
+  - q: "What is the proximity filter?"
+    a: "It is a Google feature that avoids showing several nearly identical businesses from the same address. It hides some listings when you zoom into an area."
+  - q: "How long does a new Google Business Profile take to rank?"
+    a: "Two to eight weeks of normal activity is typical after verification or a batch of edits."
+  - q: "Can my website stop me from showing in the Map Pack?"
+    a: "A thin or slow website can weaken an otherwise good profile, because Google uses web search standing as part of local ranking."
 ---
-You filled out the profile. You've got a decent handful of reviews. Your category looks right. And you're still nowhere in the Map Pack when you search your own business from your own kitchen table.
-That's a different problem than "how do I rank better." Ranking better assumes you're actually in the running and just need to climb a few spots. A lot of local businesses aren't even in the running, and they don't know it, because nothing about their profile looks broken. It just isn't showing up.
-Here's how to actually figure out which problem you have, and what to do about each one.
-First, Figure Out Which Problem You Actually Have
-There are two totally different situations that both feel like "I'm not in the Map Pack," and they need different fixes.
-Problem one: you're invisible. Search your exact business name in an incognito browser window and nothing comes up, or what comes up isn't yours. This usually means something is broken at the account level: a suspension, a duplicate listing splitting your authority, or a profile stuck in review.
-Problem two: you're visible but not ranking. Your business shows up if you search your own name, or if you scroll past the top three, but you never crack the top three for the searches that actually bring in customers. This is a relevance and prominence problem, and it's the one most local SEO advice is written for.
-Fixing problem two when you actually have problem one is why a lot of business owners spend months chasing reviews and blog posts with zero movement. Rule out problem one first.
-Suspended Profiles Show Nothing, No Matter What Else You Do
-If your profile is suspended, none of the usual advice matters. Google won't show a suspended listing regardless of how many reviews you have or how good your website is.
-Log into your Google Business Profile manager and look for a notice at the top of the dashboard. Suspensions in 2026 are triggered more aggressively than they used to be. Google's enforcement has gotten heavily automated, and the most common triggers for local service businesses are keyword-stuffed business names (something like "Smith Plumbing | Best Emergency Plumber Raleigh"), a virtual office or PO box listed as a physical address, and repeated edits that look like someone trying to game the category or service list.
-If you're suspended, you'll need to file a reinstatement request with real proof: a utility bill for the address, a business license, photos of your vehicle or storefront signage. This isn't instant. Give it one to four weeks depending on how backed up Google's review queue is.
-Duplicate Listings Split Your Authority in Half
-This one is sneakier because nothing looks obviously wrong on your end. If there's a second, unofficial version of your listing floating around, maybe created years ago by an old employee, an old address, or a directory auto-generating a profile, Google can end up splitting reviews, clicks, and trust signals between the two. Neither one ends up strong enough to rank.
-Search your business name on Google Maps and look carefully at every result, not just the first one. If you find a duplicate, claim it if you can and request a merge through Google Business Profile support. If you can't claim it, report it as a duplicate and point to your verified listing as the correct one.
-Your Business Information Doesn't Match Everywhere Else
-Google cross-checks your name, address, and phone number against how you're listed on Yelp, Facebook, Apple Maps, Bing Places, and your own website. Small mismatches erode trust more than people expect. "St" on one directory and "Street" on another. An old phone number still sitting on a listing you forgot existed. A suite number missing in one place and present in another.
-None of these individually tank you. Stacked together, they tell Google your business information isn't reliable, and an unreliable profile is a hard one to rank with confidence. Pull up your listing on five or six of the major directories and compare them line by line against your Google profile. Fix whatever doesn't match exactly.
-Your Service Area Is Bigger Than Google Believes You
-If you're a service-area business, meaning you go to the customer instead of running a storefront, you set a service area radius instead of relying purely on a fixed address. This works fine until the radius gets unrealistic. A landscaping company claiming to cover three counties and part of a fourth, with no real activity in most of that territory, looks like exaggeration to Google, and Google has gotten better at spotting the gap between claimed coverage and actual activity.
-An overreaching service area can get you flagged or filtered rather than just ignored. Pull your service area back to where your actual jobs happen. It's a tighter target, but a business that ranks well in its real territory beats one that's filtered out of a territory it never truly served.
-The Proximity Filter Nobody Explains Well
-This is the one that confuses people most, because it looks like a ranking problem but it's actually a decluttering feature. If your listing shows up when you zoom out on Google Maps but disappears as you zoom into your specific area, you're likely running into what local SEO people call the proximity filter. It's designed to stop the map from showing five nearly identical businesses stacked on top of each other at the same address or in the same building.
-This gets triggered hardest when several businesses at the same location share the same primary category. If you're in a shared office building or strip mall with two other businesses in your exact category, that's often the actual cause.
-The fastest fix is picking a more specific primary category than your immediate neighbors are using. If everyone nearby is set to a broad category, narrowing yours to something more precise can be enough to stop getting filtered out. If that's not realistic for what you do, this is one of the few situations where a different physical address is genuinely the more permanent fix.
-New or Recently Edited Profiles Sit in a Trust Window
-If you recently verified your profile, or made a batch of edits, don't panic if it takes a few weeks to show real movement. Freshly verified or heavily edited profiles typically need somewhere between two and eight weeks of normal activity, meaning photos going up, posts going out, a few new reviews coming in, before Google fully trusts the listing again.
-This is one of the only situations on this list where the right move is genuinely to wait it out while doing the boring stuff consistently, rather than making more changes. Repeated edits during this window can actually reset the clock.
-A Thin Website Undercuts an Otherwise Fine Profile
-Your Google Business Profile does most of the heavy lifting for the Map Pack, but it's not working in isolation. Google has said plainly that your standing in regular web search results feeds into how you rank in the local results too. A slow, vague, or poorly built website gives Google less confidence in the claims your profile is making, even if the profile itself is filled out correctly.
-If our team is <a href="/seo/">handling the local SEO side</a> for a client, checking whether the website actually backs up the profile is one of the first things we look at, because a thin site is dragging down a profile that would otherwise be doing fine.
-Run This Check Before You Assume It's "Just SEO"
-Before spending months on reviews and content, walk through this in order:
+If your business is not showing in the Google Map Pack, the cause is usually a problem with the listing itself, not a lack of reviews or content. Common causes are a suspended profile, a duplicate listing, mismatched business details, an oversized service area, or the proximity filter. Each one has a fix that takes hours, not months.
 
-Search your exact business name in an incognito window. Nothing showing means something structural is broken, not a ranking problem.
-Check your Google Business Profile dashboard for a suspension notice.
-Search your business name on Maps and look for a second, unofficial listing.
-Compare your name, address, and phone number across five directories against your Google profile.
-Zoom slowly into your business location on Maps to check for the proximity filter.
-Note whether you made recent edits or verified recently, since that alone can explain a temporary dip.
+Start by working out which of two situations you are in, because they need different fixes.
 
-Most of the time, the answer lands somewhere on this list, and once you know which one it is, the fix is usually a few hours of work rather than months of guessing.
-If everything above checks out clean and you're still not cracking the top three, that's when it genuinely becomes a relevance and prominence problem, and we covered what actually moves the needle there in <a href="/blog/seo-google-map-pack-ranking-factors/">our piece on Map Pack ranking factors</a>. We've also gone deeper on the profile side specifically in <a href="/blog/seo-google-business-profile-tips-contractors/">our Google Business Profile guide for contractors</a>.
-If you've been through this list and you're still stuck, or you'd rather have someone else run the diagnostic, <a href="/contact/">reach out through our contact page</a> and we'll take a look at what's actually going on with your listing.
+## Are You Invisible or Just Not Ranking?
+
+You are invisible if you search your exact business name in an incognito window and nothing comes up, or what comes up is not yours. That points to a problem at the account level: a suspension, a duplicate listing, or a profile stuck in review.
+
+You are visible but not ranking if your business appears for your own name, or below the top three, but never makes the top three for the searches that bring in customers. That is a relevance and prominence problem, which our guide to [Map Pack ranking factors](/blog/seo-google-map-pack-ranking-factors/) covers.
+
+Rule out the first situation before you spend months on reviews and blog posts.
+
+## Is Your Google Business Profile Suspended?
+
+A suspended profile does not appear in the Map Pack, whatever else you do. Log in to your Google Business Profile manager and look for a notice at the top of the dashboard.
+
+The most common triggers for local service businesses are:
+
+* A business name stuffed with keywords, such as "Smith Plumbing | Emergency Plumber Raleigh"
+* A virtual office or PO box listed as the physical address
+* Repeated edits to the category or service list in a short time
+
+To get reinstated, file a request with proof of the business: a utility bill for the address, a business license, or photos of your vehicle or signage. Reviews can take one to four weeks, depending on how busy Google's queue is.
+
+## Do You Have a Duplicate Listing?
+
+A second, unofficial version of your listing splits reviews, clicks, and trust between two profiles, and neither becomes strong enough to rank. Duplicates often come from an old address, a former employee, or a directory that generated a profile on its own.
+
+Search your business name on Google Maps and check every result, not just the first. If you find a duplicate you can claim, claim it and request a merge through Google Business Profile support. If you cannot claim it, report it as a duplicate and point to your verified listing.
+
+## Does Your Business Information Match Everywhere?
+
+Google compares your name, address, and phone number (often shortened to NAP) against Yelp, Facebook, Apple Maps, Bing Places, and your own website. Small differences add up: "St" on one site and "Street" on another, an old phone number on a forgotten listing, a suite number that appears in some places only.
+
+Open your listing on five or six major directories and compare each against your Google profile line by line. Fix whatever does not match exactly. Our guide to [local citations and NAP consistency](/blog/seo-local-citations-nap-consistency/) walks through the full audit.
+
+## Is Your Service Area Bigger Than Your Real Work?
+
+Service-area businesses go to the customer instead of running a storefront, so they set a service area on the profile. The trouble starts when the area is unrealistic. A landscaper claiming three counties with no real activity in most of them looks like an exaggeration, and Google compares claimed coverage with actual activity.
+
+An oversized service area can get a profile filtered, not just ignored. Pull it back to where your jobs actually happen. A business that ranks in its real territory beats one that is filtered out of a territory it never served.
+
+## What Is the Proximity Filter?
+
+The proximity filter is a decluttering feature that keeps the map from showing several nearly identical businesses at the same address. If your listing appears when you zoom out on Google Maps and disappears as you zoom in to your area, this is the likely cause.
+
+It triggers most often when several businesses in the same building share the same primary category, such as a shared office or strip mall. The fastest fix is a more specific primary category than your neighbors use. If that does not fit your business, a different physical address is the more permanent fix.
+
+## How Long Does a New or Edited Profile Take to Show?
+
+A freshly verified profile, or one with a batch of recent edits, typically needs two to eight weeks of normal activity before Google fully trusts it again. Normal activity means photos going up, posts going out, and a few new reviews coming in.
+
+During this window the right move is to wait and keep doing the routine work. Repeated edits can reset the clock.
+
+## Can a Weak Website Keep You Out of the Map Pack?
+
+Yes. Your profile does most of the work, but Google has said your standing in regular web search also feeds local results. A slow, vague, or thin website gives Google less confidence in the claims your profile makes.
+
+Check that your site names your services and service area, loads quickly on a phone, and shows the same name, address, and phone number as your profile. [Our local SEO service](/seo/) starts with this check, and [how your website's design affects your 3-pack trust score](/blog/website-signals-local-3-pack-trust-score/) explains what Google looks for.
+
+## A Quick Diagnostic Checklist
+
+Work through this in order:
+
+1. Search your exact business name in an incognito window. Nothing showing means something structural is broken.
+2. Check your Google Business Profile dashboard for a suspension notice.
+3. Search your business name on Maps and look for a second listing.
+4. Compare your name, address, and phone number across five directories.
+5. Zoom slowly into your location on Maps to check for the proximity filter.
+6. Note any recent edits or verification, since either can explain a temporary dip.
+
+If everything checks out and you are still outside the top three, you have a relevance and prominence problem. Our [Google Business Profile guide for contractors](/blog/seo-google-business-profile-tips-contractors/) covers the profile side in more depth.
+
+## Frequently Asked Questions
+
+### Why is my business not showing in the Google Map Pack?
+
+Common causes are a suspended profile, a duplicate listing, mismatched business details, an oversized service area, or the proximity filter.
+
+### How do I know if my Google Business Profile is suspended?
+
+Log in to your profile manager and look for a notice at the top of the dashboard. A suspended profile does not appear in the Map Pack.
+
+### What is the proximity filter?
+
+It is a Google feature that avoids showing several nearly identical businesses from the same address. It hides some listings when you zoom into an area.
+
+### How long does a new Google Business Profile take to rank?
+
+Two to eight weeks of normal activity is typical after verification or a batch of edits.
+
+### Can my website stop me from showing in the Map Pack?
+
+A thin or slow website can weaken an otherwise good profile, because Google uses web search standing as part of local ranking.
+
+If you would rather have someone run this diagnostic for you, [contact us](/contact/). We work with local service businesses across Raleigh, Durham, Chapel Hill, and Cary.

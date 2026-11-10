@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-sanketgraphy-16229745.jpg
 imageAlt: Phone home screen with the Google Maps app
 relatedPosts:
-  - text: "Local SEO for contractors: what actually moves the needle"
+  - text: "Local SEO for contractors"
     href: "/blog/seo-local-seo-for-contractors/"
-  - text: "Local SEO for plumbers in the Triangle"
+  - text: "Local SEO for plumbers"
     href: "/blog/seo-local-seo-for-plumbers/"
-  - text: "How your website's design affects your local 3-pack trust score"
+  - text: "Local SEO in Cary, NC"
+    href: "/service-areas/cary/"
+  - text: "Website design and your 3-pack trust score"
     href: "/blog/website-signals-local-3-pack-trust-score/"
   - text: "Our local SEO service"
     href: "/seo/"
+faqs:
+  - q: "How do landscapers rank in the Map Pack?"
+    a: "Use the right primary category, fill out services and service area, add many real photos, and collect reviews that mention the work and the town."
+  - q: "Why do photos matter so much for landscaping?"
+    a: "Landscaping is visual, so photos of finished work help customers decide. Fresh photos also show Google that the profile is active."
+  - q: "How should seasonality affect my local SEO?"
+    a: "Update services, posts, and photos as seasons change, and keep pages live for off-season services such as cleanups and planning."
+  - q: "Do lawn care companies need pages for each town?"
+    a: "Yes, for the towns on your route. Each page should describe the area and the services you offer there."
+  - q: "How do I fill my route with recurring clients?"
+    a: "Rank for recurring services such as weekly mowing, and make it simple to request a quote by phone or form."
 ---
 A landscaping business grows on two things: a full maintenance route that bills every month, and a steady pipeline of design and installation projects that lift the average ticket. Local search feeds both. A homeowner in Cary types "lawn care near me" in March when the grass starts moving, and a homeowner in Chapel Hill searches "landscape designer Raleigh" when they are ready to redo the backyard. The companies that show up for those searches, with photos and reviews that back them up, book the work.
 
@@ -160,5 +173,27 @@ A few real local links outweigh a large batch of generic directory entries.
 7. Build two or three local links a month.
 
 Landscaping local SEO rewards consistency and good photography. The companies that lead the Map Pack in Raleigh, Durham, and Chapel Hill keep their profile full of current work, collect detailed reviews across both maintenance and installs, and publish pages that answer the questions homeowners bring to the search bar.
+
+## Frequently Asked Questions
+
+### How do landscapers rank in the Map Pack?
+
+Use the right primary category, fill out services and service area, add many real photos, and collect reviews that mention the work and the town.
+
+### Why do photos matter so much for landscaping?
+
+Landscaping is visual, so photos of finished work help customers decide. Fresh photos also show Google that the profile is active.
+
+### How should seasonality affect my local SEO?
+
+Update services, posts, and photos as seasons change, and keep pages live for off-season services such as cleanups and planning.
+
+### Do lawn care companies need pages for each town?
+
+Yes, for the towns on your route. Each page should describe the area and the services you offer there.
+
+### How do I fill my route with recurring clients?
+
+Rank for recurring services such as weekly mowing, and make it simple to request a quote by phone or form.
 
 If you want a landscaping website that shows your work beautifully and still loads fast, [request a free audit](/contact/) and we will map out the quickest path to a fuller route.

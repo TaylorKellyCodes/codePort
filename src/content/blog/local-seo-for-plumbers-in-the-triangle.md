@@ -1,5 +1,5 @@
 ---
-title: "Local SEO for Plumbers: What Actually Moves the Needle in the Triangle"
+title: "Local SEO for Plumbers in the Triangle"
 url: seo-local-seo-for-plumbers
 description: "A practical local SEO guide for plumbers in Raleigh, Durham, and Chapel Hill. Rank in the Google Map Pack and turn nearby searches into booked jobs."
 author: Taylor Kelly
@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-technobulka-8824105.jpg
 imageAlt: Person checking a local map on a phone
 relatedPosts:
-  - text: "Local SEO for electricians in the Triangle"
+  - text: "Local SEO for electricians"
     href: "/blog/seo-local-seo-for-electricians/"
-  - text: "Local SEO for contractors: what actually moves the needle"
+  - text: "Local SEO for contractors"
     href: "/blog/seo-local-seo-for-contractors/"
+  - text: "Why you are not showing in the Map Pack"
+    href: "/blog/blog-seo-not-showing-in-google-map-pack/"
+  - text: "Local SEO in Durham, NC"
+    href: "/service-areas/durham/"
   - text: "Our local SEO service"
     href: "/seo/"
-  - text: "Talk to us about your plumbing website"
-    href: "/contact/"
+faqs:
+  - q: "How do plumbers get more calls from Google?"
+    a: "Complete your Google Business Profile, collect reviews, give each service its own page, and make your phone number easy to tap on mobile."
+  - q: "What categories should a plumber choose on Google?"
+    a: "Choose Plumber as the primary category and add secondary ones only for services you perform, such as water heater installation."
+  - q: "Do plumbers need a page for each service?"
+    a: "Yes. A separate page for drain cleaning, water heaters, and repiping matches how people search and helps each page rank."
+  - q: "How do reviews help a plumbing business?"
+    a: "Reviews build trust for emergency calls and feed rankings. Reviews that name the service and the town help most."
+  - q: "How long does local SEO take for plumbers?"
+    a: "Profile and website fixes can show results in weeks. Competitive areas usually take a few months of steady work."
 ---
 A homeowner in Cary walks into the kitchen at 6 AM and hears water running where it should be quiet. Within a minute they have their phone out, and they are typing "emergency plumber near me." Whoever shows up first with a phone number, a service area they recognize, and a few recent reviews is the one who gets the call.
 
@@ -25,7 +38,7 @@ That search happens hundreds of times a day across the Triangle, for burst pipes
 
 ## Start With the Google Business Profile
 
-For a plumber, the Google Business Profile is the single highest-leverage asset in local search. It feeds Google Maps, the local pack that sits above the regular results, and the AI summaries Google now shows for "plumber near me" style queries.
+For a plumber, the Google Business Profile is the single highest-impact asset in local search. It feeds Google Maps, the local pack that sits above the regular results, and the AI summaries Google now shows for "plumber near me" style queries.
 
 ### Fill Out Every Field
 
@@ -103,5 +116,27 @@ If you are starting close to scratch, this sequence tends to produce results fas
 6. Build local links steadily, a few each month.
 
 Local SEO for plumbers rewards consistency more than any single trick. The companies that own the Map Pack in Raleigh, Durham, and Chapel Hill are the ones that keep their profile current, ask for reviews on every job, and publish pages that answer real questions.
+
+## Frequently Asked Questions
+
+### How do plumbers get more calls from Google?
+
+Complete your Google Business Profile, collect reviews, give each service its own page, and make your phone number easy to tap on mobile.
+
+### What categories should a plumber choose on Google?
+
+Choose Plumber as the primary category and add secondary ones only for services you perform, such as water heater installation.
+
+### Do plumbers need a page for each service?
+
+Yes. A separate page for drain cleaning, water heaters, and repiping matches how people search and helps each page rank.
+
+### How do reviews help a plumbing business?
+
+Reviews build trust for emergency calls and feed rankings. Reviews that name the service and the town help most.
+
+### How long does local SEO take for plumbers?
+
+Profile and website fixes can show results in weeks. Competitive areas usually take a few months of steady work.
 
 If you want a plumbing website that is built for local search from the first line of code, [reach out for a free audit](/contact/) and we will show you where the quickest wins are.

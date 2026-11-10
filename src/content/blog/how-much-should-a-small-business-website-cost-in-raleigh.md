@@ -1,5 +1,5 @@
 ---
-title: "How Much Should a Small Business Website Cost? A Raleigh Pricing Breakdown"
+title: "What a Small Business Website Costs in Raleigh"
 url: small-business-website-cost
 description: "What a small business website really costs in 2026, from DIY builders to agencies to monthly plans, plus the ongoing costs to budget for. A clear Raleigh breakdown."
 author: Taylor Kelly
@@ -10,16 +10,29 @@ tags:
 image: /assets/images/blog/pexels-mikael-blomkvist-6476258.jpg
 imageAlt: Team reviewing marketing performance and budgets
 relatedPosts:
-  - text: "Hand-coded vs. WordPress: what Raleigh businesses should know"
+  - text: "Raleigh web design for $0 down"
+    href: "/blog/raleigh-web-design-zero-down/"
+  - text: "Hand-coded vs WordPress"
     href: "/blog/hand-coded-vs-wordpress/"
-  - text: "Why website speed and mobile-first design matter for local rankings"
+  - text: "Website speed and mobile-first design"
     href: "/blog/website-speed-mobile-first-design/"
-  - text: "See our transparent pricing"
+  - text: "Free website and SEO audit"
+    href: "/blog/free-website-seo-audit/"
+  - text: "Our pricing"
     href: "/pricing/"
-  - text: "Request a free website & SEO audit"
-    href: "/contact/"
+faqs:
+  - q: "How much does a small business website cost?"
+    a: "The range runs from almost nothing for a do-it-yourself builder to well over ten thousand dollars for a custom agency build. The right figure depends on pages, features, and who maintains the site."
+  - q: "What costs come after launch?"
+    a: "Hosting, security, updates, edits, and any support. These ongoing costs add up over several years, so compare the five-year total, not only the build price."
+  - q: "Is a monthly website plan cheaper than a one-time build?"
+    a: "It costs less to start and spreads the cost over time. Over several years the totals can be close, so compare both with the ongoing costs included."
+  - q: "What questions should I ask a web designer about price?"
+    a: "Ask what is included each month, how many pages are covered, who handles edits, what happens if you cancel, and who owns the site."
+  - q: "What does Triangle Web Design charge?"
+    a: "Our monthly plan is $0 down and $150 a month for a 5-page site with hosting and unlimited edits. The pricing page lists every plan and add-on."
 ---
-"How much does a website cost" is one of the most common questions small business owners ask, and the honest answer is that it depends on the path you choose. The range in Raleigh runs from almost nothing for a do-it-yourself builder to well over ten thousand dollars for a custom agency build. What matters more than the sticker price is understanding what drives the cost and what you will keep paying after launch.
+"How much does a website cost" is one of the most common questions small business owners ask, and the honest answer is that it depends on the path you choose. The range in Raleigh runs from almost nothing for a do-it-yourself builder to well over ten thousand dollars for a custom agency build. Understanding what drives the cost, and what you will keep paying after launch, tells you as much as the sticker price does.
 
 This breakdown covers every common option, what each one includes, and how to think about the total cost over three to five years rather than just the first invoice.
 
@@ -101,7 +114,7 @@ For a typical Triangle service business with a 10 to 15 page site:
 * **Agency one-time:** about $9,000 up front, plus a $150 a month care plan, plus a likely redesign near year four. Five-year cost near $20,000.
 * **Monthly plan:** $0 down and $150 a month, all in. Five-year cost $9,000, with updates and hosting included and no redesign invoice.
 
-These are illustrative, not quotes, but they show why the monthly figure matters more than the headline price.
+These are illustrative, not quotes, but they show why the monthly figure deserves as much attention as the headline price.
 
 ## Questions to Ask Any Provider
 
@@ -115,5 +128,27 @@ These are illustrative, not quotes, but they show why the monthly figure matters
 ## The Bottom Line for Raleigh Small Businesses
 
 A small business website in the Triangle can cost anywhere from a couple hundred dollars a year to twenty thousand or more over five years. The right number depends on how large the site is, how custom the design needs to be, and how you prefer to handle the cost: a large payment up front, or a predictable monthly fee with everything included.
+
+## Frequently Asked Questions
+
+### How much does a small business website cost?
+
+The range runs from almost nothing for a do-it-yourself builder to well over ten thousand dollars for a custom agency build. The right figure depends on pages, features, and who maintains the site.
+
+### What costs come after launch?
+
+Hosting, security, updates, edits, and any support. These ongoing costs add up over several years, so compare the five-year total, not only the build price.
+
+### Is a monthly website plan cheaper than a one-time build?
+
+It costs less to start and spreads the cost over time. Over several years the totals can be close, so compare both with the ongoing costs included.
+
+### What questions should I ask a web designer about price?
+
+Ask what is included each month, how many pages are covered, who handles edits, what happens if you cancel, and who owns the site.
+
+### What does Triangle Web Design charge?
+
+Our monthly plan is $0 down and $150 a month for a 5-page site with hosting and unlimited edits. The pricing page lists every plan and add-on.
 
 If you want to see exactly what is included at each level, [our pricing page](/pricing/) lays it out, and a [free audit](/contact/) will show you what your current site is worth keeping and what is worth rebuilding.

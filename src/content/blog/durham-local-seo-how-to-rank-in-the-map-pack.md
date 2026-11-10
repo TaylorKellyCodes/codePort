@@ -1,5 +1,5 @@
 ---
-title: "Durham Local SEO: How to Rank in the Map Pack as a Durham Small Business"
+title: "Durham Local SEO: How to Rank in the Map Pack"
 url: seo-durham-local-seo-guide
 description: "A Durham-focused local SEO guide. How Bull City small businesses rank in the Google Map Pack, from Google Business Profile to reviews, content, and local links."
 author: Taylor Kelly
@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-gagareen-687727-7107487.jpg
 imageAlt: Phone showing map and social apps
 relatedPosts:
-  - text: "Chapel Hill local SEO & Map Pack guide"
-    href: "/blog/seo-chapel-hill-local-seo-guide/"
-  - text: "Google Map Pack rankings: what actually moves you into the top 3"
-    href: "/blog/seo-google-map-pack-ranking-factors/"
-  - text: "Web design & local SEO for Durham businesses"
+  - text: "Local SEO in Durham, NC"
     href: "/service-areas/durham/"
+  - text: "Chapel Hill local SEO guide"
+    href: "/blog/seo-chapel-hill-local-seo-guide/"
+  - text: "Local SEO for electricians"
+    href: "/blog/seo-local-seo-for-electricians/"
+  - text: "Local SEO for plumbers"
+    href: "/blog/seo-local-seo-for-plumbers/"
   - text: "Our local SEO service"
     href: "/seo/"
+faqs:
+  - q: "How do I rank in the Map Pack as a Durham business?"
+    a: "Set up your Google Business Profile with the right categories and service area, build reviews that mention Durham, and publish website pages that describe your work in the city. Local links and consistent listings add support."
+  - q: "Do I need a Durham address to show up in Durham searches?"
+    a: "A nearby address helps because Google weighs distance, but service-area businesses can still rank by defining a realistic service area and building relevance for Durham."
+  - q: "What categories should a Durham business choose?"
+    a: "Pick the primary category that matches your main service, then add secondary categories only for services you really offer."
+  - q: "How important are reviews for Durham local SEO?"
+    a: "Very important. Review count, recency, and the words customers use all feed into rankings and also affect whether people choose you."
+  - q: "How long does it take to rank in Durham?"
+    a: "Expect some movement within weeks and steadier results over a few months, depending on how competitive your service is."
 ---
 Most local SEO advice is written with a big, generic city in mind. Durham is its own market with its own patterns. Search demand here clusters around downtown and the American Tobacco district, the Ninth Street and Duke area, the neighborhoods along Hope Valley and Hillandale, and the southern stretch toward Southpoint and Research Triangle Park. A Durham business competing for "near me" searches is often competing with businesses in Raleigh and Cary that Google may still surface for a Durham searcher, so the local signals have to be clear and specific.
 
@@ -82,7 +95,7 @@ Links and mentions from around Durham tell Google you are an established part of
 * Sponsor a Durham event, team, or nonprofit and ask for a link from their site.
 * If you are featured in local press or a neighborhood newsletter, ask for a link back.
 
-A handful of genuine Durham links does more than a large batch of generic submissions.
+A handful of genuine Durham links outperforms a large batch of generic submissions.
 
 ## A Durham Local SEO Checklist
 
@@ -95,5 +108,27 @@ A handful of genuine Durham links does more than a large batch of generic submis
 7. Earn two or three Durham links a month through the chamber, partners, and sponsorships.
 
 Ranking in the Durham Map Pack comes down to clear local signals kept consistent over time. The businesses that lead here have an exact address or service area, the right categories, a steady stream of recent reviews that mention Durham neighborhoods, and a website that shows real knowledge of the city.
+
+## Frequently Asked Questions
+
+### How do I rank in the Map Pack as a Durham business?
+
+Set up your Google Business Profile with the right categories and service area, build reviews that mention Durham, and publish website pages that describe your work in the city. Local links and consistent listings add support.
+
+### Do I need a Durham address to show up in Durham searches?
+
+A nearby address helps because Google weighs distance, but service-area businesses can still rank by defining a realistic service area and building relevance for Durham.
+
+### What categories should a Durham business choose?
+
+Pick the primary category that matches your main service, then add secondary categories only for services you really offer.
+
+### How important are reviews for Durham local SEO?
+
+Very important. Review count, recency, and the words customers use all feed into rankings and also affect whether people choose you.
+
+### How long does it take to rank in Durham?
+
+Expect some movement within weeks and steadier results over a few months, depending on how competitive your service is.
 
 If you want a website built to rank for Durham searches from the ground up, [see how we work with Durham businesses](/service-areas/durham/) or [request a free audit](/contact/).

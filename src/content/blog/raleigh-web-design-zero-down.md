@@ -1,7 +1,7 @@
 ---
-title: Raleigh Web Design & SEO | $0 Down Hand-Coded Websites
+title: Raleigh Web Design for $0 Down and $150 a Month
 url: raleigh-web-design-zero-down
-description: Stop overpaying for slow Raleigh web design. Get a hand-coded, high-performance site for $0 down and $150/mo. Local support for NC tradesmen.
+description: "How a hand-coded Raleigh website works for $0 down and $150 a month: what is included, how it compares to a large upfront build, and what to ask first."
 author: Taylor Kelly
 date: 2026-01-01T13:49:45.274Z
 tags:
@@ -10,46 +10,98 @@ tags:
 image: /assets/images/blog/mobile-first-web-design-durham-hvac.jpg
 imageAlt: Hand-coded website speed test for Raleigh landscaper
 relatedPosts:
+  - text: "How much should a small business website cost?"
+    href: "/blog/small-business-website-cost/"
+  - text: "Hand-coded vs WordPress: what Raleigh businesses should know"
+    href: "/blog/hand-coded-vs-wordpress/"
+  - text: "Why website speed and mobile-first design matter"
+    href: "/blog/website-speed-mobile-first-design/"
   - text: "See transparent pricing"
     href: "/pricing/"
   - text: "Hand-coded web design for Raleigh small businesses"
     href: "/web-design/"
+faqs:
+  - q: "What does $0 down web design mean?"
+    a: "You pay nothing to start. After launch you pay $150 a month, which covers the site, hosting, security, and unlimited edits."
+  - q: "How many pages are included in the $150 plan?"
+    a: "The plan includes 5 pages. Additional pages are $100 each."
+  - q: "Is a $0 down website really hand-coded?"
+    a: "Yes. Each site is written by hand for your business instead of built from a template."
+  - q: "Can I own my website instead of paying monthly?"
+    a: "Yes. Our one-time Lump Sum option delivers a hand-coded site whose code is yours. The pricing page lists both options."
+  - q: "Do you work with businesses outside Raleigh?"
+    a: "Yes. We serve Raleigh, Durham, Chapel Hill, Cary, and the wider Triangle."
 ---
-Most Raleigh web design agencies want to trap you in a $5,000 contract before they even write a line of code. For a local service business, that’s a massive risk. You need a site that works as hard as you do, not a bloated WordPress template that takes five seconds to load.
+Raleigh web design for $0 down means you pay nothing to start and $150 a month after launch, instead of a large one-time fee. The monthly price covers a hand-coded site, hosting, security, and unlimited edits. It suits local service businesses that would rather spend their cash on equipment and crews than on a website build.
 
-We do things differently. At Triangle Web Design, we build high-performance, hand-coded websites for **$0 down and $150 a month**. No hidden fees. No tech-speak. Just a fast site that gets you found in the Triangle.
+Here is what the plan includes, how it compares with other options, and what to ask any web designer before you sign.
 
-## Why Hand-Coded Beats "DIY" Every Time
-Most agencies use Wix or WordPress because it's easy for them, not because it’s good for you. Those platforms are packed with "bloat": extra code that slows your site down. When your site is slow, Google hides you, and customers hang up.
+## What Does $0 Down Web Design Include?
 
-Our sites are hand-coded from scratch. This means they load instantly, which Google loves. A faster site doesn't just look better; it ranks higher and converts more visitors into leads.
+The $150 monthly plan covers the website and the work to keep it running. Specifically:
 
+* **A custom, hand-coded site** of up to 5 pages. Extra pages are $100 each.
+* **Hosting and security**, so you do not pay a separate hosting company.
+* **Unlimited edits.** Text us a change to a service or a photo and we make it.
+* **24/7 support** from the person who built the site.
+* **A Green Page Speed Guarantee.** We do not launch until the site scores in the green on Google's performance tests.
 
+Our [pricing page](/pricing/) lists every plan and add-on, including a one-time build option if you would rather own the code outright.
 
-## The "$0 Down" Model for Raleigh Trades
-We know the local market. Whether you’re a plumber in Cary, a landscaper in Wake Forest, or a roofer in Raleigh, you’d rather spend your capital on equipment than a website.
+## How Does Monthly Pricing Compare With a Large Upfront Build?
 
-Our **Monthly Package** is designed for growth:
+Many agencies charge several thousand dollars before the site goes live. That is a real risk for a small business, because the money is spent before you know whether the site brings in calls.
 
-* **$0 Upfront Cost:** Get a professional, custom-built site without the sticker shock.
+A monthly plan spreads the cost and ties the provider to the result. The site has to keep performing for you to keep paying. Our guide to [what a small business website should cost](/blog/small-business-website-cost/) compares DIY builders, freelancers, agencies, and monthly plans side by side, including the costs that come after launch.
 
-* **$150/Month:** This covers your hosting, security, and unlimited edits.
+## Why Hand-Coded Instead of Wix or WordPress?
 
-* **Unlimited Edits:** Need to change a service or update a photo? Just text us.
+Hand-coded means each page is written for your business instead of assembled from a template with extra plugins. There is less code for the browser to load, so pages appear faster, and faster pages tend to rank and convert better.
 
-* **Green Page Speed Guarantee:** We don't launch until your site hits the "Green" in Google's performance tests.
+Template platforms are a good fit for some businesses. For a local service company that depends on search and phone calls, speed and clean structure count for extra over a drag-and-drop editor. Read the full comparison in [hand-coded vs WordPress](/blog/hand-coded-vs-wordpress/), and see why speed matters in [website speed and mobile-first design](/blog/website-speed-mobile-first-design/).
 
-**Is your website slow or just invisible?**
+## Who Is the $0 Down Plan For?
 
-If you're tired of being on page four of Google, the problem might be your site's "bones." Most sites in Raleigh are built on templates that were outdated three years ago. We build revenue assets that stay fast and stay ranking.
+It works best for Triangle trades and service businesses such as plumbers, electricians, roofers, landscapers, and HVAC companies. These businesses get most of their customers from local searches, so a fast site and a strong Google Business Profile matter most.
 
-## Local Support You Can Actually Call
-We aren't a national firm in a different time zone. We’re located right here off Strickland Road. When you have a question, you talk to a human who knows the difference between North Hills and Knightdale.
+If you want local SEO work as well, our [SEO Growth plan](/seo/) adds city service pages, Google Business Profile management, and review generation to the site.
 
-**Ready to dominate the Raleigh search results?**
+## What Should You Ask Before You Sign?
 
-Stop losing jobs to competitors with better websites. Get a custom, hand-coded site that puts your business on the map.
+Ask any web designer these questions, including us:
 
-**[Call us for a Quote](tel:9195616223)**
+1. What exactly is included in the monthly price?
+2. How many pages are included, and what does each extra page cost?
+3. Who handles edits, and how fast?
+4. What happens to the site if I cancel?
+5. How will you measure page speed before launch?
 
-[**Message Us for a Free Site Audit**](/contact)
+Clear answers to these tell you as much as a portfolio does.
+
+## Where Is Triangle Web Design Located?
+
+We work from Raleigh, off Strickland Road, and serve Raleigh, Durham, Chapel Hill, Cary, and the wider Triangle. When you call, you reach the person who builds and edits your site.
+
+## Frequently Asked Questions
+
+### What does $0 down web design mean?
+
+You pay nothing to start. After launch you pay $150 a month, which covers the site, hosting, security, and unlimited edits.
+
+### How many pages are included in the $150 plan?
+
+The plan includes 5 pages. Additional pages are $100 each.
+
+### Is a $0 down website really hand-coded?
+
+Yes. Each site is written by hand for your business instead of built from a template.
+
+### Can I own my website instead of paying monthly?
+
+Yes. Our one-time Lump Sum option delivers a hand-coded site whose code is yours. The pricing page lists both options.
+
+### Do you work with businesses outside Raleigh?
+
+Yes. We serve Raleigh, Durham, Chapel Hill, Cary, and the wider Triangle.
+
+To talk it through, [call us for a quote](tel:9195616223) or [message us for a free site audit](/contact/). You can also read [what a free audit covers](/blog/free-website-seo-audit/) first.

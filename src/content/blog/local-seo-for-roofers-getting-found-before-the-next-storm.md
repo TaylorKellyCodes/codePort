@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-rdne-7362886.jpg
 imageAlt: Searching for a nearby business on a phone map
 relatedPosts:
-  - text: "Local SEO for contractors: what actually moves the needle"
+  - text: "Local SEO for contractors"
     href: "/blog/seo-local-seo-for-contractors/"
-  - text: "Local SEO for plumbers in the Triangle"
+  - text: "Local SEO for plumbers"
     href: "/blog/seo-local-seo-for-plumbers/"
-  - text: "Why you're not showing in the Google Map Pack"
+  - text: "Why you are not showing in the Map Pack"
     href: "/blog/blog-seo-not-showing-in-google-map-pack/"
-  - text: "Talk to us about your roofing website"
+  - text: "Local SEO in Raleigh, NC"
+    href: "/service-areas/raleigh/"
+  - text: "Talk to us about roofing SEO"
     href: "/contact/"
+faqs:
+  - q: "How do roofers get found after a storm?"
+    a: "Rank before the storm. A complete Google Business Profile, strong reviews, and pages for repair and replacement mean you show up when demand spikes."
+  - q: "Why are reviews especially important for roofers?"
+    a: "A roof is a large, high-trust purchase. Homeowners compare reviews closely, and detailed reviews help both trust and rankings."
+  - q: "What pages should a roofing website have?"
+    a: "Separate pages for repair, replacement, storm damage, and each town you serve, plus a clear way to request an estimate."
+  - q: "How do I stay visible between storms?"
+    a: "Publish content on maintenance, inspections, and materials, and keep adding photos and reviews so the profile stays active."
+  - q: "How long does local SEO take for roofers?"
+    a: "Expect early movement within weeks and steadier results over a few months, depending on competition."
 ---
 Roofing demand in the Triangle runs in waves. A line of storms moves through Wake and Durham counties on a summer afternoon, and by that evening thousands of homeowners are searching "roof leak repair near me" and "storm damage roofer Raleigh." The companies that get those calls are the ones already ranking when the weather hits, because there is no time to build visibility after the fact.
 
@@ -117,5 +130,27 @@ Answer the question completely, link to the matching service page, and keep the 
 7. Publish one helpful article a month.
 
 Roofing local SEO rewards the companies that stay ready. The ones leading the Map Pack in Raleigh, Durham, and Chapel Hill keep their profile active, collect detailed reviews on every job, and publish pages that answer the questions homeowners ask right after a storm.
+
+## Frequently Asked Questions
+
+### How do roofers get found after a storm?
+
+Rank before the storm. A complete Google Business Profile, strong reviews, and pages for repair and replacement mean you show up when demand spikes.
+
+### Why are reviews especially important for roofers?
+
+A roof is a large, high-trust purchase. Homeowners compare reviews closely, and detailed reviews help both trust and rankings.
+
+### What pages should a roofing website have?
+
+Separate pages for repair, replacement, storm damage, and each town you serve, plus a clear way to request an estimate.
+
+### How do I stay visible between storms?
+
+Publish content on maintenance, inspections, and materials, and keep adding photos and reviews so the profile stays active.
+
+### How long does local SEO take for roofers?
+
+Expect early movement within weeks and steadier results over a few months, depending on competition.
 
 If you want a roofing website built for speed and local search from the first line of code, [request a free audit](/contact/) and we will show you where the quickest wins are.

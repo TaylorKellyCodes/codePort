@@ -1,5 +1,5 @@
 ---
-title: How Your Website's Design Affects Your Local 3-Pack Trust Score
+title: "Website Design and Your Local 3-Pack Trust Score"
 url: website-signals-local-3-pack-trust-score
 description: Your Google Business Profile isn't the only thing Google checks
   before ranking you in the local 3-pack. Here's how site speed, mobile design,
@@ -11,16 +11,31 @@ tags:
 image: /assets/images/blog/pexels-czapp-arpad-3647289-10774598.jpg
 imageAlt: Phone-in-hand-on-desk-unlocked
 relatedPosts:
-  - text: "Google Map Pack rankings: what actually moves you into the top 3"
-    href: "/blog/seo-google-map-pack-ranking-factors/"
-  - text: "Why you're not showing in the Google Map Pack"
+  - text: "Why you are not showing in the Map Pack"
     href: "/blog/blog-seo-not-showing-in-google-map-pack/"
-  - text: "Hand-coded web design built for local SEO"
+  - text: "Google Map Pack ranking factors"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Website speed and mobile-first design"
+    href: "/blog/website-speed-mobile-first-design/"
+  - text: "Local citations and NAP consistency"
+    href: "/blog/seo-local-citations-nap-consistency/"
+  - text: "Web design"
     href: "/web-design/"
+faqs:
+  - q: "Does my website affect where I rank in the Map Pack?"
+    a: "Yes. Google has said your standing in regular web search feeds local results, and a clear, fast website gives it more confidence in what your profile claims."
+  - q: "What speed targets should my site meet?"
+    a: "Aim for Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1."
+  - q: "Why does mobile design matter for local rankings?"
+    a: "Google indexes the mobile version of your site first, and most local searches happen on phones. A tappable phone number and a clear layout help both rankings and calls."
+  - q: "Do I need a separate page for each service area?"
+    a: "If you serve several towns, a unique page for each with real local detail helps. Duplicate pages that only change the town name do not."
+  - q: "Should the schema on my site match my Google profile?"
+    a: "Yes. Your name, address, phone number, and hours in schema markup should match your profile exactly."
 ---
 Most business owners treat their website and their Google Business Profile as two separate projects. Fill out the profile, forget the site, or the other way around. Google doesn't see them that way. It reads them as two descriptions of the same business, and when those two descriptions don't line up, or when one of them is slow and clunky, that gap quietly drags down your local 3-pack ranking even if your profile itself looks flawless.
 
-This isn't a minor technical footnote. It's become one of the more common reasons a business with a great profile and solid reviews still can't crack the top three, and it's usually the last place anyone thinks to look when a ranking stalls.
+This is a major technical factor. It has become one of the more common reasons a business with a great profile and solid reviews still can't crack the top three, and it's usually the last place anyone thinks to look when a ranking stalls.
 
 ## Your Website Confirms What Your Profile Claims
 
@@ -32,11 +47,11 @@ This matters more now that AI-driven local features are reading a wider set of s
 
 Core Web Vitals, the metrics Google uses to measure real loading speed, responsiveness, and visual stability, function as something close to a floor for local rankings rather than a bonus. A site with poor scores on these doesn't get instantly buried, but it loses ground to a competitor whose pages load clean and fast, especially on mobile.
 
-The three metrics that matter are Largest Contentful Paint, which measures how fast your main content appears, Interaction to Next Paint, which measures how quickly the page responds when someone taps something, and Cumulative Layout Shift, which measures whether things jump around while the page loads. Target under 2.5 seconds for LCP, under 200 milliseconds for INP, and under 0.1 for CLS. Every additional second of load delay costs roughly 7 percent in conversions on top of whatever it's costing you in ranking, so this isn't purely an SEO concern. It's leaking phone calls too.
+The three metrics that matter are Largest Contentful Paint, which measures how fast your main content appears, Interaction to Next Paint, which measures how quickly the page responds when someone taps something, and Cumulative Layout Shift, which measures whether things jump around while the page loads. Target under 2.5 seconds for LCP, under 200 milliseconds for INP, and under 0.1 for CLS. Every additional second of load delay costs roughly 7 percent in conversions on top of whatever it's costing you in ranking, so slow pages are both an SEO problem and a phone-call problem.
 
 Common culprits are unused plugins that shipped with a website template, images without set dimensions causing layout jumps, and third-party scripts like chat widgets or tracking pixels loading before your actual content does. None of these require a full rebuild to fix. They require someone who knows to look for them.
 
-## Mobile-First Isn't a Slogan, It's How Google Actually Crawls You
+## Google Crawls Your Mobile Site First
 
 Google indexes your mobile site first. Not your desktop site with mobile as an afterthought, your mobile version specifically. Most local search happens on a phone, often from someone standing in their kitchen or between errands, which means a confusing mobile layout or a phone number that isn't a tappable link is costing you real customers in real time, not just theoretical ranking points.
 
@@ -83,3 +98,25 @@ Run your homepage and one or two service pages through Google's PageSpeed Insigh
 None of this requires a full redesign most of the time. It requires knowing where to look, and treating your website as part of your local ranking strategy instead of a separate project that happened once and got forgotten. A profile can only carry a business so far on its own, and the website is usually where that ceiling actually gets raised.
 
 If your site's speed, schema, or mobile experience is quietly working against your local rankings, this is exactly the kind of gap we look for first as part of our <a href="/web-design/">web design work</a> for local service businesses. We touched on the profile side of local ranking in <a href="/blog/seo-google-map-pack-ranking-factors/">our Map Pack ranking factors post</a>, and if you want to see what a hand-coded, fast local business site looks like in practice, we broke that down in <a href="/blog/raleigh-web-design-zero-down/">our Raleigh web design piece</a>. If you'd like a second opinion on your current site, <a href="/contact/">reach out through our contact page</a> and we'll take a look.
+
+## Frequently Asked Questions
+
+### Does my website affect where I rank in the Map Pack?
+
+Yes. Google has said your standing in regular web search feeds local results, and a clear, fast website gives it more confidence in what your profile claims.
+
+### What speed targets should my site meet?
+
+Aim for Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1.
+
+### Why does mobile design matter for local rankings?
+
+Google indexes the mobile version of your site first, and most local searches happen on phones. A tappable phone number and a clear layout help both rankings and calls.
+
+### Do I need a separate page for each service area?
+
+If you serve several towns, a unique page for each with real local detail helps. Duplicate pages that only change the town name do not.
+
+### Should the schema on my site match my Google profile?
+
+Yes. Your name, address, phone number, and hours in schema markup should match your profile exactly.

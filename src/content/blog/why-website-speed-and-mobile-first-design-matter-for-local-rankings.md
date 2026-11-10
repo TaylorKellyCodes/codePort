@@ -1,5 +1,5 @@
 ---
-title: "Why Website Speed and Mobile-First Design Matter for Local Rankings"
+title: "Website Speed and Mobile-First Design for Local SEO"
 url: website-speed-mobile-first-design
 description: "How page speed and mobile-first design affect local search rankings and phone calls, plus practical fixes for Triangle service businesses. Core Web Vitals explained."
 author: Taylor Kelly
@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-markusspiske-1921326.jpg
 imageAlt: JavaScript that powers a fast website
 relatedPosts:
-  - text: "How your website's design affects your local 3-pack trust score"
+  - text: "Website design and your 3-pack trust score"
     href: "/blog/website-signals-local-3-pack-trust-score/"
-  - text: "Hand-coded vs. WordPress: what Raleigh businesses should know"
+  - text: "Hand-coded vs WordPress"
     href: "/blog/hand-coded-vs-wordpress/"
-  - text: "Hand-coded web design for Raleigh small businesses"
+  - text: "Free website and SEO audit"
+    href: "/blog/free-website-seo-audit/"
+  - text: "Raleigh web design for $0 down"
+    href: "/blog/raleigh-web-design-zero-down/"
+  - text: "Hand-coded web design"
     href: "/web-design/"
-  - text: "Request a free website & SEO audit"
-    href: "/contact/"
+faqs:
+  - q: "Does website speed affect Google rankings?"
+    a: "Yes. Page experience, including Core Web Vitals, is part of how Google evaluates pages, and slow pages also lose visitors before they call."
+  - q: "What is mobile-first indexing?"
+    a: "Google mainly uses the mobile version of your site to index and rank it, so the mobile layout must contain your full content."
+  - q: "What makes a local business website slow?"
+    a: "Large images, heavy themes, too many plugins, and third-party scripts are the most common causes."
+  - q: "How can I check my website speed?"
+    a: "Run your address through Google's PageSpeed Insights and look at mobile results first."
+  - q: "Is a hand-coded site faster than a template site?"
+    a: "Often, because it carries only the code it needs. Any site can be slow if images and scripts are not controlled."
 ---
 When someone in Cary searches "emergency plumber" or "roof repair near me," they are almost always on a phone, often on cellular data, and usually in a hurry. The site that loads fast and works cleanly on that phone gets the call. The one that stalls or jumps around loses the visitor before the phone number is even visible. Speed and mobile-first design are not polish. They are part of how local search works and how local visitors decide.
 
@@ -81,5 +94,27 @@ WordPress sites can hit the same marks with disciplined plugin use, good hosting
 ## The Takeaway
 
 Speed and mobile-first design support your local rankings and directly affect how many visitors call. Start with images and third-party scripts, test on a real phone, and treat performance as something to maintain rather than set once.
+
+## Frequently Asked Questions
+
+### Does website speed affect Google rankings?
+
+Yes. Page experience, including Core Web Vitals, is part of how Google evaluates pages, and slow pages also lose visitors before they call.
+
+### What is mobile-first indexing?
+
+Google mainly uses the mobile version of your site to index and rank it, so the mobile layout must contain your full content.
+
+### What makes a local business website slow?
+
+Large images, heavy themes, too many plugins, and third-party scripts are the most common causes.
+
+### How can I check my website speed?
+
+Run your address through Google's PageSpeed Insights and look at mobile results first.
+
+### Is a hand-coded site faster than a template site?
+
+Often, because it carries only the code it needs. Any site can be slow if images and scripts are not controlled.
 
 If you want to know how your current site scores and what is slowing it down, [request a free audit](/contact/) and we will give you a specific list, or [see how we build fast sites by default](/web-design/).

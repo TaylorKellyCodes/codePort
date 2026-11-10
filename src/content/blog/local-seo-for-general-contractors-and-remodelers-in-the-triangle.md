@@ -1,5 +1,5 @@
 ---
-title: "Local SEO for General Contractors & Remodelers in the Triangle"
+title: "Local SEO for General Contractors and Remodelers"
 url: seo-local-seo-for-general-contractors
 description: "How Triangle general contractors and remodelers rank in local search and win kitchen, bath, and addition projects in Raleigh, Durham, and Chapel Hill."
 author: Taylor Kelly
@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-georgesultan-11877276.jpg
 imageAlt: Code on a screen for a contractor website build
 relatedPosts:
-  - text: "Local SEO for contractors: what actually moves the needle"
+  - text: "Local SEO for contractors"
     href: "/blog/seo-local-seo-for-contractors/"
-  - text: "Local SEO for landscapers & lawn care companies"
+  - text: "Local SEO for landscapers"
     href: "/blog/seo-local-seo-for-landscapers/"
-  - text: "Hand-coded vs. WordPress: what Raleigh businesses should know"
-    href: "/blog/hand-coded-vs-wordpress/"
-  - text: "Talk to us about your contractor website"
+  - text: "Google Business Profile tips for contractors"
+    href: "/blog/seo-google-business-profile-tips-contractors/"
+  - text: "Local SEO in Cary, NC"
+    href: "/service-areas/cary/"
+  - text: "Talk to us about your project pages"
     href: "/contact/"
+faqs:
+  - q: "How do remodelers get leads from local search?"
+    a: "Show real projects on your Google Business Profile and website, collect detailed reviews, and build a page for each type of project you take on."
+  - q: "Why are reviews so important for remodeling?"
+    a: "A remodel is a large purchase, and homeowners read reviews closely before they call. Detailed reviews build trust and also help rankings."
+  - q: "What pages should a general contractor's website have?"
+    a: "A page for each major service such as kitchens, bathrooms, and additions, a project gallery, and a page for each town you serve."
+  - q: "Should I post project photos to my Google profile?"
+    a: "Yes. Regular photos of real finished work show that the business is active and help customers judge quality."
+  - q: "How long does it take to see results?"
+    a: "Expect early movement in a few weeks and steadier lead flow over a few months, since remodeling searches are competitive."
 ---
 Remodeling is a considered purchase. A homeowner in Raleigh thinking about a kitchen renovation or a primary suite addition will spend weeks researching, look at dozens of photos, read every review, and reach out to three or four companies before signing anything. Local search is where that process starts and where much of it happens. The general contractors and remodelers who win these projects show up in the Map Pack, back it with a strong portfolio, and answer the homeowner's real questions on their website.
 
@@ -114,5 +127,27 @@ Answer each fully, link to the matching service page, and keep the tone straight
 7. Publish one helpful article a month.
 
 Local SEO for remodelers rewards proof and consistency. The companies that lead the Map Pack in Raleigh, Durham, and Chapel Hill keep their profile full of current projects, collect detailed reviews on every job, and publish pages that answer the questions homeowners bring to a renovation.
+
+## Frequently Asked Questions
+
+### How do remodelers get leads from local search?
+
+Show real projects on your Google Business Profile and website, collect detailed reviews, and build a page for each type of project you take on.
+
+### Why are reviews so important for remodeling?
+
+A remodel is a large purchase, and homeowners read reviews closely before they call. Detailed reviews build trust and also help rankings.
+
+### What pages should a general contractor's website have?
+
+A page for each major service such as kitchens, bathrooms, and additions, a project gallery, and a page for each town you serve.
+
+### Should I post project photos to my Google profile?
+
+Yes. Regular photos of real finished work show that the business is active and help customers judge quality.
+
+### How long does it take to see results?
+
+Expect early movement in a few weeks and steadier lead flow over a few months, since remodeling searches are competitive.
 
 If you want a contractor website that shows your work well and still loads fast, [request a free audit](/contact/) and we will map out the quickest path to better leads.

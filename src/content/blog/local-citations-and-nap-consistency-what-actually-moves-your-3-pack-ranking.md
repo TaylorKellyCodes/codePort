@@ -1,5 +1,5 @@
 ---
-title: "Local Citations & NAP Consistency: A Build Guide for Contractors"
+title: "Local Citations and NAP Consistency Build Guide"
 url: seo-local-citations-nap-consistency/
 description: A practical 2026 guide to local citations and NAP consistency. What
   citations actually are, which directories matter, how AI search changed the
@@ -11,12 +11,27 @@ tags:
 image: /assets/images/blog/pexels-brettjordan-5444625.jpg
 imageAlt: phone-screen-maps-icon
 relatedPosts:
-  - text: "Google Map Pack rankings: what actually moves you into the top 3"
-    href: "/blog/seo-google-map-pack-ranking-factors/"
-  - text: "Why you're not showing in the Google Map Pack"
+  - text: "Why you are not showing in the Map Pack"
     href: "/blog/blog-seo-not-showing-in-google-map-pack/"
+  - text: "Google Map Pack ranking factors"
+    href: "/blog/seo-google-map-pack-ranking-factors/"
+  - text: "Website design and your 3-pack trust score"
+    href: "/blog/website-signals-local-3-pack-trust-score/"
+  - text: "Free website and SEO audit"
+    href: "/blog/free-website-seo-audit/"
   - text: "Our local SEO service"
     href: "/seo/"
+faqs:
+  - q: "What is a local citation?"
+    a: "A local citation is any online mention of your business name, address, and phone number, such as a directory listing, a chamber of commerce page, or a news article."
+  - q: "What does NAP consistency mean?"
+    a: "NAP stands for name, address, and phone number. Consistency means those details match exactly everywhere your business is listed."
+  - q: "How many citations do I need?"
+    a: "Quality matters more than quantity. A smaller set of accurate listings on trusted sites does more good than hundreds of low-quality submissions."
+  - q: "How long do citations take to affect rankings?"
+    a: "Changes can take several weeks to a few months to show, because Google must recrawl and reconcile the listings."
+  - q: "How do I audit my current citations?"
+    a: "Search your business name and phone number, list every site that shows them, and compare each against your Google Business Profile. Correct anything that differs."
 ---
 Citations are the least exciting part of local SEO, and that's exactly why most local businesses have a mess of them sitting around unnoticed. Nobody gets excited about checking whether their address says "Suite 4" on Yelp and "Ste. 4" on Bing Places. But that tiny mismatch is doing more damage to your 3-pack ranking than people realize, and fixing it is one of the few local SEO tasks with a genuinely predictable payoff.
 
@@ -91,3 +106,25 @@ The businesses that keep a clean citation profile aren't doing anything heroic. 
 None of this is glamorous work, and it's easy to keep pushing it down the priority list in favor of things that feel more like marketing. But citation cleanup is one of the rare local SEO tasks that's fully within your control, doesn't depend on competitors doing anything differently, and tends to show up in rankings faster than content or backlinks. If your Google Business Profile is solid and you're still not moving in the local pack, this is one of the first places worth checking before assuming the problem is something bigger.
 
 If you want a second set of eyes on your current citation profile as part of a broader local SEO plan, that's part of what we run through in our <a href="/seo/">local SEO service</a>. We've also covered the Google Business Profile side of this in more detail in <a href="/blog/seo-google-business-profile-tips-contractors/">our GBP guide for contractors</a>, and the full picture of local ranking factors in <a href="/blog/seo-local-seo-for-contractors/">our local SEO guide for contractors</a>. If you'd rather just have someone run the audit for you, <a href="/contact/">reach out through our contact page</a> and we'll take a look.
+
+## Frequently Asked Questions
+
+### What is a local citation?
+
+A local citation is any online mention of your business name, address, and phone number, such as a directory listing, a chamber of commerce page, or a news article.
+
+### What does NAP consistency mean?
+
+NAP stands for name, address, and phone number. Consistency means those details match exactly everywhere your business is listed.
+
+### How many citations do I need?
+
+Quality matters more than quantity. A smaller set of accurate listings on trusted sites does more good than hundreds of low-quality submissions.
+
+### How long do citations take to affect rankings?
+
+Changes can take several weeks to a few months to show, because Google must recrawl and reconcile the listings.
+
+### How do I audit my current citations?
+
+Search your business name and phone number, list every site that shows them, and compare each against your Google Business Profile. Correct anything that differs.

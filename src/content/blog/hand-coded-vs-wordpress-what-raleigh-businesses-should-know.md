@@ -1,5 +1,5 @@
 ---
-title: "Hand-Coded vs. WordPress: What Raleigh Businesses Should Know Before They Build"
+title: "Hand-Coded vs WordPress for Raleigh Businesses"
 url: hand-coded-vs-wordpress
 description: "A clear comparison of hand-coded websites and WordPress for small businesses, covering speed, security, cost, maintenance, and which fits a local service company."
 author: Taylor Kelly
@@ -10,14 +10,27 @@ tags:
 image: /assets/images/blog/pexels-bibekghosh-14553704.jpg
 imageAlt: HTML source code for a hand-coded website
 relatedPosts:
-  - text: "Why website speed and mobile-first design matter for local rankings"
-    href: "/blog/website-speed-mobile-first-design/"
-  - text: "How much should a small business website cost?"
+  - text: "Raleigh web design for $0 down"
+    href: "/blog/raleigh-web-design-zero-down/"
+  - text: "What a small business website costs"
     href: "/blog/small-business-website-cost/"
-  - text: "Hand-coded web design for Raleigh small businesses"
+  - text: "Website speed and mobile-first design"
+    href: "/blog/website-speed-mobile-first-design/"
+  - text: "Hand-coded web design"
     href: "/web-design/"
-  - text: "See our transparent pricing"
+  - text: "Pricing"
     href: "/pricing/"
+faqs:
+  - q: "What is the difference between a hand-coded site and WordPress?"
+    a: "A hand-coded site is written for your business with only the code it needs. WordPress is a publishing system that usually relies on a theme and plugins, which add features and also add code."
+  - q: "Is a hand-coded website faster than WordPress?"
+    a: "Usually, because it loads less code. A well-built WordPress site can also be fast, but it takes careful setup and ongoing maintenance to stay that way."
+  - q: "Is WordPress bad for local SEO?"
+    a: "No. WordPress can rank well. The risks are slow themes, plugin bloat, and missed security updates, which a managed or hand-coded site avoids."
+  - q: "Can I edit a hand-coded website myself?"
+    a: "Not usually in a visual editor. With our monthly plan you send changes to us and we make them, which suits owners who would rather not manage the site."
+  - q: "Which is right for a local service business?"
+    a: "If you depend on search and phone calls and do not want to maintain a site, hand-coded with managed edits is a strong fit. If you want to edit often yourself, WordPress may suit you better."
 ---
 When a Raleigh business owner starts pricing a new website, one of the first choices is the platform underneath it. Most small business sites are built one of two ways: on a content management system like WordPress, or hand-coded from scratch. Both can produce a good website. They differ in how they perform, what they cost to run, and how much upkeep they need.
 
@@ -88,5 +101,27 @@ Ask what the site needs to do:
 * A team that will edit constantly and prefers one dashboard: WordPress, or a hand-coded site paired with a content editor.
 
 Both paths can give you a website you are proud of. The right one depends on how much the site needs to do and how you want to spend your time and money after launch.
+
+## Frequently Asked Questions
+
+### What is the difference between a hand-coded site and WordPress?
+
+A hand-coded site is written for your business with only the code it needs. WordPress is a publishing system that usually relies on a theme and plugins, which add features and also add code.
+
+### Is a hand-coded website faster than WordPress?
+
+Usually, because it loads less code. A well-built WordPress site can also be fast, but it takes careful setup and ongoing maintenance to stay that way.
+
+### Is WordPress bad for local SEO?
+
+No. WordPress can rank well. The risks are slow themes, plugin bloat, and missed security updates, which a managed or hand-coded site avoids.
+
+### Can I edit a hand-coded website myself?
+
+Not usually in a visual editor. With our monthly plan you send changes to us and we make them, which suits owners who would rather not manage the site.
+
+### Which is right for a local service business?
+
+If you depend on search and phone calls and do not want to maintain a site, hand-coded with managed edits is a strong fit. If you want to edit often yourself, WordPress may suit you better.
 
 If you want a fast, low-maintenance site built for local search, [see how we build hand-coded sites](/web-design/) or [request a free audit](/contact/) of what you have now.
